@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>Add</title>
+
+  <link rel="stylesheet" href="../../../../../../styles/default.css" type="text/css">
+
+    
+  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32_Clipper</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TClipperBase</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TClipperBase.Add</h1>
+
+
+  <p class="Decl"><b>function</b> Add(<b>const</b> Polygon: TArrayOfFixedPoint; PolyType: TPolyType): Boolean; <b>overload</b>;</p><br>
+
+  <p class="Decl"><b>function</b> Add(<b>const</b> Polygon: TArrayOfArrayOfFixedPoint; PolyType: TPolyType): Boolean; <b>overload</b>;</p><br>
+
+  <p class="Decl"><b>function</b> Add(<b>const</b> Polygon: TArrayOfFloatPoint; PolyType: TPolyType): Boolean; <b>overload</b>;</p><br>
+
+  <p class="Decl"><b>function</b> Add(<b>const</b> Polygon: TArrayOfArrayOfFloatPoint; PolyType: TPolyType): Boolean; <b>overload</b>;</p><br>
+
+
+  <p class="Body"> Any number of subject and clip polygons can be added to the TClipper object before Executing the clip operation.</p><br>
+
+
+  <p class="Body"><b>Polygon Orientation:</b><br> Outer polygons can be either clockwise or counter-clockwise as long as any inner 'hole' polygons have the reverse orientation.</p>
+<br>
+
+
+  <p class="Body"><b>Polygon Coordinate range</b>:<br> Polygon coordinates must be between &plusmn; <b>4.6e+15</b>, otherwise a range error will be thrown. If coordinates can be kept between &plusmn; <b>1.0e+6</b>, then a modest increase in performance can be achieved (approx. 15-20% over the larger range) by avoiding large integer math.</p>
+<br>
+
+
+  <p class="Body"><b>The function will return false if:</b> 
+    <ul>
+	
+      <li>there are less than 3 coordinates defining the polygon (once duplicates have been excluded).</li>
+	
+      <li>all polygon coordinates are co-linear.</li>
+
+    </ul> </p>
+
+
+
+
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../../../Types/TPolyType.htm">TPolyType</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

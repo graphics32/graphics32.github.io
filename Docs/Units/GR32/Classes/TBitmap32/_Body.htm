@@ -1,0 +1,481 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TBitmap32</title>
+
+  <link rel="stylesheet" href="../../../../../Styles/Default.css">
+
+  <meta name="Ancestor" content="TCustomBitmap32">
+
+    
+  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TBitmap32</h1>
+  <h2>Hierarchy</h2>
+  <p class="Hierarchy">TPersistent</p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TThreadPersistent/_Body.htm">TThreadPersistent</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TCustomMap/_Body.htm">TCustomMap</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TCustomBitmap32/_Body.htm">TCustomBitmap32</a></p>
+
+  <h2>Description</h2>
+
+  <p class="Body"><span class="EmptyRef">TBitmap32</span> extends TCustomBitmap32 with various methods and properties specific to the operating system's graphic subsystem. It provides methods for drawing on a device context (DC).</p>
+
+  <p class="Body"><span class="EmptyRef">TBitmap32</span> does not implement its own low-level streaming or low-level file loading/saving. Instead, it uses streaming methods of temporal <span class="API">TBitmap</span> or <span class="API">TPicture</span> objects. This is an obvious performance penalty, however such approach allows using third-party libraries, which extend <span class="API">TGraphic</span> class for various image formats support (JPEG, TGA, TIFF, GIF, PNG, etc.). When you install them, <span class="EmptyRef">TBitmap32</span> will automatically obtain support for new image file formats in design time and in run time.</p>
+
+  <p class="Body"><span class="EmptyRef">TBitmap32</span> overrides <span class="API">Assign</span> and <span class="API">AssignTo</span> methods (inherited from <span class="API">TPersistent</span>) to provide compatibility with standard objects: <span class="API">TBitmap</span>, <span class="API">TPicture</span> and <span class="API">TClipboard</span> in both directions. The design-time streaming to and from *.dfm files, inherited from <span class="API">TPersistent</span>, is supported, but its realization is different from streaming with other stream types (See the source code for details).</p>
+
+  <h2 id="Auto-Reference">Reference</h2>
+  <table>
+    <tr><th>Methods
+      </th><th>Properties
+      </th><th>Events
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TBitmap32:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/CanvasAllocated.htm">CanvasAllocated</a>
+      </td>
+      <td><a href="Properties/BitmapHandle.htm">BitmapHandle</a>
+      </td>
+      <td><a href="Events/OnHandleChanged.htm">OnHandleChanged</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/DeleteCanvas.htm">DeleteCanvas</a>
+      </td>
+      <td><a href="Properties/BitmapInfo.htm">BitmapInfo</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/HandleChanged.htm">HandleChanged</a>
+      </td>
+      <td><a href="Properties/Canvas.htm">Canvas</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/LoadFromResourceID.htm">LoadFromResourceID</a>
+      </td>
+      <td><a href="Properties/Font.htm">Font</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/LoadFromResourceName.htm">LoadFromResourceName</a>
+      </td>
+      <td><a href="Properties/Handle.htm">Handle</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/RenderText.htm">RenderText</a>
+      </td>
+      <td><a href="Properties/Pixmap.htm">Pixmap</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/TextExtent.htm">TextExtent</a>
+      </td>
+      <td><a href="Properties/PixmapChanged.htm">PixmapChanged</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/TextHeight.htm">TextHeight</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/TextOut.htm">TextOut</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/TextWidth.htm">TextWidth</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/UpdateFont.htm">UpdateFont</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TCustomBitmap32:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/BeginMeasuring.htm">BeginMeasuring</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/Backend.htm">Backend</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Events/OnAreaChanged.htm">OnAreaChanged</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Clear.htm">Clear</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/Bits.htm">Bits</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Events/OnPixelCombine.htm">OnPixelCombine</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Create.htm">Create</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/Clipping.htm">Clipping</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Destroy.htm">Destroy</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/ClipRect.htm">ClipRect</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Draw.htm">Draw</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/CombineMode.htm">CombineMode</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/DrawTo.htm">DrawTo</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/DrawMode.htm">DrawMode</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Empty.htm">Empty</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/MasterAlpha.htm">MasterAlpha</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/EndMeasuring.htm">EndMeasuring</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/MeasuringMode.htm">MeasuringMode</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/FillRect.htm">FillRect</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/OuterColor.htm">OuterColor</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/FlipHorz.htm">FlipHorz</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/PenColor.htm">PenColor</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/FlipVert.htm">FlipVert</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/Pixel.htm">Pixel</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/FrameRect.htm">FrameRect</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/PixelPtr.htm">PixelPtr</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/GetStippleColor.htm">GetStippleColor</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/Resampler.htm">Resampler</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/HorzLine.htm">HorzLine</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/ResamplerClassName.htm">ResamplerClassName</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Line.htm">Line</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/ScanLine.htm">ScanLine</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/LineTo.htm">LineTo</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/StippleCounter.htm">StippleCounter</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/LoadFromFile.htm">LoadFromFile</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/StippleStep.htm">StippleStep</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/LoadFromStream.htm">LoadFromStream</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/StretchFilter.htm">StretchFilter</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/MoveTo.htm">MoveTo</a>
+      </td>
+      <td><a href="../TCustomBitmap32/Properties/WrapMode.htm">WrapMode</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/RaiseRectTS.htm">RaiseRectTS</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/ResetAlpha.htm">ResetAlpha</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/ResetClipRect.htm">ResetClipRect</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Roll.htm">Roll</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/Rotate.htm">Rotate</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/SaveToFile.htm">SaveToFile</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/SaveToStream.htm">SaveToStream</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/SetPixel.htm">SetPixel</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/SetSize.htm">SetSize</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/SetStipple.htm">SetStipple</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomBitmap32/Methods/VertLine.htm">VertLine</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TCustomMap:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomMap/Methods/Delete.htm">Delete</a>
+      </td>
+      <td><a href="../TCustomMap/Properties/Height.htm">Height</a>
+      </td>
+      <td><a href="../TCustomMap/Events/OnResize.htm">OnResize</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomMap/Methods/Resized.htm">Resized</a>
+      </td>
+      <td><a href="../TCustomMap/Properties/Width.htm">Width</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TThreadPersistent:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TThreadPersistent/Methods/Lock.htm">Lock</a>
+      </td>
+      <td><a href="../TThreadPersistent/Properties/LockCount.htm">LockCount</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TThreadPersistent/Methods/Unlock.htm">Unlock</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TNotifiablePersistent:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
+      </td>
+      <td><a href="../TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
+      </td>
+      <td><a href="../TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TNotifiablePersistent/Methods/Changed.htm">Changed</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

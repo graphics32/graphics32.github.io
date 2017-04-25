@@ -1,0 +1,699 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>Graphics32 Documentation</title>
+
+  <link rel="stylesheet" href="../Styles/Default.css" type="text/css">
+
+  <meta name="Order" content="Overview, Installation, Examples, Additional Topics, Units">
+
+    
+  <script type="text/javascript" src="../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+
+  <script language="JavaScript1.2" src="../Scripts/menu_data.js">
+  </script>
+
+  <script language="JavaScript1.2" src="../Scripts/menu_script.js">
+  </script>
+
+  <h1>The Graphics32 Library</h1>
+
+  <table>
+    <tr>
+      <td><a href="Overview/Features.htm">Features</a>
+      </td>
+      <td><a href="Overview/License.htm">License</a>
+      </td>
+      <td><a href="Overview/Donate.htm">Donate</a>
+      </td>
+      <td><a href="Overview/Contacts.htm">Contacts</a>
+      </td>
+      <td><a href="Overview/Naming%20Conventions.htm">Naming Conventions</a>
+      </td>
+      <td><a href="Overview/SSE2%20Optimizations.htm">SSE2 Optimizations</a>
+      </td>
+      <td><a href="Overview/Changes.htm">Changes</a>
+      </td>
+    </tr>
+  </table>
+  <table class="Home" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="Home" valign="Top">
+      </td>
+      <td class="Home" valign="Top">
+        <h2>Classes (Hierarchy)</h2>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_RangeBars/Classes/TArrowBar/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TArrowBar</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_RangeBars/Classes/TCustomGaugeBar/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomGaugeBar</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_RangeBars/Classes/TGaugeBar/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGaugeBar</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_RangeBars/Classes/TCustomRangeBar/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomRangeBar</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_RangeBars/Classes/TRangeBar/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRangeBar</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TBitmap32Collection/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmap32Collection</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TBitmap32Item/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmap32Item</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TBitmap32List/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmap32List</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Containers/Classes/TClassList/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TClassList</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Clipper/Classes/TClipperBase/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TClipperBase</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Clipper/Classes/TClipper/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TClipper</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_ColorGradients/Classes/TColor32Gradient/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TColor32Gradient</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_ColorGradients/Classes/TColor32LookupTable/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TColor32LookupTable</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_ColorGradients/Classes/TCustomCenterLutGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomCenterLutGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TConicGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TConicGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomCenterRadiusLutGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomCenterRadiusLutGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomCenterRadiusAngleLutGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomCenterRadiusAngleLutGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TDiamondGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TDiamondGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TXGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TXGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TXYGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TXYGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TXYSqrtGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TXYSqrtGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TRadialGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRadialGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Resamplers/Classes/TCustomKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TBoxKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBoxKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TCosineKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCosineKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TCubicKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCubicKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/THammingKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;THammingKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/THannKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;THannKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/THermiteKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;THermiteKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TLinearKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLinearKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TMitchellKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TMitchellKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TSinshKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSinshKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TSplineKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSplineKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TWindowedSincKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TWindowedSincKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TAlbrechtKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TAlbrechtKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TBlackmanKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBlackmanKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TGaussianKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGaussianKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TLanczosKernel/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLanczosKernel</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TCustomPaintBox32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomPaintBox32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Image/Classes/TCustomImage32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomImage32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Image/Classes/TCustomImgView32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomImgView32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Image/Classes/TImgView32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TImgView32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Image/Classes/TImage32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TImage32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Image/Classes/TPaintBox32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPaintBox32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ExtImage/Classes/TSyntheticImage/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSyntheticImage</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Polygons/Classes/TCustomPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Polygons/Classes/TBitmapPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmapPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomGradientLookupTablePolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomGradientLookupTablePolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomLinearGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomLinearGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TLinearGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLinearGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomRadialGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomRadialGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TRadialGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRadialGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TSVGRadialGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSVGRadialGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomSparsePointGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomSparsePointGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TBarycentricGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBarycentricGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomArbitrarySparsePointGradientPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomArbitrarySparsePointGradientPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TGourandShadedDelaunayTrianglesPolygonFiller/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGourandShadedDelaunayTrianglesPolygonFiller</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TIVScrollProperties/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TIVScrollProperties</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Layers/Classes/TLayerCollection/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLayerCollection</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends_LCL_Win/Classes/TLCLBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLCLBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Backends_LCL_Win/Classes/TLCLMMFBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLCLMMFBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends_LCL_Win/Classes/TLCLMemoryBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLCLMemoryBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32/Classes/TNotifiablePersistent/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TNotifiablePersistent</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Layers/Classes/TCustomLayer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomLayer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Layers/Classes/TPositionedLayer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPositionedLayer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Layers/Classes/TBitmapLayer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmapLayer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Layers/Classes/TRubberbandLayer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRubberbandLayer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TCustomSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomGradientLookUpTableSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomGradientLookUpTableSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TCustomResampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomResampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TBitmap32Resampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmap32Resampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TKernelResampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TKernelResampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TLinearResampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TLinearResampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TDraftResampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TDraftResampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TNearestResampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TNearestResampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomSparsePointGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomSparsePointGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TBarycentricGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBarycentricGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TBilinearGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBilinearGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TCustomArbitrarySparsePointGradientSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomArbitrarySparsePointGradientSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TGourandShadedDelaunayTrianglesSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGourandShadedDelaunayTrianglesSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TInvertedDistanceWeightingSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TInvertedDistanceWeightingSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_ColorGradients/Classes/TVoronoiSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TVoronoiSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TNestedSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TNestedSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TAdaptiveSuperSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TAdaptiveSuperSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TKernelSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TKernelSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TContracter/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TContracter</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TConvolver/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TConvolver</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TSelectiveConvolver/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSelectiveConvolver</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TExpander/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TExpander</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TMorphologicalSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TMorphologicalSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TDilater/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TDilater</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TEroder/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TEroder</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TPatternSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPatternSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TSuperSampler/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSuperSampler</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TTransformer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TTransformer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Resamplers/Classes/TNearestTransformer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TNearestTransformer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TThreadPersistent/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TThreadPersistent</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Backends_VCL/Classes/TGDIBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGDIBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Backends_VCL/Classes/TGDIMMFBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGDIMMFBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Backends_VCL/Classes/TGDIMemoryBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TGDIMemoryBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Backends_Generic/Classes/TMemoryBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TMemoryBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Backends_Generic/Classes/TMMFBackend/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TMMFBackend</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Rasterizers/Classes/TContourRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TContourRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TCustomMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_OrdinalMaps/Classes/TBooleanMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBooleanMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_OrdinalMaps/Classes/TByteMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TByteMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TCustomBitmap32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TCustomBitmap32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32/Classes/TBitmap32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBitmap32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_OrdinalMaps/Classes/TIntegerMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TIntegerMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_VectorMaps/Classes/TVectorMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TVectorMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchVert.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_OrdinalMaps/Classes/TWordMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TWordMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchEmpty.gif" align="absmiddle"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Polygons/Classes/TPolygon32/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPolygon32</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Image/Classes/TPaintStages/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPaintStages</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Containers/Classes/TPointerMap/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPointerMap</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Containers/Classes/TPointerMapIterator/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TPointerMapIterator</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Rasterizers/Classes/TRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Rasterizers/Classes/TProgressiveRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TProgressiveRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Rasterizers/Classes/TRegularRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRegularRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Rasterizers/Classes/TSwizzlingRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TSwizzlingRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Rasterizers/Classes/TTesseralRasterizer/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TTesseralRasterizer</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Containers/Classes/TRectList/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRectList</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_ExtImage/Classes/TRenderThread/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRenderThread</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Transforms/Classes/TTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TAffineTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TAffineTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TBloatTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TBloatTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TDisturbanceTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TDisturbanceTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TFishEyeTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TFishEyeTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TProjectiveTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TProjectiveTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchVertRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TRemapTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TRemapTransformation</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><img src="../Images/_BranchRight.gif" align="absmiddle"><a href="Units/GR32_Transforms/Classes/TTwirlTransformation/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;TTwirlTransformation</a></p>
+      </td>
+    </tr>
+  </table>
+  <table class="Home" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="Home" valign="Top">
+      </td>
+      <td class="Home" valign="Top">
+        <h2>Interfaces (Hierarchy)</h2>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/IBitmapContextSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;IBitmapContextSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/ICanvasSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;ICanvasSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/ICopyFromBitmapSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;ICopyFromBitmapSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/IDeviceContextSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;IDeviceContextSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/IFontSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;IFontSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/IPaintSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;IPaintSupport</a></p>
+        <p Class="Tree"><img src="../Images/_BranchEmpty.gif" align="absmiddle" width="1" height="18"><a href="Units/GR32_Backends/Interfaces/ITextSupport/_Body.htm"><img src="../Images/_Class.gif" align="absmiddle">&nbsp;ITextSupport</a></p>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-Types">Types</h2>
+  <table>
+    <tr>
+      <td><a href="Units/GR32/Types/Arrays.htm">Arrays</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Types/TBlendMemEx.htm">TBlendMemEx</a>
+      </td>
+      <td><a href="Units/GR32/Types/TDrawMode.htm">TDrawMode</a>
+      </td>
+      <td><a href="Units/GR32/Types/TPixelCombineEvent.htm">TPixelCombineEvent</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TScaleMode.htm">TScaleMode</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Types/Color Types.htm">Color Types</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Types/TBlendReg.htm">TBlendReg</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Types/TFillLineEvent.htm">TFillLineEvent</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Types/TPolyFillMode.htm">TPolyFillMode</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TScrollBarVisibility.htm">TScrollBarVisibility</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Types/Point Types.htm">Point Types</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Types/TBlendRegEx.htm">TBlendRegEx</a>
+      </td>
+      <td><a href="Units/GR32/Types/TFixed.htm">TFixed</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Types/TPolyFillType.htm">TPolyFillType</a>
+      </td>
+      <td><a href="Units/GR32/Types/TSize.htm">TSize</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Types/Rectangle Types.htm">Rectangle Types</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Types/TClipType.htm">TClipType</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Types/TFloatMatrix.htm">TFloatMatrix</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Types/TPolyType.htm">TPolyType</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TSizeGripStyle.htm">TSizeGripStyle</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Polygons/Types/TAntialiasMode.htm">TAntialiasMode</a>
+      </td>
+      <td><a href="Units/GR32_ColorGradients/Types/TColor32FloatPoint.htm">TColor32FloatPoint</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Types/TJoinType.htm">TJoinType</a>
+      </td>
+      <td><a href="Units/GR32_RangeBars/Types/TRBBackgnd.htm">TRBBackgnd</a>
+      </td>
+      <td><a href="Units/GR32/Types/TStretchFilter.htm">TStretchFilter</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Types/TAreaChangedEvent.htm">TAreaChangedEvent</a>
+      </td>
+      <td><a href="Units/GR32_ColorGradients/Types/TColor32GradientStop.htm">TColor32GradientStop</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Types/TKernelMode.htm">TKernelMode</a>
+      </td>
+      <td><a href="Units/GR32_Layers/Types/TRBHandles.htm">TRBHandles</a>
+      </td>
+      <td><a href="Units/GR32_VectorMaps/Types/TVectorCombineEvent.htm">TVectorCombineEvent</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_ColorGradients/Types/TArrayOfColor32FloatPoint.htm">TArrayOfColor32FloatPoint</a>
+      </td>
+      <td><a href="Units/GR32_Rasterizers/Types/TCombineInfo.htm">TCombineInfo</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Types/TLogicalOperator.htm">TLogicalOperator</a>
+      </td>
+      <td><a href="Units/GR32_Layers/Types/TRBOptions.htm">TRBOptions</a>
+      </td>
+      <td><a href="Units/GR32_VectorMaps/Types/TVectorCombineMode.htm">TVectorCombineMode</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_ColorGradients/Types/TArrayOfColor32GradientStop.htm">TArrayOfColor32GradientStop</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Types/TCombineMem.htm">TCombineMem</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Types/TLUT8.htm">TLUT8</a>
+      </td>
+      <td><a href="Units/GR32_RangeBars/Types/TRBStyle.htm">TRBStyle</a>
+      </td>
+      <td><a href="Units/GR32/Types/TWrapMode.htm">TWrapMode</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Types/TBlendLine.htm">TBlendLine</a>
+      </td>
+      <td><a href="Units/GR32/Types/TCombineMode.htm">TCombineMode</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TPaintBoxOptions.htm">TPaintBoxOptions</a>
+      </td>
+      <td><a href="Units/GR32/Types/TRectRounding.htm">TRectRounding</a>
+      </td>
+      <td><a href="Units/GR32_VectorMaps/Types/Vector Types.htm">Vector Types</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Types/TBlendLineEx.htm">TBlendLineEx</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Types/TCombineReg.htm">TCombineReg</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TPaintStage.htm">TPaintStage</a>
+      </td>
+      <td><a href="Units/GR32_ExtImage/Types/TRenderMode.htm">TRenderMode</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Types/Wrap Procedure Types.htm">Wrap Procedure Types</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Types/TBlendMem.htm">TBlendMem</a>
+      </td>
+      <td><a href="Units/GR32_OrdinalMaps/Types/TConversionType.htm">TConversionType</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Types/TPixelAccessMode.htm">TPixelAccessMode</a>
+      </td>
+      <td><a href="Units/GR32_Image/Types/TRepaintMode.htm">TRepaintMode</a>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-Functions">Routines</h2>
+  <table>
+    <tr>
+      <td><a href="Units/GR32/Routines/AlphaComponent.htm">AlphaComponent</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorAverage.htm">ColorAverage</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Routines/Erode.htm">Erode</a>
+      </td>
+      <td><a href="Units/GR32/Routines/InvertColor.htm">InvertColor</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/ReversePolygon.htm">ReversePolygon</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Filters/Routines/AlphaToGrayscale.htm">AlphaToGrayscale</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorDifference.htm">ColorDifference</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Routines/Expand.htm">Expand</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/InvertRGB.htm">InvertRGB</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/ReversePolygons.htm">ReversePolygons</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Filters/Routines/ApplyBitmask.htm">ApplyBitmask</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorDiv.htm">ColorDiv</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/FillLongword.htm">FillLongword</a>
+      </td>
+      <td><a href="Units/GR32/Routines/IsRectEmpty.htm">IsRectEmpty</a>
+      </td>
+      <td><a href="Units/GR32/Routines/RGBtoHSL.htm">RGBtoHSL</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Filters/Routines/ApplyLUT.htm">ApplyLUT</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorExclusion.htm">ColorExclusion</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/FillWord.htm">FillWord</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/Lighten.htm">Lighten</a>
+      </td>
+      <td><a href="Units/GR32/Routines/SetAlpha.htm">SetAlpha</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Clipper/Routines/Area.htm">Area</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorMax.htm">ColorMax</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Ceil.htm">Fixed Ceil</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/Merge.htm">Merge</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Routines/SetBorderTransparent.htm">SetBorderTransparent</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Routines/Blend.htm">Blend</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorMin.htm">ColorMin</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Division.htm">Fixed Division</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/MergeEx.htm">MergeEx</a>
+      </td>
+      <td><a href="Units/GR32/Routines/SetGamma.htm">SetGamma</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Routines/BlendEx.htm">BlendEx</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorModulate.htm">ColorModulate</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Floor.htm">Fixed Floor</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Mirror.htm">Mirror</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Shift Arithmetic Right.htm">Shift Arithmetic Right</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Routines/BlendLine.htm">BlendLine</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorScale.htm">ColorScale</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Multiply.htm">Fixed Multiply</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/MoveLongword.htm">MoveLongword</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/SimplifyPolygon.htm">SimplifyPolygon</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Routines/BlendLineEx.htm">BlendLineEx</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/ColorSub.htm">ColorSub</a>
+      </td>
+      <td><a href="Units/GR32/Routines/Fixed Point Math.htm">Fixed Point Math</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/MoveWord.htm">MoveWord</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/SimplifyPolygons.htm">SimplifyPolygons</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Resamplers/Routines/BlendTransfer.htm">BlendTransfer</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Colorswap.htm">Colorswap</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Round.htm">Fixed Round</a>
+      </td>
+      <td><a href="Units/GR32/Routines/OffsetRect.htm">OffsetRect</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/SinCos.htm">SinCos</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Resamplers/Routines/BlockTransfer.htm">BlockTransfer</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/ColorToGrayScale.htm">ColorToGrayScale</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Square.htm">Fixed Square</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/Orientation.htm">Orientation</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Routines/StretchTransfer.htm">StretchTransfer</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Resamplers/Routines/BlockTransferX.htm">BlockTransferX</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/Combine.htm">Combine</a>
+      </td>
+      <td><a href="Units/GR32_Math/Routines/Fixed Square Root.htm">Fixed Square Root</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/Polygon.htm">Polygon</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Swap.htm">Swap</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Routines/BlueComponent.htm">BlueComponent</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Constrain.htm">Constrain</a>
+      </td>
+      <td><a href="Units/GR32/Routines/Gray32.htm">Gray32</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/Polyline.htm">Polyline</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/SwapConstrain.htm">SwapConstrain</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Filters/Routines/ChromaKey.htm">ChromaKey</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Routines/Contract.htm">Contract</a>
+      </td>
+      <td><a href="Units/GR32/Routines/GreenComponent.htm">GreenComponent</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/PolyPolygon.htm">PolyPolygon</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/TestClip.htm">TestClip</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Lowlevel/Routines/Clamp.htm">Clamp</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/CopyComponents.htm">CopyComponents</a>
+      </td>
+      <td><a href="Units/GR32/Routines/HSLtoRGB.htm">HSLtoRGB</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/PolyPolygonBounds.htm">PolyPolygonBounds</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/TestSwap.htm">TestSwap</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Routines/Color32.htm">Color32</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/CreateBitmask.htm">CreateBitmask</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/Routines/InflatePolygons.htm">InflatePolygons</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/PolyPolyline.htm">PolyPolyline</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Routines/Transform.htm">Transform</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Routines/Color32Components.htm">Color32Components</a>
+      </td>
+      <td><a href="Units/GR32/Routines/Creating Points.htm">Creating Points</a>
+      </td>
+      <td><a href="Units/GR32/Routines/InflateRect.htm">InflateRect</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Routines/PtInPolygon.htm">PtInPolygon</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Routines/TransformPoints.htm">TransformPoints</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_ColorGradients/Routines/Color32FloatPoint.htm">Color32FloatPoint</a>
+      </td>
+      <td><a href="Units/GR32/Routines/Creating Rectangles.htm">Creating Rectangles</a>
+      </td>
+      <td><a href="Units/GR32/Routines/Intensity.htm">Intensity</a>
+      </td>
+      <td><a href="Units/GR32/Routines/PtInRect.htm">PtInRect</a>
+      </td>
+      <td><a href="Units/GR32/Routines/WinColor.htm">WinColor</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_ColorGradients/Routines/Color32GradientStop.htm">Color32GradientStop</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/Routines/Dilate.htm">Dilate</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/IntensityToAlpha.htm">IntensityToAlpha</a>
+      </td>
+      <td><a href="Units/GR32_ExtImage/Routines/Rasterize.htm">Rasterize</a>
+      </td>
+      <td><a href="Units/GR32/Routines/WinPalette.htm">WinPalette</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Routines/Color32ToRGB.htm">Color32ToRGB</a>
+      </td>
+      <td><a href="Units/GR32_Blend/Routines/EMMS.htm">EMMS</a>
+      </td>
+      <td><a href="Units/GR32/Routines/IntersectRect.htm">IntersectRect</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Routines/RasterizeTransformation.htm">RasterizeTransformation</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/Routines/Wrap.htm">Wrap</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Blend/Routines/ColorAdd.htm">ColorAdd</a>
+      </td>
+      <td><a href="Units/GR32/Routines/EqualRect.htm">EqualRect</a>
+      </td>
+      <td><a href="Units/GR32_Filters/Routines/Invert.htm">Invert</a>
+      </td>
+      <td><a href="Units/GR32/Routines/RedComponent.htm">RedComponent</a>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-Variables">Variables</h2>
+  <table>
+    <tr>
+      <td><a href="Units/GR32_Blend/Variables/MMX_ACTIVE.htm">MMX_ACTIVE</a>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-Constants">Constants</h2>
+  <table>
+    <tr>
+      <td><a href="Units/GR32/Constants/Area Information Flags.htm">Area Information Flags</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/Constants/DefaultAAMode.htm">DefaultAAMode</a>
+      </td>
+      <td><a href="Units/GR32/Constants/G32Version.htm">G32Version</a>
+      </td>
+      <td><a href="Units/GR32_Layers/Constants/Layer Options Bits.htm">Layer Options Bits</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32/Constants/Color Constants.htm">Color Constants</a>
+      </td>
+      <td><a href="Units/GR32/Constants/Fixed Point Math Constants.htm">Fixed Point Math Constants</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/Constants/IdentityMatrix.htm">IdentityMatrix</a>
+      </td>
+      <td><a href="Units/GR32_Image/Constants/Paint Stage Constants.htm">Paint Stage Constants</a>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-Units">Units</h2>
+  <table>
+    <tr>
+      <td><a href="Units/GR32/_Body.htm">GR32</a>
+      </td>
+      <td><a href="Units/GR32_Backends_VCL/_Body.htm">GR32_Backends_VCL</a>
+      </td>
+      <td><a href="Units/GR32_ExtImage/_Body.htm">GR32_ExtImage</a>
+      </td>
+      <td><a href="Units/GR32_Math/_Body.htm">GR32_Math</a>
+      </td>
+      <td><a href="Units/GR32_Resamplers/_Body.htm">GR32_Resamplers</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Backends/_Body.htm">GR32_Backends</a>
+      </td>
+      <td><a href="Units/GR32_Blend/_Body.htm">GR32_Blend</a>
+      </td>
+      <td><a href="Units/GR32_Filters/_Body.htm">GR32_Filters</a>
+      </td>
+      <td><a href="Units/GR32_OrdinalMaps/_Body.htm">GR32_OrdinalMaps</a>
+      </td>
+      <td><a href="Units/GR32_Transforms/_Body.htm">GR32_Transforms</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Backends_Generic/_Body.htm">GR32_Backends_Generic</a>
+      </td>
+      <td><a href="Units/GR32_Clipper/_Body.htm">GR32_Clipper</a>
+      </td>
+      <td><a href="Units/GR32_Image/_Body.htm">GR32_Image</a>
+      </td>
+      <td><a href="Units/GR32_Polygons/_Body.htm">GR32_Polygons</a>
+      </td>
+      <td><a href="Units/GR32_VectorMaps/_Body.htm">GR32_VectorMaps</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Backends_LCL_Carbon/_Body.htm">GR32_Backends_LCL_Carbon</a>
+      </td>
+      <td><a href="Units/GR32_ColorGradients/_Body.htm">GR32_ColorGradients</a>
+      </td>
+      <td><a href="Units/GR32_Layers/_Body.htm">GR32_Layers</a>
+      </td>
+      <td><a href="Units/GR32_RangeBars/_Body.htm">GR32_RangeBars</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Units/GR32_Backends_LCL_Win/_Body.htm">GR32_Backends_LCL_Win</a>
+      </td>
+      <td><a href="Units/GR32_Containers/_Body.htm">GR32_Containers</a>
+      </td>
+      <td><a href="Units/GR32_Lowlevel/_Body.htm">GR32_Lowlevel</a>
+      </td>
+      <td><a href="Units/GR32_Rasterizers/_Body.htm">GR32_Rasterizers</a>
+      </td>
+    </tr>
+  </table>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

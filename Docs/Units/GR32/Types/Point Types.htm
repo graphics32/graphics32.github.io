@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>Point Types</title>
+
+  <link rel="stylesheet" href="../../../../Styles/Default.css">
+
+    
+  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>Point Types</h1>
+
+  <p class="Body">Graphics32 uses coordinate system with an origin at the top-left corner. Due to performance considerations, other coordinate systems are not supported and not planned in future versions. </p>
+
+  <p class="Body">Point coordinates are defined with following structures: </p>
+
+  <h2><a name="TPoint">TPoint</h2>
+
+  <p class="Decl"><b>type</b> TPoint = Windows.TPoint;</p>
+
+  <p class="Decl"><b>type</b> PPoint = ^TPoint;</p>
+
+  <p class="Body">A point with integer coordinates. <span class="EmptyRef">TPoint</span> type, is redeclared from Windows.pas unit. It is compatible with all Delphi/Windows API calls.</p>
+
+  <h2><a name="TFloatPoint">TFloatPoint</h2>
+
+  <p class="Decl"><b>type</b> TFloatPoint = <b>record</b><br> &nbsp;&nbsp;X, Y: Single;<br> <b>end</b>;</p>
+
+  <p class="Decl"><b>type</b> PFloatPoint = ^TFloatPoint;</p>
+
+  <p class="Body">Defines a point with single-precision floating-point coordinates. </p>
+
+  <h2><a name="TFixedPoint">TFixedPoint</h2>
+
+  <p class="Decl"><b>type</b> TFixedPoint = <b>record</b><br> &nbsp;&nbsp;X, Y: <a href="../../GR32/Types/TFixed.htm">TFixed</a>;<br> <b>end</b>;</p>
+
+  <p class="Decl"><b>type</b> PFixedPoint = ^TFixedPoint;</p>
+
+  <p class="Body"><span class="EmptyRef">TFixedPoint</span> is bitwise-compatible with <span class="API">TPointFx</span> type from Windows.pas, which is used by some API calls. <span class="EmptyRef">TFixedPoint</span> is not assignment-compatible with <span class="API">TPointFX</span>, however, appropriate data in memory may be safely referenced by both types and it is still possible to assign between these types using, for example, <span class="API">Move</span> procedure from System.pas. </p>
+
+  <h2><a name="TArrayOfPoint">TArrayOfPoint</h2>
+
+  <p class="Decl"><b>type</b> TArrayOfPoint = <b>array</b> <b>of</b> <a href="#TPoint">TPoint</a>;</p>
+
+  <p class="Body">A dynamic array of <a href="#TPoint">TPoint</a>.</p>
+
+  <h2><a name="TArrayOfFloatPoint">TArrayOfFloatPoint</h2>
+
+  <p class="Decl"><b>type</b> TArrayOfFloatPoint = <b>array</b> <b>of</b> <a href="#TFloatPoint">TFloatPoint</a>; </p>
+
+  <p class="Body">A dynamic array of <a href="#TFloatPoint">TFloatPoint</a>.</p>
+
+  <h2><a name="TArrayOfFixedPoint">TArrayOfFixedPoint </h2>
+
+  <p class="Decl"><b>type</b> TArrayOfFixedPoint = <b>array</b> <b>of</b> <a href="#TFixedPoint">TFixedPoint</a>; </p>
+
+  <p class="Body">A dynamic array of <a href="#TFixedPoint">TFixedPoint</a>.</p>
+
+  <h2>
+  </h2>
+
+  <h2><a name="TArrayOfArrayOfPoint">TArrayOfArrayOfPoint</h2>
+
+  <p class="Decl"><b>type</b> TArrayOfArrayOfPoint = <b>array</b> <b>of</b> <a href="#TArrayOfPoint">TArrayOfPoint</a>; </p>
+
+  <h2><a name="TArrayOfArrayOfFloatPoint">TArrayOfArrayOfFloatPoint </h2>
+
+  <p class="Decl"><b>type</b> TArrayOfArrayOfFloatPoint = <b>array</b> <b>of</b> <a href="#TArrayOfFloatPoint">TArrayOfFloatPoint</a>; </p>
+
+  <h2><a name="TArrayOfArrayOfFixedPoint">TArrayOfArrayOfFixedPoint </h2>
+
+  <p class="Decl"><b>type</b> TArrayOfArrayOfFixedPoint = <b>array</b> <b>of</b> <a href="#TArrayOfFixedPoint">TArrayOfFixedPoint</a>; </p>
+
+  <p class="Body">Maybe last three types look a little cumbersome, but they are what it says: dynamic arrays of dynamic arrays of points. These are the types used in <a href="../../GR32_Polygons/Routines/PolyPolyline.htm">PolyPolyline</a> and <a href="../../GR32_Polygons/Routines/PolyPolygon.htm">PolyPolygon</a> functions to define shapes constructed of several outlines. </p>
+
+
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../Routines/Creating Points.htm">Creating Points</a>, <a href="TFixed.htm">TFixed</a>, <a href="../../GR32_Polygons/Routines/PolyPolygon.htm">PolyPolygon</a>, <a href="../../GR32_Polygons/Routines/PolyPolyline.htm">PolyPolyline</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

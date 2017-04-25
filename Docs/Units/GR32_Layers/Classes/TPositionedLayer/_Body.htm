@@ -1,0 +1,195 @@
+<html>
+ 
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TPositionedLayer</title>
+
+  <link rel="stylesheet" href="../../../../../Styles/Default.css">
+
+  <meta name="Ancestor" content="TCustomLayer">
+
+    
+  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32_Layers</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TPositionedLayer</h1>
+  <h2>Hierarchy</h2>
+  <p class="Hierarchy">TPersistent</p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TCustomLayer/_Body.htm">TCustomLayer</a></p>
+
+  <h2>Description</h2>
+
+  <p class="Body"><span class="EmptyRef">TPositionedLayer</span> is the base class for layers that are positioned withing the boundaries of their container (<a href="../../../GR32_Image/Classes/TCustomImage32/_Body.htm">TCustomImage32</a> or its descendant). The position and size is determined by the <a href="../../../GR32_Layers/Classes/TPositionedLayer/Properties/Location.htm">Location</a> property.</p>
+
+  <p class="Body">When <span class="EmptyRef">TPositionedLayer</span> performs its <a href="../../../GR32_Layers/Classes/TCustomLayer/Methods/HitTest.htm">HitTest</a>, those points inside the rectangle returned by <a href="../../../GR32_Layers/Classes/TPositionedLayer/Methods/GetAdjustedLocation.htm">GetAdjustedLocation</a> pass the test.</p>
+
+  <p class="Body">The class does not perform any drawing itself, however it is capable of calling the <a href="../../../GR32_Layers/Classes/TCustomLayer/Events/OnPaint.htm">OnPaint</a> event, where you can perform custom drawing.</p>
+
+
+  <h2 id="Auto-Reference">Reference</h2>
+  <table>
+    <tr><th>Methods
+      </th><th>Properties
+      </th><th>Events
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TPositionedLayer:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Create.htm">Create</a>
+      </td>
+      <td><a href="Properties/Location.htm">Location</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/GetAdjustedLocation.htm">GetAdjustedLocation</a>
+      </td>
+      <td><a href="Properties/Scaled.htm">Scaled</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/GetAdjustedRect.htm">GetAdjustedRect</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TCustomLayer:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/BringToFront.htm">BringToFront</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/Cursor.htm">Cursor</a>
+      </td>
+      <td><a href="../TCustomLayer/Events/OnHitTest.htm">OnHitTest</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/Changed.htm">Changed</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/Index.htm">Index</a>
+      </td>
+      <td><a href="../TCustomLayer/Events/OnMouseDown.htm">OnMouseDown</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/Destroy.htm">Destroy</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/LayerCollection.htm">LayerCollection</a>
+      </td>
+      <td><a href="../TCustomLayer/Events/OnMouseMove.htm">OnMouseMove</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/HitTest.htm">HitTest</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/LayerOptions.htm">LayerOptions</a>
+      </td>
+      <td><a href="../TCustomLayer/Events/OnMouseUp.htm">OnMouseUp</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/SendToBack.htm">SendToBack</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/LayerStates.htm">LayerStates</a>
+      </td>
+      <td><a href="../TCustomLayer/Events/OnPaint.htm">OnPaint</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TCustomLayer/Methods/Update.htm">Update</a>
+      </td>
+      <td><a href="../TCustomLayer/Properties/MouseEvents.htm">MouseEvents</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td><a href="../TCustomLayer/Properties/Tag.htm">Tag</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td><a href="../TCustomLayer/Properties/Visible.htm">Visible</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TNotifiablePersistent:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
+      </td>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
+      </td>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../../../../Additional Topics/Using TImage32/Using Layers.htm">Using Layers</a>, <a href="../../../GR32_Image/Classes/TCustomImage32/_Body.htm">TCustomImage32</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+
+</html>

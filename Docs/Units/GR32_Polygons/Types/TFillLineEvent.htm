@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TFillLineEvent</title>
+
+  <link rel="STYLESHEET" href="../../../../Styles/Default.css">
+
+    
+  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32_Polygons</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TFillLineEvent</h1>
+
+  <p class="Decl"><b>type</b> TFillLineEvent = <strong>procedure</strong>(Dst: PColor32; DstX, DstY, Length: Integer; AlphaValues: PColor32) of <strong>object</strong>;</p>
+
+  <h2>Description</h2>
+
+  <p class="Body">Use this definition to create custom fill line callbacks.</p>
+
+  <p class="Body"><strong>Dst</strong> specifies the first position in the destination buffer that needs to be drawn to. You can use the coordinates <strong>DstX</strong> and <strong>DstY</strong> for calculations.</p>
+
+  <p class="Body"><strong>Length</strong> determines the length of the line to draw.</p>
+
+  <p class="Body"><strong>AlphaValues</strong> is a pointer to the first alpha value of the edge for each pixel on that line. This is used by the PolygonXS and PolyPolygonXS procedures only. For PolygonTS and PolyPolygonTS this parameter is <strong>nil</strong>, so please do appropriate checks.</p>
+
+  <p class="Body">Callbacks based on this specification cann be used with the <a href="../Classes/TPolygon32/Methods/DrawFill.htm">DrawFill</a> and <a href="../Classes/TPolygon32/Methods/Draw.htm">Draw</a> methods of <a href="../Classes/TPolygon32/_Body.htm">TPolygon32</a> or with the <a href="../Routines/Polygon.htm">Polygon</a> and <a href="../Routines/PolyPolygon.htm">PolyPolygon</a> routines.</p>
+
+
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../Classes/TPolygon32/_Body.htm">TPolygon32</a>, <a href="../Classes/TPolygon32/Methods/Draw.htm">TPolygon32.Draw</a>, <a href="../Classes/TPolygon32/Methods/DrawFill.htm">TPolygon32.DrawFill</a>, <a href="../Routines/Polygon.htm">Polygon</a>, <a href="../Routines/PolyPolygon.htm">PolyPolygon</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

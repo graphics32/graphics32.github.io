@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+  
+
+  <title>Line Patterns</title>
+  
+
+  <link rel="stylesheet" href="../../Styles/Default.css" type="text/css">
+
+    
+  <script type="text/javascript" src="../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>Line Patterns</h1>
+
+  <p class="Body">Graphics32 defines several functions to support non-uniform lines. This includes gradient lines, dashed lines etc. </p>
+
+  <p class="Body">The idea is pretty simple: <a href="../Units/GR32/Classes/TBitmap32/_Body.htm">TBitmap32</a> object holds dynamic array of colors, and a counter, which 'crawls' along the array and reads colors from its position. The line drawing algorithm queries color value from the current counter position at each point, then the counter is automatically incremented to get ready to supply the next value to line rasterisation routine.</p>
+
+  <p class="Body">The counter, accessed through <a href="../Units/GR32/Classes/TCustomBitmap32/Properties/StippleCounter.htm">StippleCounter</a> property, wraps itself automatically at the edges of color array. It can move in both directions depending on stipple step, which in turn can be positive or negative. Its malue may even be fractional in this case resulting color is interpolated. The step is accessed with <a href="../Units/GR32/Classes/TCustomBitmap32/Properties/StippleStep.htm">StippleStep</a> property.</p>
+
+  <p class="Body"> <a href="../Units/GR32/Classes/TCustomBitmap32/Methods/GetStippleColor.htm">GetStippleColor</a> returns color from the current counter position and automatically increments counter position by the counter step, so that next <a href="../Units/GR32/Classes/TCustomBitmap32/Methods/GetStippleColor.htm">GetStippleColor</a> call will return color value from the next position.</p>
+
+  <p class="Body">Drawing functions that support line patterns have 'P' in their postfix (as in LineFSP).</p>
+
+  <p class="Body">Warning: the counter is not thread-aware, it is shared by all threads accessing the bitmap. Additional care should be taken when multiple threads draw stippled lines in the same bitmap.</p>
+
+
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../Examples.htm">Examples</a>, <a href="../Overview/Naming Conventions.htm">Naming Conventions</a>, <a href="../Units/GR32/Classes/TBitmap32/_Body.htm">TBitmap32</a>, <a href="../Units/GR32/Classes/TCustomBitmap32/Methods/GetStippleColor.htm">TCustomBitmap32.GetStippleColor</a>, <a href="../Units/GR32/Classes/TCustomBitmap32/Properties/StippleCounter.htm">TCustomBitmap32.StippleCounter</a>, <a href="../Units/GR32/Classes/TCustomBitmap32/Properties/StippleStep.htm">TCustomBitmap32.StippleStep</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

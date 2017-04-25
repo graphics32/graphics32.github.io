@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TClipper</title>
+
+  <link rel="stylesheet" href="../../../../../styles/default.css" type="text/css">
+
+  <meta name="Ancestor" content="TClipperBase">
+
+    
+  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32_Clipper</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TClipper</h1>
+  <h2>Hierarchy</h2>
+  <p class="Hierarchy"></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TClipperBase/_Body.htm">TClipperBase</a></p>
+<br>
+
+
+  <p class="Body">The <b>TClipper</b> object is used to perform boolean 'clipping' operations (intersection, union, difference and xor) on polygons. There are no restrictions on either the number nor the type of polygon that can be clipped. Polygons can have holes, be self-intersecting and even have coincident edges.</p><br>
+
+
+  <table border="0">
+    <tr>
+<th>Example
+      </th>
+
+    </tr>
+    <tr>
+      <td>
+        <pre class="brush: delphi;">
+uses GR32, GR32_Clipper;
+	...
+	var
+	  i: integer;
+	  subj, clip, solution: TArrayOfArrayOfFloatPoint;
+	begin
+	  setlength(subj, 2);
+	  setlength(subj[0], 4);
+	  subj[0][0] := FloatPoint(180,200);
+	  subj[0][1] := FloatPoint(260,200);
+	  subj[0][2] := FloatPoint(260,150);
+	  subj[0][3] := FloatPoint(180,150);
+	  
+	  setlength(subj[1], 3);
+	  subj[1][0] := FloatPoint(215,160);
+	  subj[1][1] := FloatPoint(230,190);
+	  subj[1][2] := FloatPoint(200,190);
+
+	  setlength(clip, 1);
+	  setlength(clip[0], 4);
+	  clip[0][0] := FloatPoint(190,210);
+	  clip[0][1] := FloatPoint(240,210);
+	  clip[0][2] := FloatPoint(240,130);
+	  clip[0][3] := FloatPoint(190,130);
+	  
+	  with TClipper.Create do
+	  try
+	    Add(subj, ptSubject);
+	    Add(clip, ptClip);
+	    Execute(ctIntersection, solution, pftNonZero, pftNonZero);
+	  finally
+	    free;
+	  end;
+	  
+	  //nb: DrawPolygons is a stub for your own polygon rendering code.
+	  DrawPolygons(subj, $160000FF, $600000FF);
+	  DrawPolygons(clip, $20FFFF00, $30FF0000);
+	  DrawPolygons(solution, $3000FF00, $FF006600);
+        </pre>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  <h2 id="Auto-Reference">Reference</h2>
+  <table>
+    <tr><th>Methods
+      </th>
+    </tr>
+    <tr>
+      <td colspan="1" class="White">In TClipper:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Create.htm">Create</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Execute.htm">Execute</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="White">In TClipperBase:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TClipperBase/Methods/Add.htm">Add</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TClipperBase/Methods/Clear.htm">Clear</a>
+      </td>
+    </tr>
+  </table>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TDilater</title>
+
+  <link rel="STYLESHEET" href="../../../../../Styles/Default.css">
+
+  <meta name="Ancestor" content="TMorphologicalSampler">
+
+    
+  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32_Resamplers</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TDilater</h1>
+  <h2>Hierarchy</h2>
+  <p class="Hierarchy">TPersistent</p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../../../GR32/Classes/TCustomSampler/_Body.htm">TCustomSampler</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TNestedSampler/_Body.htm">TNestedSampler</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TKernelSampler/_Body.htm">TKernelSampler</a></p>
+  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
+  <p class="Hierarchy"><a href="../TMorphologicalSampler/_Body.htm">TMorphologicalSampler</a></p>
+
+  <h2>Description</h2>
+
+  <p class="Body"><span class="EmptyRef">TDilater</span> is a nested sampler for performing morphological dilation. This operation is defined as </p>
+
+  <p align="center" class="Body"><img src="../../../../../Images/eq_dilate.gif" width="256" height="20"></p>
+
+  <p align="left" class="Body">where <em>f </em>is a <em>sampler</em> and <em> b</em> is a <em>structuring element. </em>By performing morphological dilation, high intensity image features will become expanded. This is the opposite effect to morphological <a href="_Body.htm">dilation</a>. The structuring element is defined by the <a href="../TKernelSampler/Properties/Kernel.htm">Kernel</a> property of the class. See topic about <a href="../../../../Additional%20Topics/Sampling%20and%20Rasterization.htm">Sampling and Rasterization</a> for more info.</p>
+
+
+  <h2 id="Auto-Reference">Reference</h2>
+  <table>
+    <tr><th>Methods
+      </th><th>Properties
+      </th><th>Events
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TKernelSampler:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TKernelSampler/Methods/Create.htm">Create</a>
+      </td>
+      <td><a href="../TKernelSampler/Properties/CenterX.htm">CenterX</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TKernelSampler/Methods/Destroy.htm">Destroy</a>
+      </td>
+      <td><a href="../TKernelSampler/Properties/CenterY.htm">CenterY</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../TKernelSampler/Methods/GetSample.htm">GetSample</a>
+      </td>
+      <td><a href="../TKernelSampler/Properties/Kernel.htm">Kernel</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TNestedSampler:
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td><a href="../TNestedSampler/Properties/Sampler.htm">Sampler</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TCustomSampler:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/FinalizeSampling.htm">FinalizeSampling</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/GetSampleBounds.htm">GetSampleBounds</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/HasBounds.htm">HasBounds</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/PrepareSampling.htm">PrepareSampling</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TNotifiablePersistent:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
+      </td>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
+      </td>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/Changed.htm">Changed</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../../../../Additional Topics/Sampling and Rasterization.htm">Sampling and Rasterization</a>, <a href="_Body.htm">TDilater</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<html>
+ 
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>TNotifiablePersistent</title>
+  
+  <link rel="stylesheet" href="../../../../../Styles/Default.css">
+  
+  <meta name="Ancestor" content="TPersistent">
+
+    
+  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TNotifiablePersistent</h1>
+  <h2>Hierarchy</h2>
+  <p class="Hierarchy">TPersistent</p>
+
+  <h2>Description</h2>
+
+  <p class="Body"><span class="EmptyRef">TNotifiablePersistent</span> extends the standard <span class="API">TPersistent</span> class with change notification events. That is, it provides methods and events allowing its descendants to issue notification on their changes. For example, <a href="../TBitmap32/_Body.htm">TBitmap32</a> uses <a href="Events/OnChange.htm">OnChange</a> to notify its container (usually <a href="../../../GR32_Image/Classes/TImage32/_Body.htm">TImage32</a> or <a href="../../../GR32_Layers/Classes/TBitmapLayer/_Body.htm">TBitmapLayer</a>) that it was modified and its data has to be repainted to the screen. <span class="EmptyRef">TNotifiablePersistent</span>, however, does not use or implement automatic change notification itself. This is done in descendants.</p>
+
+  <h2 id="Auto-Reference">Reference</h2>
+  <table>
+    <tr><th>Methods
+      </th><th>Properties
+      </th><th>Events
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3" class="White">In TNotifiablePersistent:
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/BeginUpdate.htm">BeginUpdate</a>
+      </td>
+      <td><a href="Properties/UpdateCount.htm">UpdateCount</a>
+      </td>
+      <td><a href="Events/OnChange.htm">OnChange</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Changed.htm">Changed</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Create.htm">Create</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/Destroy.htm">Destroy</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="Methods/EndUpdate.htm">EndUpdate</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../TBitmap32/_Body.htm">TBitmap32</a>, <a href="../../../GR32_Image/Classes/TImage32/_Body.htm">TImage32</a>, <a href="../../../GR32_Layers/Classes/TBitmapLayer/_Body.htm">TBitmapLayer</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+
+</html>

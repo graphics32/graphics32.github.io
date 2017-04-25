@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    
+  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
+  </script>
+    
+  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
+  </script>
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
+    
+  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
+  
+
+  <title>Create</title>
+
+  <link rel="stylesheet" href="../../../../../../Styles/Default.css" type="text/css">
+
+    
+  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
+  </script>
+  
+</head>
+
+
+<body bgcolor="#FFFFFF">
+    
+  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
+    
+  <!-- DO NOT EDIT MANUALLY !!! -->
+  
+  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
+    <tr>
+      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32_Backends_VCL</a>
+      </td>
+      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TGDIMMFBackend</a>
+      </td>
+      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
+      </td>
+    </tr>
+  </table>
+  <h1>TGDIMMFBackend.Create</h1>
+
+  <p class="Decl"><b>constructor </b>Create(Owner: TCustomBitmap32; IsTemporary: Boolean = True; const MapFileName: string = '');<b> virtual;</b></p>
+
+  <h2>Description</h2>
+
+  <p class="Body">Creates and initializes an instance of <a href="../_Body.htm">TGDIMMFBackend</a>.</p>
+
+  <p class="Body">If <strong>Owner</strong> is specified the new back-end instance is automatically assigned to the <a href="../../../../GR32/Classes/TCustomBitmap32/_Body.htm">TCustomBitmap32</a> instance. The existing back-end of the bitmap instance will be replaced and surface data is transfered to the new back-end instance via the <a href="../../../../GR32/Classes/TBackend/Methods/Assign.htm">Assign</a> method.</p>
+
+  <p class="Body"><strong>IsTemporary</strong> defines whether the allocated file should only be used for the life-cycle of the surface. </p>
+
+  <p class="Body"><strong>MapFileName</strong> defines the filename of the file that should created or re-used as <a href="../../../../GR32_Backends_VCL/Classes/TGDIMMFBackend/_Body.htm">memory-mapped file</a>. Passing an empty string as <strong>MapFileName</strong> will result in using a part of the swap file for the surface. </p>
+
+  <p class="Body">Setting <strong>IsTemporary</strong> to <strong>false</strong> while defining a <strong>MapFileName</strong> will result in a permanent file being created that can be re-used. </p>
+
+  <p class="Body">For an usage example of the constructor please refer to the additional topic <a href="../../../../../Additional Topics/Back-Ends.htm">Back-ends</a> in this documentation. </p>
+<br>
+
+
+  <h2 id="Auto-SeeAlso">See Also</h2>
+  <p class="Body"><a href="../../../../../Additional Topics/Back-Ends.htm">Back-Ends</a>, <a href="../../../../GR32/Classes/TBackend/Methods/Assign.htm">TBackend.Assign</a>, <a href="../../../../GR32/Classes/TCustomBitmap32/_Body.htm">TCustomBitmap32</a>, <a href="../_Body.htm">TGDIMMFBackend</a></p>
+    
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  
+</body>
+
+</html>
