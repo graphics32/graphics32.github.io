@@ -48,7 +48,7 @@
 
   <h2>Description</h2>
 
-  <p class="Body"><span class="EmptyRef">TTransformation</span> is an abstract ancestor for bitmap transformation classes. <span class="EmptyRef">TTransformation</span> objects are passed as parameter in the <a href="../../Routines/Transform.htm">Transform</a> function, which actually performs the bitmap transformation. Custom decendants must at least implement ReverseTransformFloat (and TransformFloat, if forward transformation is supported), since this is the top precision level in the transformation system of Graphics32. All decendants must override at least this level, but for optimal performance, it is recommended that the integer and fixed versions are implemented, respectively.</p>
+  <p class="Body"><span class="EmptyRef">TTransformation</span> is an abstract ancestor for bitmap transformation classes. <span class="EmptyRef">TTransformation</span> objects are passed as parameter in the <a href="../../Routines/Transform.htm">Transform</a> function, which actually performs the bitmap transformation. Custom descendants must at least implement ReverseTransformFloat (and TransformFloat, if forward transformation is supported), since this is the top precision level in the transformation system of Graphics32. All descendants must override at least this level, but for optimal performance, it is recommended that the integer and fixed versions are implemented, respectively.</p>
 		
   <p class="Body">
   </p>
@@ -56,9 +56,9 @@
 
   <h2 id="Auto-Reference">Reference</h2>
   <table>
-    <tr><th>Methods
-      </th><th>Properties
-      </th>
+    <tr>
+      <th>Methods</th>
+      <th>Properties</th>
     </tr>
     <tr>
       <td colspan="2" class="White">In TTransformation:
@@ -90,9 +90,9 @@
     </tr>
   </table>
   <h2 id="Auto-SeeAlso">See Also</h2>
-  <p class="Body"><a href="../TAffineTransformation/_Body.htm">TAffineTransformation</a>, <a href="_Body.htm">TTransformation</a>, <a href="../../Routines/Transform.htm">Transform</a></p>
+  <p class="Body"><a href="../TAffineTransformation/_Body.htm">TAffineTransformation</a>, <a href="../TProjectiveTransformation/_Body.htm">TProjectiveTransformation</a>, <a href="../../Routines/Transform.htm">Transform</a></p>
     
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 v2.0 &nbsp; - &nbsp; Built on 25-April-2017 <br><br> </p>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
   
 </body>
 
