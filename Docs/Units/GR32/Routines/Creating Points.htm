@@ -1,86 +1,31 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>Creating Points</title>
-
-  <link rel="STYLESHEET" href="../../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>Creating Points</title><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../_Body.htm">Index</a><a class="ancestor" href="../_Body.htm">GR32</a><span class="active">Creating Points</span>
+  </div><br><br>
+
   <h1>Creating Points</h1>
-
   <h2><a name="Point">Point</h2>
-
   <p class="Decl"><b>function</b> Point(X, Y: Integer): <a href="../Types/Point%20Types.htm#TPoint">TPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> Point(<b>const</b> FP: <a href="../Types/Point%20Types.htm#TFloatPoint">TFloatPoint</a>): <a href="../Types/Point%20Types.htm#TPoint">TPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> Point(<b>const</b> FXP: <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>): <a href="../Types/Point%20Types.htm#TPoint">TPoint</a>; <b>overload</b>;</p>
-
   <p class="Body">Constructs a point with integer coordinates, or converts it from the one with fixed/floating point coordinates by rounding them to nearest integers.</p>
-
   <h2><a name="FloatPoint">FloatPoint</h2>
-
   <p class="Decl"><b>function</b> FloatPoint(X, Y: Single): <a href="../Types/Point%20Types.htm#TFloatPoint">TFloatPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> FloatPoint(<b>const</b> P: <a href="../Types/Point%20Types.htm#TPoint">TPoint</a>): <a href="../Types/Point%20Types.htm#TFloatPoint">TFloatPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> FloatPoint(<b>const</b> FXP: <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>): <a href="../Types/Point%20Types.htm#TFloatPoint">TFloatPoint</a>; <b>overload</b>;</p>
-
   <p class="Body">Provides construction and converstion of points with floating-point coordinates.</p>
-
   <h2><a name="FixedPoint">FixedPoint</h2>
-
   <p class="Decl"><b>function</b> FixedPoint(X, Y: Integer): <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> FixedPoint(X, Y: Single): <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> FixedPoint(<b>const</b> P: <a href="../Types/Point%20Types.htm#TPoint">TPoint</a>): <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>; <b>overload</b>;</p>
-
   <p class="Decl"><b>function</b> FixedPoint(<b>const</b> FP: <a href="../Types/Point%20Types.htm#TFloatPoint">TFloatPoint</a>): <a href="../Types/Point%20Types.htm#TFixedPoint">TFixedPoint</a>; <b>overload</b>;</p>
-
   <p class="Body">Provides construction and converstion of points with fixed-point coordinates </p>
-
-
-
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../Types/Point Types.htm">Point Types</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

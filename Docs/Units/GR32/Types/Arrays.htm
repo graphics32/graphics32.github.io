@@ -1,120 +1,49 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>Arrays</title>
-
-  <link rel="stylesheet" href="../../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>Arrays</title><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../_Body.htm">Index</a><a class="ancestor" href="../_Body.htm">GR32</a><span class="active">Arrays</span>
+  </div><br><br>
+
   <h1>Arrays</h1>
-		
   <h2>Dynamic Array Types<br> </h2>
-		
   <h2><a name="TArrayOfByte">TArrayOfByte</h2>
-		
   <p class="Decl"><b>type</b> TArrayOfByte =<b> array of</b> Byte;</p>
-		
   <p class="Decl"><b>type</b> PArrayOfByte = ^TArrayOfByte;</p>
-		
   <p class="Body">A dynamic array of bytes.</p>
-		
   <h2><a name="TArrayOfInteger">TArrayOfWord</h2>
-		
   <p class="Decl"><b>type</b> TArrayOfInteger = <b>array</b> <b>of</b> Word;</p>
-		
   <p class="Body">A dynamic array of words.</p>
-		
   <h2><a name="TArrayOfInteger">TArrayOfInteger</h2>
-
   <p class="Decl"><b>type</b> TArrayOfInteger = <b>array</b> <b>of</b> Integer;</p>
-
   <p class="Body">A dynamic array of integers.</p>
-
   <h2><a name="TArrayOfSingle">TArrayOfSingle</h2>
-
   <p class="Decl"><b>type</b> TArrayOfSingle = <b>array</b> <b>of</b> Single;</p>
-
   <p class="Body">A dynamic array of single-precision floating-point values.</p>
-
   <h2><a name="TArrayOfArrayOfInteger">TArrayOfArrayOfInteger</h2>
-
   <p class="Decl"><b>type</b> TArrayOfArrayOfInteger = <b>array</b> <b>of</b> <a href="#TArrayOfInteger">TArrayOfInteger</a>;</p>
-
   <p class="Body">A dynamic array of dynamic arrays of integers.</p>
-		
   <p class="Body">&nbsp;</p>
-		
   <h2>Array Reference Types</h2>
-		
   <p>Most likely you will never use the reference types directly, however the pointer is the one of some importance. It provides indexed access to values stored in memory, and is used as the result type of the ordinal maps bits properties.</p>
-		
   <h2><a name="TByteArray">TByteArray</h2>
-		
   <p class="Decl"><b>type</b> TByteArray = <b>array</b> [0..0] <b>of </b>Byte;</p>
-		
   <p class="Decl"><b>type</b> PByteArray = ^TByteArray;</p>
-		
   <p class="Body">A reference to array of byte-typed values. </p>
-		
   <h2><a name="TWordArray">TWordArray</h2>
-		
   <p class="Decl"><b>type</b> TWordArray = <b>array</b> [0..0] <b>of </b>Word;</p>
-		
   <p class="Decl"><b>type</b> PWordArray = ^TWordArray;</p>
-		
   <p class="Body">A reference to array of word-typed values.</p>
-		
   <h2><a name="TIntegerArray">TIntegerArray</h2>
-		
   <p class="Decl"><b>type</b> TIntegerArray = <b>array</b> [0..0] <b>of </b>Integer;</p>
-		
   <p class="Decl"><b>type</b> PIntegerArray = ^TIntegerArray;</p>
-		
   <p class="Body">A reference to array of integer-typed values.</p>
-		
   <p class="Body">
   </p>
-
-	
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../GR32_OrdinalMaps/Classes/TByteMap/_Body.htm">TByteMap</a>, <a href="../../GR32_OrdinalMaps/Classes/TIntegerMap/_Body.htm">TIntegerMap</a>, <a href="../../GR32_OrdinalMaps/Classes/TWordMap/_Body.htm">TWordMap</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

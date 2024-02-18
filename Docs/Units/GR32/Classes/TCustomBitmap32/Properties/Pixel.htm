@@ -1,103 +1,40 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>Pixel</title>
-
-  <link rel="stylesheet" href="../../../../../../Styles/Default.css" type="text/css">
-
-    
-  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>Pixel</title><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TCustomBitmap32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../../_Body.htm">Index</a><a class="ancestor" href="../../../_Body.htm">GR32</a><a class="ancestor" href="../_Body.htm">TCustomBitmap32</a><span class="active">Pixel</span>
+  </div><br><br>
+
   <h1>TCustomBitmap32.Pixel</h1>
-
   <p class="Decl"><b>property</b> Pixel[X, Y: Integer]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>; <b>default</b>;</p>
-		
   <p class="Decl"><b>property</b> PixelS[X, Y: Integer]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl"><b>property</b> PixelW[X, Y: Integer]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl">
   </p>
-		
   <p class="Decl"><b>property</b> PixelX[X, Y: <a href="../../../Types/TFixed.htm">TFixed</a>]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-
   <p class="Decl"><b>property</b> PixelXS[X, Y: <a href="../../../Types/TFixed.htm">TFixed</a>]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl"><b>property</b> PixelXW[X, Y: <a href="../../../Types/TFixed.htm">TFixed</a>]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl">
   </p>
-		
   <p class="Decl"><b>property</b> PixelF[X, Y: Single]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl"><b>property</b> PixelFS[X, Y: Single]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <p class="Decl"><b>property</b> PixelFW[X, Y: Single]: <a href="../../../Types/Color%20Types.htm#TColor32">TColor32</a>;</p>
-		
   <h2>Description</h2>
-		
   <p class="Body"><span class="EmptyRef">Pixel</span> property sets the value of the pixel in the bitmap. Reading it, will return the color value of the pixel located at specified coordinates. This property does not validate the specified coordinates, so use it only then you are completely sure that you are not trying to read from or write to the outside of the bitmap boundary. <span class="EmptyRef">Pixel</span> is declared as default property, you may use it as shown below: </p>
-
   <p class="Code">Bitmap32[10, 20] := Bitmap32[20, 10]; <span class="Comment">// copy a pixel from (20,10) to (10,20) position</span></p>
-
   <p class="Body"><span class="EmptyRef">PixelS</span> is a 'safe' version of the <span class="EmptyRef">Pixel</span> property. When reading pixels from the outside the bitmap boundary, the value specified by <a href="OuterColor.htm">OuterColor</a> is returned. Writing with invalid coordinates will have no effect.</p>
-		
   <p class="Body"><span class="EmptyRef">PixelW</span> is the wrapping version of the Pixel property. When reading pixels from outside the bitmap boundary, the value returned is determined by the currently selected <a href="WrapMode.htm">WrapMode</a>. Thus always safe.</p>
-		
   <p class="Body"><b>PixelX</b> provides a method for accessing the pixels in fixed-point coordinates. The returned color is computed by performing linear interpolation on four adjacent pixels. Similarly, when pixels are set, they are antialiased.</p>
-		
   <p class="Body"><img src="../../../../../../Images/img_002.gif" vspace="10"></p>
-
   <p class="Body"><b>PixelXS</b> is a 'safe' version of the above property.</p>
-
   <p class="Body"><b>PixelXW</b> is a wrapping version of the property <b>PixelX</b>.</p>
-
   <p class="Body"><b>PixelF</b> is similar to PixelX but works with floating point coordinates instead of fixed point.</p>
-
   <p class="Body"><b>PixelFS</b> is a 'safe' version of the above property.</p>
-
   <p class="Body"><b>PixelFW</b> is a wrapping version of the above property.</p>
-
-
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../../../../Overview/Naming Conventions.htm">Naming Conventions</a>, <a href="../Methods/SetPixel.htm">SetPixel</a>, <a href="OuterColor.htm">OuterColor</a>, <a href="WrapMode.htm">WrapMode</a>, <a href="../../../Types/Color Types.htm">Color Types</a>, <a href="../../../Types/TFixed.htm">TFixed</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

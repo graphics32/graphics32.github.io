@@ -1,308 +1,97 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-  
-  <title>GR32</title>
-  
-  <link rel="stylesheet" href="../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>GR32</title><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../Menu/menu.js"></script><script type="text/javascript" src="../../../CodeScripts/bootstrap.js"></script>
 </head>
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../_Body.htm">Index</a><span class="active">GR32</span><a class="icon_container" id="icon_container" href="javascript:void(0)" onclick="hamburger()"><img id="menu_icon" src="../Menu/hamburger.svg"></a>
+  </div><br><br>
+
   <h1>GR32</h1>
-
   <p class="Body">GR32.pas contains common functions and classes for working with 32-bit device independent bitmaps (DIBs). It also defines some other basic types and operations.</p>
-
   <h2 id="Auto-Contents">Contents</h2>
-  <table>
-    <tr>
-      <th>Types</th>
-      <th>Classes</th>
-      <th>Routines</th>
-      <th>Constants</th>
-    </tr>
-    <tr>
-      <td><a href="Types/Arrays.htm">Arrays</a>
-      </td>
-      <td><a href="Classes/TBackend/_Body.htm">TBackend</a>
-      </td>
-      <td><a href="Routines/AlphaComponent.htm">AlphaComponent</a>
-      </td>
-      <td><a href="Constants/Area Information Flags.htm">Area Information Flags</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/Color Types.htm">Color Types</a>
-      </td>
-      <td><a href="Classes/TBitmap32/_Body.htm">TBitmap32</a>
-      </td>
-      <td><a href="Routines/BlueComponent.htm">BlueComponent</a>
-      </td>
-      <td><a href="Constants/Color Constants.htm">Color Constants</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/Point Types.htm">Point Types</a>
-      </td>
-      <td><a href="Classes/TCustomBitmap32/_Body.htm">TCustomBitmap32</a>
-      </td>
-      <td><a href="Routines/Color32.htm">Color32</a>
-      </td>
-      <td><a href="Constants/Fixed Point Math Constants.htm">Fixed Point Math Constants</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/Rectangle Types.htm">Rectangle Types</a>
-      </td>
-      <td><a href="Classes/TCustomMap/_Body.htm">TCustomMap</a>
-      </td>
-      <td><a href="Routines/Color32Components.htm">Color32Components</a>
-      </td>
-      <td><a href="Constants/G32Version.htm">G32Version</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TAreaChangedEvent.htm">TAreaChangedEvent</a>
-      </td>
-      <td><a href="Classes/TCustomResampler/_Body.htm">TCustomResampler</a>
-      </td>
-      <td><a href="Routines/Color32ToRGB.htm">Color32ToRGB</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TCombineMode.htm">TCombineMode</a>
-      </td>
-      <td><a href="Classes/TCustomSampler/_Body.htm">TCustomSampler</a>
-      </td>
-      <td><a href="Routines/Creating Points.htm">Creating Points</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TDrawMode.htm">TDrawMode</a>
-      </td>
-      <td><a href="Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a>
-      </td>
-      <td><a href="Routines/Creating Rectangles.htm">Creating Rectangles</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TFixed.htm">TFixed</a>
-      </td>
-      <td><a href="Classes/TThreadPersistent/_Body.htm">TThreadPersistent</a>
-      </td>
-      <td><a href="Routines/EqualRect.htm">EqualRect</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TPixelCombineEvent.htm">TPixelCombineEvent</a>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/Fixed Point Math.htm">Fixed Point Math</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TRectRounding.htm">TRectRounding</a>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/Gray32.htm">Gray32</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TSize.htm">TSize</a>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/GreenComponent.htm">GreenComponent</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TStretchFilter.htm">TStretchFilter</a>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/HSLtoRGB.htm">HSLtoRGB</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TWrapMode.htm">TWrapMode</a>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/InflateRect.htm">InflateRect</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/Intensity.htm">Intensity</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/IntersectRect.htm">IntersectRect</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/InvertColor.htm">InvertColor</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/IsRectEmpty.htm">IsRectEmpty</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/OffsetRect.htm">OffsetRect</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/PtInRect.htm">PtInRect</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/RedComponent.htm">RedComponent</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/RGBtoHSL.htm">RGBtoHSL</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/SetAlpha.htm">SetAlpha</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/SetGamma.htm">SetGamma</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/WinColor.htm">WinColor</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td><a href="Routines/WinPalette.htm">WinPalette</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Types</b>
+      </div>
+      <div><span><a href="Types/Arrays.htm">Arrays</a></span>
+<span><a href="Types/Color Types.htm">Color Types</a></span>
+<span><a href="Types/Point Types.htm">Point Types</a></span>
+<span><a href="Types/Rectangle Types.htm">Rectangle Types</a></span>
+<span><a href="Types/TAreaChangedEvent.htm">TAreaChangedEvent</a></span>
+<span><a href="Types/TCombineMode.htm">TCombineMode</a></span>
+<span><a href="Types/TDrawMode.htm">TDrawMode</a></span>
+<span><a href="Types/TFixed.htm">TFixed</a></span>
+<span><a href="Types/TPixelCombineEvent.htm">TPixelCombineEvent</a></span>
+<span><a href="Types/TRectRounding.htm">TRectRounding</a></span>
+<span><a href="Types/TSize.htm">TSize</a></span>
+<span><a href="Types/TStretchFilter.htm">TStretchFilter</a></span>
+<span><a href="Types/TWrapMode.htm">TWrapMode</a></span>
 
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Classes</b>
+      </div>
+      <div><span><a href="Classes/TBackend/_Body.htm">TBackend</a></span>
+<span><a href="Classes/TBitmap32/_Body.htm">TBitmap32</a></span>
+<span><a href="Classes/TCustomBitmap32/_Body.htm">TCustomBitmap32</a></span>
+<span><a href="Classes/TCustomMap/_Body.htm">TCustomMap</a></span>
+<span><a href="Classes/TCustomResampler/_Body.htm">TCustomResampler</a></span>
+<span><a href="Classes/TCustomSampler/_Body.htm">TCustomSampler</a></span>
+<span><a href="Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></span>
+<span><a href="Classes/TThreadPersistent/_Body.htm">TThreadPersistent</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Routines</b>
+      </div>
+      <div><span><a href="Routines/AlphaComponent.htm">AlphaComponent</a></span>
+<span><a href="Routines/BlueComponent.htm">BlueComponent</a></span>
+<span><a href="Routines/Color32.htm">Color32</a></span>
+<span><a href="Routines/Color32Components.htm">Color32Components</a></span>
+<span><a href="Routines/Color32ToRGB.htm">Color32ToRGB</a></span>
+<span><a href="Routines/Creating Points.htm">Creating Points</a></span>
+<span><a href="Routines/Creating Rectangles.htm">Creating Rectangles</a></span>
+<span><a href="Routines/EqualRect.htm">EqualRect</a></span>
+<span><a href="Routines/Fixed Point Math.htm">Fixed Point Math</a></span>
+<span><a href="Routines/Gray32.htm">Gray32</a></span>
+<span><a href="Routines/GreenComponent.htm">GreenComponent</a></span>
+<span><a href="Routines/HSLtoRGB.htm">HSLtoRGB</a></span>
+<span><a href="Routines/InflateRect.htm">InflateRect</a></span>
+<span><a href="Routines/Intensity.htm">Intensity</a></span>
+<span><a href="Routines/IntersectRect.htm">IntersectRect</a></span>
+<span><a href="Routines/InvertColor.htm">InvertColor</a></span>
+<span><a href="Routines/IsRectEmpty.htm">IsRectEmpty</a></span>
+<span><a href="Routines/OffsetRect.htm">OffsetRect</a></span>
+<span><a href="Routines/PtInRect.htm">PtInRect</a></span>
+<span><a href="Routines/RedComponent.htm">RedComponent</a></span>
+<span><a href="Routines/RGBtoHSL.htm">RGBtoHSL</a></span>
+<span><a href="Routines/SetAlpha.htm">SetAlpha</a></span>
+<span><a href="Routines/SetGamma.htm">SetGamma</a></span>
+<span><a href="Routines/WinColor.htm">WinColor</a></span>
+<span><a href="Routines/WinPalette.htm">WinPalette</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Constants</b>
+      </div>
+      <div><span><a href="Constants/Area Information Flags.htm">Area Information Flags</a></span>
+<span><a href="Constants/Color Constants.htm">Color Constants</a></span>
+<span><a href="Constants/Fixed Point Math Constants.htm">Fixed Point Math Constants</a></span>
+<span><a href="Constants/G32Version.htm">G32Version</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
+
+</body>
 </html>

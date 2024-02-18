@@ -1,92 +1,43 @@
 <html>
 
 <head>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>Vector Types</title>
-
   <link rel="stylesheet" href="../../../../Styles/Default.css">
 
-    
-  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>Vector Types</title><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32_VectorMaps</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../_Body.htm">Index</a><a class="ancestor" href="../_Body.htm">GR32_VectorMaps</a><span class="active">Vector Types</span>
+  </div><br><br>
+
   <h1>Vector Types</h1>
 
   <p class="Body">Graphics32 currently uses a relative vector system, meaning that a vector have to be applied to a given absolute vector. The relative system propose a wider flexibility, but also a small overhead (the two additions needed). Future versions may introduce a relative/absolute distinction in relevant routines. To make a vector absolute, simply apply actual absolute vertices, but keep in mind that some implementations may expect relative vectors (e.g. <a href="../Classes/TVectorMap/_Body.htm">TRemapTransformation.Vectormap</a> uses relative vectors).</p>
-		
   <p class="Body">Vector types are defined with following structures:</p>
-		
   <h2><a name="TFloatVector">TFloatVector</h2>
-		
   <p class="Decl"><b>type</b> TFloatVector = TFloatPoint;<br> </p>
 
   <p class="Decl"><b>type</b> PFloatVector = ^TFloatVector;</p>
 
   <p class="Body">Provides convenient naming, and compatibility with TFloatPoint.</p>
-		
   <h2><a name="TFixedVector">TFixedVector</h2>
-		
   <p class="Decl"><b>type</b> TFloatVector = TFixedPoint;<br> </p>
-		
   <p class="Decl"><b>type</b> PFloatVector = ^TFloatVector;</p>
-		
   <p class="Body">Provides convenient naming, and compatibility with TFixedPoint.</p>
-		
   <h2><a name="TArrayOfFloatPoint">TArrayOfFloatPoint</h2>
-		
   <p class="Decl"><b>type</b> TArrayOfFloatVector = <b>array</b> <b>of</b> <a href="#TFloatVector">TFloatVector</a>; </p>
-		
   <p class="Decl"><b>type</b> PArrayOfFloatVector = ^TArrayOfFloatVector;</p>
-		
   <p class="Body">A dynamic array of <a href="#TFloatVector">TFloatVector</a>.</p>
-		
   <h2><a name="TArrayOfFixedPoint">TArrayOfFixedPoint </h2>
 
   <p class="Decl"><b>type</b> TArrayOfFixedVector = <b>array</b> <b>of</b> <a href="#TFixedVector">TFixedVector</a>; </p>
-		
   <p class="Decl"><b>type</b> PArrayOfFixedVector = ^TArrayOfFixedVector;</p>
-		
   <p class="Body">A dynamic array of <a href="#TFixedVector">TFixedVector</a>.</p>
-		
   <h2>
   </h2>
-		
-	
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../GR32/Routines/Creating Points.htm">Creating Points</a>, <a href="../Classes/TVectorMap/_Body.htm">TVectorMap</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
+
 </body>
 
 </html>

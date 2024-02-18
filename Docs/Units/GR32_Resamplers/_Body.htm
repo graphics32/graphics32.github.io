@@ -1,353 +1,92 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-  
-
-  <title>GR32_Resamplers</title>
-  
-  <link rel="stylesheet" href="../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>GR32_Resamplers</title><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../Menu/menu.js"></script><script type="text/javascript" src="../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../_Body.htm">Index</a><span class="active">GR32_Resamplers</span><a class="icon_container" id="icon_container" href="javascript:void(0)" onclick="hamburger()"><img id="menu_icon" src="../Menu/hamburger.svg"></a>
+  </div><br><br>
+
   <h1>GR32_Resamplers</h1>
-
   <p class="Body">GR32_Resamplers.pas provides a comprehensive set of classes that are used within image resampling and rasterization. These classes can roughly be categorized as follows: </p>
-
   <ul>
-  
     <li><span class="EmptyRef">Resamplers</span> &#8212; classes that implement different resampling algorithms; </li>
-  
     <li><span class="EmptyRef">Kernels</span> &#8212; convolution kernels used by <a href="Classes/TKernelResampler/_Body.htm">TKernelResampler</a>; </li>
-  
     <li><span class="EmptyRef">Nested samplers</span> &#8212; <em>transformers</em>, <em>super samplers</em> and <em>kernel samplers</em>. </li>
-
   </ul>
-
   <p class="Body">For further information, see topic about <a href="../../Additional%20Topics/Sampling%20and%20Rasterization.htm">Sampling and Rasterization</a>.</p>
-
   <h2 id="Auto-Contents">Contents</h2>
-  <table>
-    <tr>
-      <th>Types</th>
-      <th>Classes</th>
-      <th>Routines</th>
-    </tr>
-    <tr>
-      <td><a href="Types/TKernelMode.htm">TKernelMode</a>
-      </td>
-      <td><a href="Classes/TAdaptiveSuperSampler/_Body.htm">TAdaptiveSuperSampler</a>
-      </td>
-      <td><a href="Routines/BlendTransfer.htm">BlendTransfer</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TPixelAccessMode.htm">TPixelAccessMode</a>
-      </td>
-      <td><a href="Classes/TAlbrechtKernel/_Body.htm">TAlbrechtKernel</a>
-      </td>
-      <td><a href="Routines/BlockTransfer.htm">BlockTransfer</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TBitmap32Resampler/_Body.htm">TBitmap32Resampler</a>
-      </td>
-      <td><a href="Routines/BlockTransferX.htm">BlockTransferX</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TBlackmanKernel/_Body.htm">TBlackmanKernel</a>
-      </td>
-      <td><a href="Routines/Contract.htm">Contract</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TBoxKernel/_Body.htm">TBoxKernel</a>
-      </td>
-      <td><a href="Routines/Dilate.htm">Dilate</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TContracter/_Body.htm">TContracter</a>
-      </td>
-      <td><a href="Routines/Erode.htm">Erode</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TConvolver/_Body.htm">TConvolver</a>
-      </td>
-      <td><a href="Routines/Expand.htm">Expand</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCosineKernel/_Body.htm">TCosineKernel</a>
-      </td>
-      <td><a href="Routines/StretchTransfer.htm">StretchTransfer</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCubicKernel/_Body.htm">TCubicKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomKernel/_Body.htm">TCustomKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TDilater/_Body.htm">TDilater</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TDraftResampler/_Body.htm">TDraftResampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TEroder/_Body.htm">TEroder</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TExpander/_Body.htm">TExpander</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TGaussianKernel/_Body.htm">TGaussianKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/THammingKernel/_Body.htm">THammingKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/THannKernel/_Body.htm">THannKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/THermiteKernel/_Body.htm">THermiteKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TKernelResampler/_Body.htm">TKernelResampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TKernelSampler/_Body.htm">TKernelSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TLanczosKernel/_Body.htm">TLanczosKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TLinearKernel/_Body.htm">TLinearKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TLinearResampler/_Body.htm">TLinearResampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TMitchellKernel/_Body.htm">TMitchellKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TMorphologicalSampler/_Body.htm">TMorphologicalSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TNearestResampler/_Body.htm">TNearestResampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TNearestTransformer/_Body.htm">TNearestTransformer</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TNestedSampler/_Body.htm">TNestedSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TPatternSampler/_Body.htm">TPatternSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TSelectiveConvolver/_Body.htm">TSelectiveConvolver</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TSinshKernel/_Body.htm">TSinshKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TSplineKernel/_Body.htm">TSplineKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TSuperSampler/_Body.htm">TSuperSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TTransformer/_Body.htm">TTransformer</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TWindowedSincKernel/_Body.htm">TWindowedSincKernel</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Types</b>
+      </div>
+      <div><span><a href="Types/TKernelMode.htm">TKernelMode</a></span>
+<span><a href="Types/TPixelAccessMode.htm">TPixelAccessMode</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Classes</b>
+      </div>
+      <div><span><a href="Classes/TAdaptiveSuperSampler/_Body.htm">TAdaptiveSuperSampler</a></span>
+<span><a href="Classes/TAlbrechtKernel/_Body.htm">TAlbrechtKernel</a></span>
+<span><a href="Classes/TBitmap32Resampler/_Body.htm">TBitmap32Resampler</a></span>
+<span><a href="Classes/TBlackmanKernel/_Body.htm">TBlackmanKernel</a></span>
+<span><a href="Classes/TBoxKernel/_Body.htm">TBoxKernel</a></span>
+<span><a href="Classes/TContracter/_Body.htm">TContracter</a></span>
+<span><a href="Classes/TConvolver/_Body.htm">TConvolver</a></span>
+<span><a href="Classes/TCosineKernel/_Body.htm">TCosineKernel</a></span>
+<span><a href="Classes/TCubicKernel/_Body.htm">TCubicKernel</a></span>
+<span><a href="Classes/TCustomKernel/_Body.htm">TCustomKernel</a></span>
+<span><a href="Classes/TDilater/_Body.htm">TDilater</a></span>
+<span><a href="Classes/TDraftResampler/_Body.htm">TDraftResampler</a></span>
+<span><a href="Classes/TEroder/_Body.htm">TEroder</a></span>
+<span><a href="Classes/TExpander/_Body.htm">TExpander</a></span>
+<span><a href="Classes/TGaussianKernel/_Body.htm">TGaussianKernel</a></span>
+<span><a href="Classes/THammingKernel/_Body.htm">THammingKernel</a></span>
+<span><a href="Classes/THannKernel/_Body.htm">THannKernel</a></span>
+<span><a href="Classes/THermiteKernel/_Body.htm">THermiteKernel</a></span>
+<span><a href="Classes/TKernelResampler/_Body.htm">TKernelResampler</a></span>
+<span><a href="Classes/TKernelSampler/_Body.htm">TKernelSampler</a></span>
+<span><a href="Classes/TLanczosKernel/_Body.htm">TLanczosKernel</a></span>
+<span><a href="Classes/TLinearKernel/_Body.htm">TLinearKernel</a></span>
+<span><a href="Classes/TLinearResampler/_Body.htm">TLinearResampler</a></span>
+<span><a href="Classes/TMitchellKernel/_Body.htm">TMitchellKernel</a></span>
+<span><a href="Classes/TMorphologicalSampler/_Body.htm">TMorphologicalSampler</a></span>
+<span><a href="Classes/TNearestResampler/_Body.htm">TNearestResampler</a></span>
+<span><a href="Classes/TNearestTransformer/_Body.htm">TNearestTransformer</a></span>
+<span><a href="Classes/TNestedSampler/_Body.htm">TNestedSampler</a></span>
+<span><a href="Classes/TPatternSampler/_Body.htm">TPatternSampler</a></span>
+<span><a href="Classes/TSelectiveConvolver/_Body.htm">TSelectiveConvolver</a></span>
+<span><a href="Classes/TSinshKernel/_Body.htm">TSinshKernel</a></span>
+<span><a href="Classes/TSplineKernel/_Body.htm">TSplineKernel</a></span>
+<span><a href="Classes/TSuperSampler/_Body.htm">TSuperSampler</a></span>
+<span><a href="Classes/TTransformer/_Body.htm">TTransformer</a></span>
+<span><a href="Classes/TWindowedSincKernel/_Body.htm">TWindowedSincKernel</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Routines</b>
+      </div>
+      <div><span><a href="Routines/BlendTransfer.htm">BlendTransfer</a></span>
+<span><a href="Routines/BlockTransfer.htm">BlockTransfer</a></span>
+<span><a href="Routines/BlockTransferX.htm">BlockTransferX</a></span>
+<span><a href="Routines/Contract.htm">Contract</a></span>
+<span><a href="Routines/Dilate.htm">Dilate</a></span>
+<span><a href="Routines/Erode.htm">Erode</a></span>
+<span><a href="Routines/Expand.htm">Expand</a></span>
+<span><a href="Routines/StretchTransfer.htm">StretchTransfer</a></span>
+
+      </div><br>
+    </div>
+  </div>
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../Additional Topics/Sampling and Rasterization.htm">Sampling and Rasterization</a>, <a href="Classes/TKernelResampler/_Body.htm">TKernelResampler</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

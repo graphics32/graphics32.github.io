@@ -1,167 +1,131 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>TNestedSampler</title>
-
-  <link rel="STYLESHEET" href="../../../../../Styles/Default.css">
-
   <meta name="Ancestor" content="TCustomSampler">
-
-    
-  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>TNestedSampler</title><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32_Resamplers</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../_Body.htm">Index</a><a class="ancestor" href="../../_Body.htm">GR32_Resamplers</a><span class="active">TNestedSampler</span>
+  </div><br><br>
+
   <h1>TNestedSampler</h1>
-  <h2>Hierarchy</h2>
-  <p class="Hierarchy">TPersistent</p>
-  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
-  <p class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></p>
-  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
-  <p class="Hierarchy"><a href="../../../GR32/Classes/TCustomSampler/_Body.htm">TCustomSampler</a></p>
-
+  <h2>Ancestors</h2>
+  <div class="Hierarchy">TPersistent
+  </div>
+  <div class="Hierarchy">&nbsp;&nbsp;&nbsp;|
+  </div>
+  <div class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a>
+  </div>
+  <div class="Hierarchy">&nbsp;&nbsp;&nbsp;|
+  </div>
+  <div class="Hierarchy"><a href="../../../GR32/Classes/TCustomSampler/_Body.htm">TCustomSampler</a>
+  </div><br>
   <h2>Description</h2>
-
   <p class="Body"><span class="EmptyRef">TNestedSampler</span> is a base class for <em>chained</em> or <em>nested</em> samplers. Descendants of <a href="_Body.htm">TNestedSampler</a> should provide sampling methods that rely on the use of another sampler. This nested sampling mechanism can be used beneficially when implementing super samplers or samplers that transform coordinates or perform other intermediate sampling operations.</p>
-
   <p class="Body">See the topic about <a href="../../../../Additional%20Topics/Sampling%20and%20Rasterization.htm">Sampling and Rasterization</a> for additional information. </p>
-
-
   <h2 id="Auto-Reference">Reference</h2>
-  <table>
-    <tr>
-      <th>Methods</th>
-      <th>Properties</th>
-      <th>Events</th>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TNestedSampler:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Methods/Create.htm">Create</a>
-      </td>
-      <td><a href="Properties/Sampler.htm">Sampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TCustomSampler:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/FinalizeSampling.htm">FinalizeSampling</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/GetSample.htm">GetSample</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/GetSampleBounds.htm">GetSampleBounds</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/HasBounds.htm">HasBounds</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TCustomSampler/Methods/PrepareSampling.htm">PrepareSampling</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TNotifiablePersistent:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
-      </td>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
-      </td>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/Changed.htm">Changed</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/Destroy.htm">Destroy</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
+  <p>
+    <table class="autoTbl">
+      <tr>
+        <th>Methods</th>
+        <th>Properties</th>
+        <th style="width: 100%;">Events</th>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TNestedSampler:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="Methods/Create.htm">Create</a>
+        </td>
+        <td><a href="Properties/Sampler.htm">Sampler</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TCustomSampler:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TCustomSampler/Methods/FinalizeSampling.htm">FinalizeSampling</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TCustomSampler/Methods/GetSample.htm">GetSample</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TCustomSampler/Methods/GetSampleBounds.htm">GetSampleBounds</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TCustomSampler/Methods/HasBounds.htm">HasBounds</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TCustomSampler/Methods/PrepareSampling.htm">PrepareSampling</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TNotifiablePersistent:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
+        </td>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
+        </td>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/Changed.htm">Changed</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/Destroy.htm">Destroy</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></p>
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../../../Additional Topics/Sampling and Rasterization.htm">Sampling and Rasterization</a>, <a href="_Body.htm">TNestedSampler</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

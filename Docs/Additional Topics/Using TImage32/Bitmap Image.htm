@@ -1,64 +1,20 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-  
-
-  <title>Bitmap Image</title>
-  
-
-  <link rel="stylesheet" href="../../../Styles/Default.css" type="text/css">
-
-    
-  <script type="text/javascript" src="../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>Bitmap Image</title><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../Menu/menu.js"></script><script type="text/javascript" src="../../../CodeScripts/bootstrap.js"></script>
 </head>
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="_Body.htm" class="Banner">Using TImage32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../_Body.htm">Index</a><a class="ancestor" href="./_Body.htm">Using TImage32</a><span class="active">Bitmap Image</span>
+  </div><br><br>
+
   <h1>Bitmap Image</h1>
-
   <p class="Body">A bitmap image is represented with a <a href="../../Units/GR32/Classes/TBitmap32/_Body.htm">TBitmap32</a> object and is stored in the <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/Bitmap.htm">Bitmap</a> property. Its scale and location within the control is determined by the following properties:</p>
-
   <p class="Body"><a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/BitmapAlign.htm">BitmapAlign</a> &#151; specifies if the bitmap image is positioned at the top-left corner of the control (baTopLeft), centered (baCenter), tiled (baTile) or it its exact location is determined by <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/OffsetHorz.htm">OffsetHorz</a> and <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/OffsetVert.htm">OffsetVert</a> properties;</p>
-
   <p class="Body"><a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/ScaleMode.htm">ScaleMode</a> &#151; indicates if the bitmap image is displayed with its original size (smNormal), stretched to fit the control's boundaries (smStretch), proportionally resized to fit the control's boundaries(smResize) or proportionally scaled using its <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/Scale.htm">Scale</a> property (smScale).</p>
-
   <p class="Code"><img src="../../../Images/img_015.gif" width="397" height="301" vspace="8"></p>
-
   <p class="Body">The bitmap image is combined with the back-buffer according to its <a href="../../Units/GR32/Classes/TCustomBitmap32/Properties/DrawMode.htm">DrawMode</a> property. And the quality of its resampling is determined by the <a href="../../Units/GR32/Classes/TCustomBitmap32/Properties/StretchFilter.htm">StretchFilter</a> property. If its <a href="../../Units/GR32/Classes/TCustomBitmap32/Properties/DrawMode.htm">DrawMode</a> is dmCustom, the bitmap will fire a series of <a href="../../Units/GR32_Image/Classes/TCustomImage32/Events/OnPixelCombine.htm">OnPixelCombine</a> events.</p>
-
-
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../Examples.htm">Examples</a>, <a href="../../Units/GR32/Classes/TBitmap32/_Body.htm">TBitmap32</a>, <a href="../../Units/GR32/Classes/TCustomBitmap32/Properties/DrawMode.htm">TCustomBitmap32.DrawMode</a>, <a href="../../Units/GR32/Classes/TCustomBitmap32/Properties/StretchFilter.htm">TCustomBitmap32.StretchFilter</a>, <a href="../../Units/GR32/Types/TDrawMode.htm">TDrawMode</a>, <a href="../../Units/GR32/Types/TStretchFilter.htm">TStretchFilter</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Events/OnPixelCombine.htm">TCustomImage32.OnPixelCombine</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/Bitmap.htm">TCustomImage32.Bitmap</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/BitmapAlign.htm">TCustomImage32.BitmapAlign</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/OffsetHorz.htm">TCustomImage32.OffsetHorz</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/OffsetVert.htm">TCustomImage32.OffsetVert</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/Scale.htm">TCustomImage32.Scale</a>, <a href="../../Units/GR32_Image/Classes/TCustomImage32/Properties/ScaleMode.htm">TCustomImage32.ScaleMode</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

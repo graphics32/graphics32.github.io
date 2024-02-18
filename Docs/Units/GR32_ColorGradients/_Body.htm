@@ -1,306 +1,83 @@
 <html>
 
 <head>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>GR32_ColorGradients</title>
-
   <link rel="stylesheet" href="../../../styles/default.css" type="text/css">
 
-    
-  <script type="text/javascript" src="../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>GR32_ColorGradients</title><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../Menu/menu.js"></script><script type="text/javascript" src="../../../CodeScripts/bootstrap.js"></script>
 </head>
 
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
-  <h1>GR32_ColorGradients</h1>
-<b>Unit</b> GR32_ColorGradients
+  <div class="menu" id="menu"><a class="ancestor" href="../../_Body.htm">Index</a><span class="active">GR32_ColorGradients</span><a class="icon_container" id="icon_container" href="javascript:void(0)" onclick="hamburger()"><img id="menu_icon" src="../Menu/hamburger.svg"></a>
+  </div><br><br>
 
-  <p class="Body">The GR32_ColorGradients.pas unit contains various samplers and polygon filler for drawing color gradients of different shapes.</p>
+  <h1>GR32_ColorGradients</h1>
+
+  <p class="Body"> The GR32_ColorGradients unit contains various samplers and polygon filler for drawing color gradients of different shapes.</p>
 
   <h2 id="Auto-Contents">Contents</h2>
-  <table>
-    <tr>
-      <th>Types</th>
-      <th>Classes</th>
-      <th>Routines</th>
-    </tr>
-    <tr>
-      <td><a href="Types/TArrayOfColor32FloatPoint.htm">TArrayOfColor32FloatPoint</a>
-      </td>
-      <td><a href="Classes/TBarycentricGradientPolygonFiller/_Body.htm">TBarycentricGradientPolygonFiller</a>
-      </td>
-      <td><a href="Routines/Color32FloatPoint.htm">Color32FloatPoint</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TArrayOfColor32GradientStop.htm">TArrayOfColor32GradientStop</a>
-      </td>
-      <td><a href="Classes/TBarycentricGradientSampler/_Body.htm">TBarycentricGradientSampler</a>
-      </td>
-      <td><a href="Routines/Color32GradientStop.htm">Color32GradientStop</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TColor32FloatPoint.htm">TColor32FloatPoint</a>
-      </td>
-      <td><a href="Classes/TBilinearGradientSampler/_Body.htm">TBilinearGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TColor32GradientStop.htm">TColor32GradientStop</a>
-      </td>
-      <td><a href="Classes/TColor32Gradient/_Body.htm">TColor32Gradient</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TColor32LookupTable/_Body.htm">TColor32LookupTable</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TConicGradientSampler/_Body.htm">TConicGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomArbitrarySparsePointGradientPolygonFiller/_Body.htm">TCustomArbitrarySparsePointGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomArbitrarySparsePointGradientSampler/_Body.htm">TCustomArbitrarySparsePointGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomCenterLutGradientSampler/_Body.htm">TCustomCenterLutGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomCenterRadiusAngleLutGradientSampler/_Body.htm">TCustomCenterRadiusAngleLutGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomCenterRadiusLutGradientSampler/_Body.htm">TCustomCenterRadiusLutGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomGradientLookupTablePolygonFiller/_Body.htm">TCustomGradientLookupTablePolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomGradientLookUpTableSampler/_Body.htm">TCustomGradientLookUpTableSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomGradientPolygonFiller/_Body.htm">TCustomGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomGradientSampler/_Body.htm">TCustomGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomLinearGradientPolygonFiller/_Body.htm">TCustomLinearGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomRadialGradientPolygonFiller/_Body.htm">TCustomRadialGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomSparsePointGradientPolygonFiller/_Body.htm">TCustomSparsePointGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TCustomSparsePointGradientSampler/_Body.htm">TCustomSparsePointGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TDiamondGradientSampler/_Body.htm">TDiamondGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TGourandShadedDelaunayTrianglesPolygonFiller/_Body.htm">TGourandShadedDelaunayTrianglesPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TGourandShadedDelaunayTrianglesSampler/_Body.htm">TGourandShadedDelaunayTrianglesSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TInvertedDistanceWeightingSampler/_Body.htm">TInvertedDistanceWeightingSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TLinearGradientPolygonFiller/_Body.htm">TLinearGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TRadialGradientPolygonFiller/_Body.htm">TRadialGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TRadialGradientSampler/_Body.htm">TRadialGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TSVGRadialGradientPolygonFiller/_Body.htm">TSVGRadialGradientPolygonFiller</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TVoronoiSampler/_Body.htm">TVoronoiSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TXGradientSampler/_Body.htm">TXGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TXYGradientSampler/_Body.htm">TXYGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Classes/TXYSqrtGradientSampler/_Body.htm">TXYSqrtGradientSampler</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Types</b>
+      </div>
+      <div><span><a href="Types/TArrayOfColor32FloatPoint.htm">TArrayOfColor32FloatPoint</a></span>
+<span><a href="Types/TArrayOfColor32GradientStop.htm">TArrayOfColor32GradientStop</a></span>
+<span><a href="Types/TColor32FloatPoint.htm">TColor32FloatPoint</a></span>
+<span><a href="Types/TColor32GradientStop.htm">TColor32GradientStop</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Classes</b>
+      </div>
+      <div><span><a href="Classes/TBarycentricGradientPolygonFiller/_Body.htm">TBarycentricGradientPolygonFiller</a></span>
+<span><a href="Classes/TBarycentricGradientSampler/_Body.htm">TBarycentricGradientSampler</a></span>
+<span><a href="Classes/TBilinearGradientSampler/_Body.htm">TBilinearGradientSampler</a></span>
+<span><a href="Classes/TColor32Gradient/_Body.htm">TColor32Gradient</a></span>
+<span><a href="Classes/TColor32LookupTable/_Body.htm">TColor32LookupTable</a></span>
+<span><a href="Classes/TConicGradientSampler/_Body.htm">TConicGradientSampler</a></span>
+<span><a href="Classes/TCustomArbitrarySparsePointGradientPolygonFiller/_Body.htm">TCustomArbitrarySparsePointGradientPolygonFiller</a></span>
+<span><a href="Classes/TCustomArbitrarySparsePointGradientSampler/_Body.htm">TCustomArbitrarySparsePointGradientSampler</a></span>
+<span><a href="Classes/TCustomCenterLutGradientSampler/_Body.htm">TCustomCenterLutGradientSampler</a></span>
+<span><a href="Classes/TCustomCenterRadiusAngleLutGradientSampler/_Body.htm">TCustomCenterRadiusAngleLutGradientSampler</a></span>
+<span><a href="Classes/TCustomCenterRadiusLutGradientSampler/_Body.htm">TCustomCenterRadiusLutGradientSampler</a></span>
+<span><a href="Classes/TCustomGradientLookupTablePolygonFiller/_Body.htm">TCustomGradientLookupTablePolygonFiller</a></span>
+<span><a href="Classes/TCustomGradientLookUpTableSampler/_Body.htm">TCustomGradientLookUpTableSampler</a></span>
+<span><a href="Classes/TCustomGradientPolygonFiller/_Body.htm">TCustomGradientPolygonFiller</a></span>
+<span><a href="Classes/TCustomGradientSampler/_Body.htm">TCustomGradientSampler</a></span>
+<span><a href="Classes/TCustomLinearGradientPolygonFiller/_Body.htm">TCustomLinearGradientPolygonFiller</a></span>
+<span><a href="Classes/TCustomRadialGradientPolygonFiller/_Body.htm">TCustomRadialGradientPolygonFiller</a></span>
+<span><a href="Classes/TCustomSparsePointGradientPolygonFiller/_Body.htm">TCustomSparsePointGradientPolygonFiller</a></span>
+<span><a href="Classes/TCustomSparsePointGradientSampler/_Body.htm">TCustomSparsePointGradientSampler</a></span>
+<span><a href="Classes/TDiamondGradientSampler/_Body.htm">TDiamondGradientSampler</a></span>
+<span><a href="Classes/TGourandShadedDelaunayTrianglesPolygonFiller/_Body.htm">TGourandShadedDelaunayTrianglesPolygonFiller</a></span>
+<span><a href="Classes/TGourandShadedDelaunayTrianglesSampler/_Body.htm">TGourandShadedDelaunayTrianglesSampler</a></span>
+<span><a href="Classes/TInvertedDistanceWeightingSampler/_Body.htm">TInvertedDistanceWeightingSampler</a></span>
+<span><a href="Classes/TLinearGradientPolygonFiller/_Body.htm">TLinearGradientPolygonFiller</a></span>
+<span><a href="Classes/TRadialGradientPolygonFiller/_Body.htm">TRadialGradientPolygonFiller</a></span>
+<span><a href="Classes/TRadialGradientSampler/_Body.htm">TRadialGradientSampler</a></span>
+<span><a href="Classes/TSVGRadialGradientPolygonFiller/_Body.htm">TSVGRadialGradientPolygonFiller</a></span>
+<span><a href="Classes/TVoronoiSampler/_Body.htm">TVoronoiSampler</a></span>
+<span><a href="Classes/TXGradientSampler/_Body.htm">TXGradientSampler</a></span>
+<span><a href="Classes/TXYGradientSampler/_Body.htm">TXYGradientSampler</a></span>
+<span><a href="Classes/TXYSqrtGradientSampler/_Body.htm">TXYSqrtGradientSampler</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Routines</b>
+      </div>
+      <div><span><a href="Routines/Color32FloatPoint.htm">Color32FloatPoint</a></span>
+<span><a href="Routines/Color32GradientStop.htm">Color32GradientStop</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
+
 </body>
 
 </html>

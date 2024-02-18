@@ -1,61 +1,19 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>TVectorCombineEvent</title>
-
-  <link rel="stylesheet" href="../../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>TVectorCombineEvent</title><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../Images/_Unit.gif" align="absmiddle">GR32_VectorMaps</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../_Body.htm">Index</a><a class="ancestor" href="../_Body.htm">GR32_VectorMaps</a><span class="active">TVectorCombineEvent</span>
+  </div><br><br>
+
   <h1>TVectorCombineEvent</h1>
-
   <p class="Decl"><b>type</b> TVectorCombineEvent = <strong>procedure</strong> (F, P: <a href="Vector%20Types.htm">TFixedVector</a>; <strong>var</strong> B: <a href="Vector%20Types.htm">TFixedVector</a>) <strong>of</strong> <strong>object</strong>;</p>
-
   <h2>Desctiption</h2>
-		
   <p class="Body"><span class="EmptyRef">TVectorCombineEvent</span> is a type for <a href="../Classes/TVectorMap/Events/OnVectorCombine.htm">OnVectorCombine</a> callback function, used in <a href="../Classes/TVectorMap/Methods/Merge.htm">Merge</a>, when <a href="../Classes/TVectorMap/Properties/VectorCombineMode.htm">VectorCombineMode</a> is vcmCustom. It specifies a function which takes foreground vector (<span class="EmptyRef">F</span>) and mixes it with the background vector (<span class="EmptyRef">B</span>). </p>
-		
   <p class="Body">This function may optionally use progresson vector (<span class="EmptyRef">P</span>). The progression vector will by the merge routine be specified in the range X,Y: [-FIXEDONE..FIXEDONE], regardless of the specified source rect in <a href="../Classes/TVectorMap/Methods/Merge.htm">Merge</a>. This enables in-place masking of the vector map to be merged.</p>
-		
-	
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../Classes/TVectorMap/Events/OnVectorCombine.htm">TVectorMap.OnVectorCombine</a>, <a href="../Classes/TVectorMap/Methods/Merge.htm">TVectorMap.Merge</a>, <a href="../Classes/TVectorMap/Properties/VectorCombineMode.htm">TVectorMap.VectorCombineMode</a>, <a href="Vector Types.htm">Vector Types</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

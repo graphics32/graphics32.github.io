@@ -1,79 +1,27 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>LineTo</title>
-
-  <link rel="stylesheet" href="../../../../../../Styles/Default.css" type="text/css">
-
-    
-  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>LineTo</title><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TCustomBitmap32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../../_Body.htm">Index</a><a class="ancestor" href="../../../_Body.htm">GR32</a><a class="ancestor" href="../_Body.htm">TCustomBitmap32</a><span class="active">LineTo</span>
+  </div><br><br>
+
   <h1>TCustomBitmap32.LineTo</h1>
-
   <p class="Decl"><b>procedure</b> LineToS(X, Y: Integer);</p>
-
   <p class="Decl"><b>procedure</b> LineToTS(X, Y: Integer);</p>
-
   <p class="Decl"><b>procedure</b> LineToAS(X, Y: Integer);</p>
-
   <p class="Decl"><b>procedure</b> LineToXS(X, Y: <a href="../../../Types/TFixed.htm">TFixed</a>);</p>
-
   <p class="Decl"><b>procedure</b> LineToFS(X, Y: Single);</p>
-
   <p class="Decl"><b>procedure</b> LineToXSP(X, Y: <a href="../../../Types/TFixed.htm">TFixed</a>);</p>
-
   <p class="Decl"><b>procedure</b> LineToFSP(X, Y: Single);</p>
-
   <h2>Description</h2>
-
   <p class="Body"><span class="EmptyRef">LineTo*</span> methods are similar to <span class="API">TCanvas.LineTo</span>. The line is drawn from the current raster position, to the position specified by <span class="EmptyRef">X</span> and <span class="EmptyRef">Y</span> parameters excluding the last point. Then raster position is shifted to (<span class="EmptyRef">X</span>, <span class="EmptyRef">Y</span>) point. </p>
-
   <p class="Body">The line is drawn with the color specified in <a href="../Properties/PenColor.htm">PenColor</a> property. 'S', 'TS', and 'AS' versions use and update integer integer raster position, while 'FS' and 'XS' versions use and update independent fixed-point raster position. </p>
-
   <p class="Body"><span class="EmptyRef">LineToXSP</span> and <span class="EmptyRef">LineToFSP</span> do not use <a href="../Properties/PenColor.htm">PenColor</a>, instead, they draw a line using currend stipple pattern.</p>
-
   <p class="Body">To start a new line or sequence of lines, use <a href="MoveTo.htm">MoveTo</a> methods.</p>
-
-
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../../../../Additional Topics/Line Patterns.htm">Line Patterns</a>, <a href="../../../../../Overview/Naming Conventions.htm">Naming Conventions</a>, <a href="Line.htm">Line</a>, <a href="MoveTo.htm">MoveTo</a>, <a href="../Properties/PenColor.htm">PenColor</a>, <a href="../../../Types/TFixed.htm">TFixed</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

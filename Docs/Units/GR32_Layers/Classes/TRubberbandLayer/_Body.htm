@@ -1,297 +1,252 @@
 <html>
- 
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>TRubberbandLayer</title>
-
-  <link rel="stylesheet" href="../../../../../Styles/Default.css">
-
   <meta name="Ancestor" content="TPositionedLayer">
-
-    
-  <script type="text/javascript" src="../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>TRubberbandLayer</title><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../_Body.htm" class="Banner"><img src="../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../../../Images/_Unit.gif" align="absmiddle">GR32_Layers</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../_Body.htm">Index</a><a class="ancestor" href="../../_Body.htm">GR32_Layers</a><span class="active">TRubberbandLayer</span>
+  </div><br><br>
+
   <h1>TRubberbandLayer</h1>
-  <h2>Hierarchy</h2>
-  <p class="Hierarchy">TPersistent</p>
-  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
-  <p class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a></p>
-  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
-  <p class="Hierarchy"><a href="../TCustomLayer/_Body.htm">TCustomLayer</a></p>
-  <p class="Hierarchy">&nbsp;&nbsp;&nbsp;|</p>
-  <p class="Hierarchy"><a href="../TPositionedLayer/_Body.htm">TPositionedLayer</a></p>
-
+  <h2>Ancestors</h2>
+  <div class="Hierarchy">TPersistent
+  </div>
+  <div class="Hierarchy">&nbsp;&nbsp;&nbsp;|
+  </div>
+  <div class="Hierarchy"><a href="../../../GR32/Classes/TNotifiablePersistent/_Body.htm">TNotifiablePersistent</a>
+  </div>
+  <div class="Hierarchy">&nbsp;&nbsp;&nbsp;|
+  </div>
+  <div class="Hierarchy"><a href="../TCustomLayer/_Body.htm">TCustomLayer</a>
+  </div>
+  <div class="Hierarchy">&nbsp;&nbsp;&nbsp;|
+  </div>
+  <div class="Hierarchy"><a href="../TPositionedLayer/_Body.htm">TPositionedLayer</a>
+  </div><br>
   <h2>Description</h2>
-
   <p class="Body">This class implements a rubber band, allowing to move and resize other positioned layers at run-time. The layer paints itself at <a href="../../../../Additional%20Topics/Using%20TImage32/Paint%20Stages.htm#GDI%20Overlays">GDI Overlays</a> stage, using the standard GDI methods.</p>
-
   <p class="Body">It is a good idea to keep <span class="EmptyRef">TRubberbandLayer</span> on top of other layers so that they don't intercept mouse messages.</p>
-
   <p class="Body"><font color="#CC0000">Note, that this is a preliminary implementation of rubber banding, there is a lot to be done here to make its behavior more consistent, which will be done in future versions of the library. However, most likely I will keep names and general meaning of most properties and methods.</font></p>
-
-
   <h2 id="Auto-Reference">Reference</h2>
-  <table>
-    <tr>
-      <th>Methods</th>
-      <th>Properties</th>
-      <th>Events</th>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TRubberbandLayer:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Methods/Create.htm">Create</a>
-      </td>
-      <td><a href="Properties/ChildLayer.htm">ChildLayer</a>
-      </td>
-      <td><a href="Events/OnConstrain.htm">OnConstrain</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Methods/Destroy.htm">Destroy</a>
-      </td>
-      <td><a href="Properties/FrameStippleCounter.htm">FrameStippleCounter</a>
-      </td>
-      <td><a href="Events/OnResizing.htm">OnResizing</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Methods/SetFrameStipple.htm">SetFrameStipple</a>
-      </td>
-      <td><a href="Properties/FrameStippleStep.htm">FrameStippleStep</a>
-      </td>
-      <td><a href="Events/OnUserChange.htm">OnUserChange</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/HandleFill.htm">HandleFill</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/HandleFrame.htm">HandleFrame</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/Handles.htm">Handles</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/HandleSize.htm">HandleSize</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/MaxHeight.htm">MaxHeight</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/MaxWidth.htm">MaxWidth</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/MinHeight.htm">MinHeight</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/MinWidth.htm">MinWidth</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Properties/Options.htm">Options</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TPositionedLayer:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TPositionedLayer/Methods/GetAdjustedLocation.htm">GetAdjustedLocation</a>
-      </td>
-      <td><a href="../TPositionedLayer/Properties/Location.htm~">Location</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TPositionedLayer/Methods/GetAdjustedRect.htm">GetAdjustedRect</a>
-      </td>
-      <td><a href="../TPositionedLayer/Properties/Location.htm">Location</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="../TPositionedLayer/Properties/Scaled.htm">Scaled</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TCustomLayer:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TCustomLayer/Methods/BringToFront.htm">BringToFront</a>
-      </td>
-      <td><a href="../TCustomLayer/Properties/Cursor.htm">Cursor</a>
-      </td>
-      <td><a href="../TCustomLayer/Events/OnHitTest.htm">OnHitTest</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TCustomLayer/Methods/Changed.htm">Changed</a>
-      </td>
-      <td><a href="../TCustomLayer/Properties/Index.htm">Index</a>
-      </td>
-      <td><a href="../TCustomLayer/Events/OnMouseDown.htm">OnMouseDown</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TCustomLayer/Methods/HitTest.htm">HitTest</a>
-      </td>
-      <td><a href="../TCustomLayer/Properties/LayerCollection.htm">LayerCollection</a>
-      </td>
-      <td><a href="../TCustomLayer/Events/OnMouseMove.htm">OnMouseMove</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TCustomLayer/Methods/SendToBack.htm">SendToBack</a>
-      </td>
-      <td><a href="../TCustomLayer/Properties/LayerOptions.htm">LayerOptions</a>
-      </td>
-      <td><a href="../TCustomLayer/Events/OnMouseUp.htm">OnMouseUp</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../TCustomLayer/Methods/Update.htm">Update</a>
-      </td>
-      <td><a href="../TCustomLayer/Properties/LayerStates.htm">LayerStates</a>
-      </td>
-      <td><a href="../TCustomLayer/Events/OnPaint.htm">OnPaint</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="../TCustomLayer/Properties/MouseEvents.htm">MouseEvents</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="../TCustomLayer/Properties/Tag.htm">Tag</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="../TCustomLayer/Properties/Visible.htm">Visible</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="White">In TNotifiablePersistent:
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
-      </td>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
-      </td>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
+  <p>
+    <table class="autoTbl">
+      <tr>
+        <th>Methods</th>
+        <th>Properties</th>
+        <th style="width: 100%;">Events</th>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TRubberbandLayer:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="Methods/Create.htm">Create</a>
+        </td>
+        <td><a href="Properties/ChildLayer.htm">ChildLayer</a>
+        </td>
+        <td><a href="Events/OnConstrain.htm">OnConstrain</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="Methods/Destroy.htm">Destroy</a>
+        </td>
+        <td><a href="Properties/FrameStippleCounter.htm">FrameStippleCounter</a>
+        </td>
+        <td><a href="Events/OnResizing.htm">OnResizing</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="Methods/SetFrameStipple.htm">SetFrameStipple</a>
+        </td>
+        <td><a href="Properties/FrameStippleStep.htm">FrameStippleStep</a>
+        </td>
+        <td><a href="Events/OnUserChange.htm">OnUserChange</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/HandleFill.htm">HandleFill</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/HandleFrame.htm">HandleFrame</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/Handles.htm">Handles</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/HandleSize.htm">HandleSize</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/MaxHeight.htm">MaxHeight</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/MaxWidth.htm">MaxWidth</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/MinHeight.htm">MinHeight</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/MinWidth.htm">MinWidth</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="Properties/Options.htm">Options</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TPositionedLayer:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TPositionedLayer/Methods/GetAdjustedLocation.htm">GetAdjustedLocation</a>
+        </td>
+        <td><a href="../TPositionedLayer/Properties/Location.htm">Location</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TPositionedLayer/Methods/GetAdjustedRect.htm">GetAdjustedRect</a>
+        </td>
+        <td><a href="../TPositionedLayer/Properties/Scaled.htm">Scaled</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TCustomLayer:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TCustomLayer/Methods/BringToFront.htm">BringToFront</a>
+        </td>
+        <td><a href="../TCustomLayer/Properties/Cursor.htm">Cursor</a>
+        </td>
+        <td><a href="../TCustomLayer/Events/OnHitTest.htm">OnHitTest</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TCustomLayer/Methods/Changed.htm">Changed</a>
+        </td>
+        <td><a href="../TCustomLayer/Properties/Index.htm">Index</a>
+        </td>
+        <td><a href="../TCustomLayer/Events/OnMouseDown.htm">OnMouseDown</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TCustomLayer/Methods/HitTest.htm">HitTest</a>
+        </td>
+        <td><a href="../TCustomLayer/Properties/LayerCollection.htm">LayerCollection</a>
+        </td>
+        <td><a href="../TCustomLayer/Events/OnMouseMove.htm">OnMouseMove</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TCustomLayer/Methods/SendToBack.htm">SendToBack</a>
+        </td>
+        <td><a href="../TCustomLayer/Properties/LayerOptions.htm">LayerOptions</a>
+        </td>
+        <td><a href="../TCustomLayer/Events/OnMouseUp.htm">OnMouseUp</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../TCustomLayer/Methods/Update.htm">Update</a>
+        </td>
+        <td><a href="../TCustomLayer/Properties/LayerStates.htm">LayerStates</a>
+        </td>
+        <td><a href="../TCustomLayer/Events/OnPaint.htm">OnPaint</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="../TCustomLayer/Properties/MouseEvents.htm">MouseEvents</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="../TCustomLayer/Properties/Tag.htm">Tag</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td><a href="../TCustomLayer/Properties/Visible.htm">Visible</a>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="ancestor">In TNotifiablePersistent:
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/BeginUpdate.htm">BeginUpdate</a>
+        </td>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Properties/UpdateCount.htm">UpdateCount</a>
+        </td>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Events/OnChange.htm">OnChange</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="../../../GR32/Classes/TNotifiablePersistent/Methods/EndUpdate.htm">EndUpdate</a>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></p>
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../../../Additional Topics/Using TImage32/Paint Stages.htm">Paint Stages</a>, <a href="../../../../Additional Topics/Using TImage32/Using Layers.htm">Using Layers</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
+
 </body>
-
-
 </html>

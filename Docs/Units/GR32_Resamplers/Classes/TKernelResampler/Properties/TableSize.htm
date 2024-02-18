@@ -1,68 +1,22 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>TableSize</title>
-
-  <link rel="stylesheet" href="../../../../../../Styles/Default.css" type="text/css">
-
-    
-  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>TableSize</title><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32_Resamplers</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TKernelResampler</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../../_Body.htm">Index</a><a class="ancestor" href="../../../_Body.htm">GR32_Resamplers</a><a class="ancestor" href="../_Body.htm">TKernelResampler</a><span class="active">TableSize</span>
+  </div><br><br>
+
   <h1>TKernelResampler.TableSize</h1>
-
   <p class="Decl"><b>property</b> TableSize: Integer;</p>
-
   <h2>Description</h2>
-		
   <p class="Body"><span class="EmptyRef">TableSize</span> determines the size of the table used in <a href="../Methods/GetSample.htm">GetSample</a> for kmTableNearest and kmTableLinear <a href="../../../Types/TKernelMode.htm">kernel modes</a>. </p>
-		
   <p class="Body">For kmTableNearest the weightcurve of the kernels is quantized in proportional to the tablesize. Perceptually the side effect of the table nearest approach, becomes visible as the tablesize decreases. With a table size of 2, the actual result becomes similar to using the <a href="../../TBoxKernel/_Body.htm">box kernel</a>.</p>
-		
   <p class="Body">For kmTableLinear the weightcurve of the kernels is approximized via linear interpolation between the quantized values in the table. Perceptually the side effect of the table linear approach, becomes visible as the table size decreases. With a table size of 2, the actual result becomes similar to using the <a href="../../TLinearKernel/_Body.htm">linear kernel</a>.</p>
-		
   <p class="Body">
   </p>
-		
-	
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../../TBoxKernel/_Body.htm">TBoxKernel</a>, <a href="../Methods/GetSample.htm">GetSample</a>, <a href="../../TLinearKernel/_Body.htm">TLinearKernel</a>, <a href="../../../Types/TKernelMode.htm">TKernelMode</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

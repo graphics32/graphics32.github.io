@@ -1,68 +1,22 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-
-  <title>BufferValid</title>
-
-  <link rel="stylesheet" href="../../../../../../Styles/Default.css" type="text/css">
-
-    
-  <script type="text/javascript" src="../../../../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>BufferValid</title><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../../../../Menu/menu.js"></script><script type="text/javascript" src="../../../../../../CodeScripts/bootstrap.js"></script>
 </head>
-
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../../../_Body.htm" class="Banner"><img src="../../../../../../Images/_Unit.gif" align="absmiddle">GR32_Image</a>
-      </td>
-      <td class="Banner" nowrap=""><a href="../_Body.htm" class="Banner"><img src="../../../../../../Images/_Class.gif" align="absmiddle">TCustomPaintBox32</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../../../../_Body.htm">Index</a><a class="ancestor" href="../../../_Body.htm">GR32_Image</a><a class="ancestor" href="../_Body.htm">TCustomPaintBox32</a><span class="active">BufferValid</span>
+  </div><br><br>
+
   <h1>TCustomPaintBox32.BufferValid</h1>
-
   <p class="Decl"><b>property</b> BufferValid: Boolean; <span class="Comment">// protected</span></p>
-
   <h2>Description</h2>
-
   <p class="Body"><span class="EmptyRef">BufferValid</span> specifies if the current content of the <a href="Buffer.htm">Buffer</a> bitmap is up-to-date and whether the buffer needs to be repainted.</p>
-
   <p class="Body">When <a href="../_Body.htm">TCustomPaintBox32</a> repaints itself, it checks whether the buffer is valid. If <span class="EmptyRef">BufferValid</span> is <i>True</i>, the control simply flushes its contents to the screen, otherwise, it executes <a href="../Methods/DoPaintBuffer.htm">DoPaintBuffer</a> method, which updates the buffer and sets <span class="EmptyRef">BufferValid</span> to <i>True</i>, then it copies content of the buffer to the screen.</p>
-
   <p class="Body">Normally, this property should not be accessed in your application, since <a href="../_Body.htm">TCustomPaintBox32</a> tracks the buffer state and updates it automatically.</p>
-
   <p class="Body">
   </p>
-
-
   <h2 id="Auto-SeeAlso">See Also</h2>
   <p class="Body"><a href="../_Body.htm">TCustomPaintBox32</a>, <a href="../Methods/DoPaintBuffer.htm">DoPaintBuffer</a>, <a href="Buffer.htm">Buffer</a></p>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
 
+</body>
 </html>

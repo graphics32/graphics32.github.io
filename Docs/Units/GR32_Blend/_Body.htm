@@ -1,210 +1,67 @@
 <html>
-
 <head>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shCore.js">
-  </script>
-    
-  <script type="text/javascript" src="../../../Scripts/SyntaxHighlighter/scripts/shBrushDelphi.js">
-  </script>
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shCore.css">
-    
-  <link type="text/css" rel="stylesheet" href="../../../Scripts/SyntaxHighlighter/styles/shThemeDefault.css">
-  
-  
-
-  <title>GR32_Blend</title>
-  
-  <link rel="stylesheet" href="../../../Styles/Default.css">
-
-    
-  <script type="text/javascript" src="../../../Scripts/bootstrap.js">
-  </script>
-  
+  <title>GR32_Blend</title><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shCore.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushDelphi.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCpp.js"></script><script type="text/javascript" src="../../../CodeScripts/SyntaxHighlighter/scripts/shBrushCSharp.js"></script><link rel="stylesheet" type="text/css" href="../../../Styles/default.css"/><link rel="stylesheet" type="text/css" href="../../../Menu/menu.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shCoreDefault.css"/><link rel="stylesheet" type="text/css" href="../../../CodeScripts/SyntaxHighlighter/styles/shThemeDefault.css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="../../../Menu/menu.js"></script><script type="text/javascript" src="../../../CodeScripts/bootstrap.js"></script>
 </head>
-
 <body bgcolor="#FFFFFF">
-    
-  <!-- THIS FILE HAS BEEN AUTOMATICALLY PROCESSED FROM A SOURCE COPY -->
-    
-  <!-- DO NOT EDIT MANUALLY !!! -->
-  
-  <table class="Banner" cellspacing="0" cellpadding="0" border="1" bordercolorlight="#303080" bordercolordark="#7070B0">
-    <tr>
-      <td class="Banner" nowrap=""><a href="../../_Body.htm" class="Banner"><img src="../../../Images/_Home.gif" align="absmiddle">Home</a>
-      </td>
-      <td class="Banner" width="100%" align="right"><img src="../../../Images/_Project_Logo.gif" align="absmiddle">
-      </td>
-    </tr>
-  </table>
+  <div class="menu" id="menu"><a class="ancestor" href="../../_Body.htm">Index</a><span class="active">GR32_Blend</span><a class="icon_container" id="icon_container" href="javascript:void(0)" onclick="hamburger()"><img id="menu_icon" src="../Menu/hamburger.svg"></a>
+  </div><br><br>
+
   <h1>GR32_Blend</h1>
-
   <p class="Body">GR32_Blend.pas includes low-level functions, mostly blending of pixels. The library automatically determines whether the CPU supports MMX instructions, and uses MMX optimized routines when it is possible.</p>
-
   <h2 id="Auto-Contents">Contents</h2>
-  <table>
-    <tr>
-      <th>Types</th>
-      <th>Routines</th>
-      <th>Variables</th>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendLine.htm">TBlendLine</a>
-      </td>
-      <td><a href="Routines/Blend.htm">Blend</a>
-      </td>
-      <td><a href="Variables/MMX_ACTIVE.htm">MMX_ACTIVE</a>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendLineEx.htm">TBlendLineEx</a>
-      </td>
-      <td><a href="Routines/BlendEx.htm">BlendEx</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendMem.htm">TBlendMem</a>
-      </td>
-      <td><a href="Routines/BlendLine.htm">BlendLine</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendMemEx.htm">TBlendMemEx</a>
-      </td>
-      <td><a href="Routines/BlendLineEx.htm">BlendLineEx</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendReg.htm">TBlendReg</a>
-      </td>
-      <td><a href="Routines/ColorAdd.htm">ColorAdd</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TBlendRegEx.htm">TBlendRegEx</a>
-      </td>
-      <td><a href="Routines/ColorAverage.htm">ColorAverage</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TCombineMem.htm">TCombineMem</a>
-      </td>
-      <td><a href="Routines/ColorDifference.htm">ColorDifference</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="Types/TCombineReg.htm">TCombineReg</a>
-      </td>
-      <td><a href="Routines/ColorDiv.htm">ColorDiv</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorExclusion.htm">ColorExclusion</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorMax.htm">ColorMax</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorMin.htm">ColorMin</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorModulate.htm">ColorModulate</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorScale.htm">ColorScale</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/ColorSub.htm">ColorSub</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/Combine.htm">Combine</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/EMMS.htm">EMMS</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/Lighten.htm">Lighten</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/Merge.htm">Merge</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-      <td><a href="Routines/MergeEx.htm">MergeEx</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </table>
-    
-  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2016 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 HEAD &nbsp; - &nbsp; Built on 11-November-2019 <br><br> </p>
-  
-</body>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Types</b>
+      </div>
+      <div><span><a href="Types/TBlendLine.htm">TBlendLine</a></span>
+<span><a href="Types/TBlendLineEx.htm">TBlendLineEx</a></span>
+<span><a href="Types/TBlendMem.htm">TBlendMem</a></span>
+<span><a href="Types/TBlendMemEx.htm">TBlendMemEx</a></span>
+<span><a href="Types/TBlendReg.htm">TBlendReg</a></span>
+<span><a href="Types/TBlendRegEx.htm">TBlendRegEx</a></span>
+<span><a href="Types/TCombineMem.htm">TCombineMem</a></span>
+<span><a href="Types/TCombineReg.htm">TCombineReg</a></span>
 
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Routines</b>
+      </div>
+      <div><span><a href="Routines/Blend.htm">Blend</a></span>
+<span><a href="Routines/BlendEx.htm">BlendEx</a></span>
+<span><a href="Routines/BlendLine.htm">BlendLine</a></span>
+<span><a href="Routines/BlendLineEx.htm">BlendLineEx</a></span>
+<span><a href="Routines/ColorAdd.htm">ColorAdd</a></span>
+<span><a href="Routines/ColorAverage.htm">ColorAverage</a></span>
+<span><a href="Routines/ColorDifference.htm">ColorDifference</a></span>
+<span><a href="Routines/ColorDiv.htm">ColorDiv</a></span>
+<span><a href="Routines/ColorExclusion.htm">ColorExclusion</a></span>
+<span><a href="Routines/ColorMax.htm">ColorMax</a></span>
+<span><a href="Routines/ColorMin.htm">ColorMin</a></span>
+<span><a href="Routines/ColorModulate.htm">ColorModulate</a></span>
+<span><a href="Routines/ColorScale.htm">ColorScale</a></span>
+<span><a href="Routines/ColorSub.htm">ColorSub</a></span>
+<span><a href="Routines/Combine.htm">Combine</a></span>
+<span><a href="Routines/EMMS.htm">EMMS</a></span>
+<span><a href="Routines/Lighten.htm">Lighten</a></span>
+<span><a href="Routines/Merge.htm">Merge</a></span>
+<span><a href="Routines/MergeEx.htm">MergeEx</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <div class="autoTblContainer">
+    <div class="autoTbl">
+      <div><b>Variables</b>
+      </div>
+      <div><span><a href="Variables/MMX_ACTIVE.htm">MMX_ACTIVE</a></span>
+
+      </div><br>
+    </div>
+  </div>
+  <p class="Copyright" id="auto"> <br><br> Copyright &copy;2000-2024 Alex Denisov and the Graphics32 Team &nbsp; - &nbsp; Graphics32 2.0 &nbsp; - &nbsp; Help file built on 18 Feb 2024 <br><br> </p>
+
+</body>
 </html>
