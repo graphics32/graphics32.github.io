@@ -28954,20 +28954,20 @@
       "isAbstract": false,
       "link": "/api/GR32_Polygons/UnregisterPolygonRenderer"
     },
-    "/api/GR32_Polygons/CoverageBuilderVariables": {
+    "/api/GR32_Polygons/Coverage Builder Delegates": {
       "unit": "GR32_Polygons",
       "parent": "",
-      "entity": "MakeAlphaEvenOddUP",
-      "name": "CoverageBuilderVariables",
+      "entity": "MakeAlpha",
+      "name": "Coverage Builder Delegates",
       "kind": "Variable",
       "category": "Variables",
       "scope": "Public",
       "summary": "Global function pointers for scanline alpha coverage builder procedures.",
-      "declaration": "var MakeAlphaEvenOddUP: TFillProc;\\nvar MakeAlphaNonZeroUP: TFillProc;\\nvar MakeAlphaEvenOddUPF: TFillProc;\\nvar MakeAlphaNonZeroUPF: TFillProc;",
+      "declaration": "|",
       "isVirtual": false,
       "isProtected": false,
       "isAbstract": false,
-      "link": "/api/GR32_Polygons/CoverageBuilderVariables"
+      "link": "/api/GR32_Polygons/Coverage Builder Delegates"
     },
     "/api/GR32_Polygons/CustomPolygonRendererList": {
       "unit": "GR32_Polygons",
@@ -99631,17 +99631,17 @@
         {
           "unit": "GR32_Polygons",
           "parent": "",
-          "entity": "MakeAlphaEvenOddUP",
-          "name": "CoverageBuilderVariables",
+          "entity": "MakeAlpha",
+          "name": "Coverage Builder Delegates",
           "kind": "Variable",
           "category": "Variables",
           "scope": "Public",
           "summary": "Global function pointers for scanline alpha coverage builder procedures.",
-          "declaration": "var MakeAlphaEvenOddUP: TFillProc;\\nvar MakeAlphaNonZeroUP: TFillProc;\\nvar MakeAlphaEvenOddUPF: TFillProc;\\nvar MakeAlphaNonZeroUPF: TFillProc;",
+          "declaration": "|",
           "isVirtual": false,
           "isProtected": false,
           "isAbstract": false,
-          "link": "/api/GR32_Polygons/CoverageBuilderVariables"
+          "link": "/api/GR32_Polygons/Coverage Builder Delegates"
         },
         {
           "unit": "GR32_Polygons",

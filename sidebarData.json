@@ -9756,8 +9756,8 @@
             "collapsed": true,
             "items": [
               {
-                "text": "CoverageBuilderVariables",
-                "link": "/api/GR32_Polygons/CoverageBuilderVariables"
+                "text": "Coverage Builder Delegates",
+                "link": "/api/GR32_Polygons/Coverage Builder Delegates"
               },
               {
                 "text": "CustomPolygonRendererList",
