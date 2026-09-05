@@ -8055,6 +8055,1058 @@
         "link": "/api/GR32_Layers/"
       },
       {
+        "text": "GR32_OrdinalMaps",
+        "collapsed": true,
+        "link": "/api/GR32_OrdinalMaps/",
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TBooleanMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TBooleanMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TBooleanMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TByteMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TByteMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TByteMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCardinalMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TCardinalMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TCardinalMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TFloatMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TFloatMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TFloatMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TGenericMap(T)",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TIntegerMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TIntegerMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TIntegerMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TWordMap",
+                "collapsed": true,
+                "link": "/api/GR32_OrdinalMaps/TWordMap/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Create"
+                      },
+                      {
+                        "text": "Destroy",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Destroy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/OnChange"
+                      },
+                      {
+                        "text": "OnResize",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/OnResize"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Changed"
+                      },
+                      {
+                        "text": "ChangeSize",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/ChangeSize"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Delete"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/DoChanged"
+                      },
+                      {
+                        "text": "Empty",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Empty"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/EndUpdate"
+                      },
+                      {
+                        "text": "Lock",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Lock"
+                      },
+                      {
+                        "text": "Resized",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Resized"
+                      },
+                      {
+                        "text": "SetHeight",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/SetHeight"
+                      },
+                      {
+                        "text": "SetSize",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/SetSize"
+                      },
+                      {
+                        "text": "SetSizeFrom",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/SetSizeFrom"
+                      },
+                      {
+                        "text": "SetWidth",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/SetWidth"
+                      },
+                      {
+                        "text": "Unlock",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Unlock"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Height",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Height"
+                      },
+                      {
+                        "text": "LockCount",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/LockCount"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Modified"
+                      },
+                      {
+                        "text": "RefCount",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/RefCount"
+                      },
+                      {
+                        "text": "RefCounted",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/RefCounted"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/UpdateCount"
+                      },
+                      {
+                        "text": "Width",
+                        "link": "/api/GR32_OrdinalMaps/TWordMap/Width"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TConversionType",
+                "link": "/api/GR32_OrdinalMaps/TConversionType"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Paths",
         "collapsed": true,
         "link": "/api/GR32_Paths/",
@@ -16450,6 +17502,41 @@
               {
                 "text": "PolylineBuilder",
                 "link": "/api/GR32_VectorUtils/PolylineBuilder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "GR32_VPR",
+        "collapsed": true,
+        "link": "/api/GR32_VPR/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "RenderPolygon",
+                "link": "/api/GR32_VPR/RenderPolygon"
+              },
+              {
+                "text": "RenderPolyPolygon",
+                "link": "/api/GR32_VPR/RenderPolyPolygon"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TRenderSpanProc",
+                "link": "/api/GR32_VPR/TRenderSpanProc"
+              },
+              {
+                "text": "TValueSpan",
+                "link": "/api/GR32_VPR/TValueSpan"
               }
             ]
           }
