@@ -17024,6 +17024,27 @@
             ]
           }
         ]
+      },
+      {
+        "text": "GR32.Transpose",
+        "collapsed": true,
+        "link": "/api/GR32.Transpose/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ReferenceTranspose32",
+                "link": "/api/GR32.Transpose/ReferenceTranspose32"
+              },
+              {
+                "text": "Transpose32",
+                "link": "/api/GR32.Transpose/Transpose32"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
