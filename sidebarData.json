@@ -2033,6 +2033,204 @@
         ]
       },
       {
+        "text": "GR32_ArrowHeads",
+        "collapsed": true,
+        "link": "/api/GR32_ArrowHeads/",
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TArrowHeadAbstract",
+                "collapsed": true,
+                "link": "/api/GR32_ArrowHeads/TArrowHeadAbstract/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadAbstract/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "GetPoints",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadAbstract/GetPoints"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Size",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadAbstract/Size"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TArrowHeadCircle",
+                "collapsed": true,
+                "link": "/api/GR32_ArrowHeads/TArrowHeadCircle/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadCircle/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "GetPoints",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadCircle/GetPoints"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Size",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadCircle/Size"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TArrowHeadDiamond",
+                "collapsed": true,
+                "link": "/api/GR32_ArrowHeads/TArrowHeadDiamond/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadDiamond/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "GetPoints",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadDiamond/GetPoints"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Size",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadDiamond/Size"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TArrowHeadFourPt",
+                "collapsed": true,
+                "link": "/api/GR32_ArrowHeads/TArrowHeadFourPt/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadFourPt/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "GetPoints",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadFourPt/GetPoints"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Size",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadFourPt/Size"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TArrowHeadSimple",
+                "collapsed": true,
+                "link": "/api/GR32_ArrowHeads/TArrowHeadSimple/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadSimple/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "GetPoints",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadSimple/GetPoints"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Size",
+                        "link": "/api/GR32_ArrowHeads/TArrowHeadSimple/Size"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Backends",
         "collapsed": true,
         "link": "/api/GR32_Backends/",
