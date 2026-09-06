@@ -18113,6 +18113,60 @@
         ]
       },
       {
+        "text": "GR32.Noise.Simplex",
+        "collapsed": true,
+        "link": "/api/GR32.Noise.Simplex/",
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TSimplexNoise",
+                "collapsed": true,
+                "link": "/api/GR32.Noise.Simplex/TSimplexNoise/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Noise",
+                        "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Noise"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Seed",
+                        "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Seed"
+                      },
+                      {
+                        "text": "SeedMult",
+                        "link": "/api/GR32.Noise.Simplex/TSimplexNoise/SeedMult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32.Transpose",
         "collapsed": true,
         "link": "/api/GR32.Transpose/",

@@ -7830,6 +7830,79 @@
       "propertyType": "IImageFormatEnumerator",
       "link": "/api/GR32.ImageFormats/IImageFormats/GetEnumerator"
     },
+    "/api/GR32.Noise.Simplex/TSimplexNoise": {
+      "unit": "GR32.Noise.Simplex",
+      "parent": "",
+      "entity": "TSimplexNoise",
+      "name": "TSimplexNoise",
+      "kind": "Class",
+      "category": "Classes",
+      "scope": "Public",
+      "summary": "Generates smooth, deterministic 2D, 3D, and 4D Simplex Noise values based on seed-initialized permutation tables.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.Noise.Simplex/TSimplexNoise"
+    },
+    "/api/GR32.Noise.Simplex/TSimplexNoise/Create": {
+      "unit": "GR32.Noise.Simplex",
+      "parent": "TSimplexNoise",
+      "entity": "TSimplexNoise.Create",
+      "name": "Create",
+      "kind": "Constructor",
+      "category": "Constructors",
+      "scope": "Public",
+      "summary": "Creates a new TSimplexNoise instance with a specified 64-bit integer seed for deterministic noise generation.",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "",
+      "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Create"
+    },
+    "/api/GR32.Noise.Simplex/TSimplexNoise/Noise": {
+      "unit": "GR32.Noise.Simplex",
+      "parent": "TSimplexNoise",
+      "entity": "TSimplexNoise.Noise",
+      "name": "Noise",
+      "kind": "Method",
+      "category": "Methods",
+      "scope": "Public",
+      "summary": "Evaluates 4D Simplex Noise at coordinates (x, y, z, w).",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "",
+      "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Noise"
+    },
+    "/api/GR32.Noise.Simplex/TSimplexNoise/Seed": {
+      "unit": "GR32.Noise.Simplex",
+      "parent": "TSimplexNoise",
+      "entity": "TSimplexNoise.Seed",
+      "name": "Seed",
+      "kind": "Property",
+      "category": "Properties",
+      "scope": "Public",
+      "summary": "Returns the 64-bit integer seed value used to initialize the instance's permutation lookup tables.",
+      "declaration": "property Seed: Int64 read FSeed;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Int64",
+      "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Seed"
+    },
+    "/api/GR32.Noise.Simplex/TSimplexNoise/SeedMult": {
+      "unit": "GR32.Noise.Simplex",
+      "parent": "TSimplexNoise",
+      "entity": "TSimplexNoise.SeedMult",
+      "name": "SeedMult",
+      "kind": "Property",
+      "category": "Properties",
+      "scope": "Public",
+      "summary": "Specifies the global 64-bit seed multiplier used during pseudo-random permutation table generation.",
+      "declaration": "class property SeedMult: Int64 read FSeedMultiplier write FSeedMultiplier;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Int64",
+      "link": "/api/GR32.Noise.Simplex/TSimplexNoise/SeedMult"
+    },
     "/api/GR32.Transpose/ReferenceTranspose32": {
       "unit": "GR32.Transpose",
       "parent": "",
@@ -61173,6 +61246,73 @@
       "Properties": [],
       "Events": []
     },
+    "TSimplexNoise": {
+      "Constructors": [
+        {
+          "unit": "GR32.Noise.Simplex",
+          "parent": "TSimplexNoise",
+          "entity": "TSimplexNoise.Create",
+          "name": "Create",
+          "kind": "Constructor",
+          "category": "Constructors",
+          "scope": "Public",
+          "summary": "Creates a new TSimplexNoise instance with a specified 64-bit integer seed for deterministic noise generation.",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "",
+          "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Create"
+        }
+      ],
+      "Methods": [
+        {
+          "unit": "GR32.Noise.Simplex",
+          "parent": "TSimplexNoise",
+          "entity": "TSimplexNoise.Noise",
+          "name": "Noise",
+          "kind": "Method",
+          "category": "Methods",
+          "scope": "Public",
+          "summary": "Evaluates 4D Simplex Noise at coordinates (x, y, z, w).",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "",
+          "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Noise"
+        }
+      ],
+      "Properties": [
+        {
+          "unit": "GR32.Noise.Simplex",
+          "parent": "TSimplexNoise",
+          "entity": "TSimplexNoise.Seed",
+          "name": "Seed",
+          "kind": "Property",
+          "category": "Properties",
+          "scope": "Public",
+          "summary": "Returns the 64-bit integer seed value used to initialize the instance's permutation lookup tables.",
+          "declaration": "property Seed: Int64 read FSeed;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Int64",
+          "link": "/api/GR32.Noise.Simplex/TSimplexNoise/Seed"
+        },
+        {
+          "unit": "GR32.Noise.Simplex",
+          "parent": "TSimplexNoise",
+          "entity": "TSimplexNoise.SeedMult",
+          "name": "SeedMult",
+          "kind": "Property",
+          "category": "Properties",
+          "scope": "Public",
+          "summary": "Specifies the global 64-bit seed multiplier used during pseudo-random permutation table generation.",
+          "declaration": "class property SeedMult: Int64 read FSeedMultiplier write FSeedMultiplier;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Int64",
+          "link": "/api/GR32.Noise.Simplex/TSimplexNoise/SeedMult"
+        }
+      ],
+      "Events": []
+    },
     "TArrowHeadAbstract": {
       "Constructors": [
         {
@@ -104604,6 +104744,30 @@
           "link": "/api/GR32.ImageFormats/ImageFormatManager"
         }
       ],
+      "Constants": [],
+      "Variables": []
+    },
+    "GR32.Noise.Simplex": {
+      "Classes": [
+        {
+          "unit": "GR32.Noise.Simplex",
+          "parent": "",
+          "entity": "TSimplexNoise",
+          "name": "TSimplexNoise",
+          "kind": "Class",
+          "category": "Classes",
+          "scope": "Public",
+          "summary": "Generates smooth, deterministic 2D, 3D, and 4D Simplex Noise values based on seed-initialized permutation tables.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.Noise.Simplex/TSimplexNoise"
+        }
+      ],
+      "Interfaces": [],
+      "Types": [],
+      "Routines": [],
       "Constants": [],
       "Variables": []
     },
