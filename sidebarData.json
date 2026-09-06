@@ -15145,6 +15145,51 @@
         ]
       },
       {
+        "text": "GR32_System",
+        "collapsed": true,
+        "link": "/api/GR32_System/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "GetProcessorCount",
+                "link": "/api/GR32_System/GetProcessorCount"
+              },
+              {
+                "text": "GetTickCount",
+                "link": "/api/GR32_System/GetTickCount"
+              },
+              {
+                "text": "SetPerformanceAffinityMask",
+                "link": "/api/GR32_System/SetPerformanceAffinityMask"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TStopwatch",
+                "link": "/api/GR32_System/TStopwatch"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "CPU",
+                "link": "/api/GR32_System/CPU"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Transforms",
         "collapsed": true,
         "link": "/api/GR32_Transforms/",
@@ -17537,6 +17582,48 @@
               {
                 "text": "TValueSpan",
                 "link": "/api/GR32_VPR/TValueSpan"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "GR32.BigEndian",
+        "collapsed": true,
+        "link": "/api/GR32.BigEndian/",
+        "items": [
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "BigEndian",
+                "link": "/api/GR32.BigEndian/BigEndian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "GR32.CPUID",
+        "collapsed": true,
+        "link": "/api/GR32.CPUID/",
+        "items": [
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TCPU",
+                "link": "/api/GR32.CPUID/TCPU"
+              },
+              {
+                "text": "TCPUInstructionSet",
+                "link": "/api/GR32.CPUID/TCPUInstructionSet"
+              },
+              {
+                "text": "TCPUVendor",
+                "link": "/api/GR32.CPUID/TCPUVendor"
               }
             ]
           }

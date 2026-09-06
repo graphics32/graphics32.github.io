@@ -6815,6 +6815,66 @@
       "propertyType": "TNotifyEvent",
       "link": "/api/GR32/TThreadPersistent/OnChange"
     },
+    "/api/GR32.BigEndian/BigEndian": {
+      "unit": "GR32.BigEndian",
+      "parent": "",
+      "entity": "BigEndian",
+      "name": "BigEndian",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Record providing static helper methods for big-endian integer stream reading and writing.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.BigEndian/BigEndian"
+    },
+    "/api/GR32.CPUID/TCPU": {
+      "unit": "GR32.CPUID",
+      "parent": "",
+      "entity": "TCPU",
+      "name": "TCPU",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Record structure holding CPU model metadata, vendor, cache sizes, and hardware instruction support flags.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.CPUID/TCPU"
+    },
+    "/api/GR32.CPUID/TCPUInstructionSet": {
+      "unit": "GR32.CPUID",
+      "parent": "",
+      "entity": "TCPUInstructionSet",
+      "name": "TCPUInstructionSet",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Enumerates hardware CPU instruction sets, vector extensions, and synthetic binding features.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.CPUID/TCPUInstructionSet"
+    },
+    "/api/GR32.CPUID/TCPUVendor": {
+      "unit": "GR32.CPUID",
+      "parent": "",
+      "entity": "TCPUVendor",
+      "name": "TCPUVendor",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Enumerates hardware CPU vendors and virtual machine hypervisors.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.CPUID/TCPUVendor"
+    },
     "/api/GR32.ImageFormats/TCustomImageFormat": {
       "unit": "GR32.ImageFormats",
       "parent": "",
@@ -46973,6 +47033,81 @@
       "isProtected": false,
       "propertyType": "TFloat",
       "link": "/api/GR32_Resamplers/TWindowedSincKernel/Width"
+    },
+    "/api/GR32_System/TStopwatch": {
+      "unit": "GR32_System",
+      "parent": "",
+      "entity": "TStopwatch",
+      "name": "TStopwatch",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "High-precision timer structure for measuring elapsed time and benchmarking performance.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32_System/TStopwatch"
+    },
+    "/api/GR32_System/GetProcessorCount": {
+      "unit": "GR32_System",
+      "parent": "",
+      "entity": "GetProcessorCount",
+      "name": "GetProcessorCount",
+      "kind": "Function",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Returns the number of logical processors or cores configured by the operating system.",
+      "declaration": "function GetProcessorCount: Cardinal;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32_System/GetProcessorCount"
+    },
+    "/api/GR32_System/GetTickCount": {
+      "unit": "GR32_System",
+      "parent": "",
+      "entity": "GetTickCount",
+      "name": "GetTickCount",
+      "kind": "Function",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Returns the number of milliseconds elapsed since system boot or timer initialization.",
+      "declaration": "function GetTickCount: UInt64;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32_System/GetTickCount"
+    },
+    "/api/GR32_System/SetPerformanceAffinityMask": {
+      "unit": "GR32_System",
+      "parent": "",
+      "entity": "SetPerformanceAffinityMask",
+      "name": "SetPerformanceAffinityMask",
+      "kind": "Function",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Configures process affinity to restrict worker threads to high-performance CPU cores.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32_System/SetPerformanceAffinityMask"
+    },
+    "/api/GR32_System/CPU": {
+      "unit": "GR32_System",
+      "parent": "",
+      "entity": "CPU",
+      "name": "CPU",
+      "kind": "Variable",
+      "category": "Variables",
+      "scope": "Public",
+      "summary": "Global TCPU record instance containing hardware CPU detection and feature flags.",
+      "declaration": "var CPU: TCPU;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32_System/CPU"
     },
     "/api/GR32_Transforms/T3x3Transformation": {
       "unit": "GR32_Transforms",
@@ -104760,6 +104895,84 @@
       ],
       "Variables": []
     },
+    "GR32.BigEndian": {
+      "Classes": [],
+      "Interfaces": [],
+      "Types": [
+        {
+          "unit": "GR32.BigEndian",
+          "parent": "",
+          "entity": "BigEndian",
+          "name": "BigEndian",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Record providing static helper methods for big-endian integer stream reading and writing.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.BigEndian/BigEndian"
+        }
+      ],
+      "Routines": [],
+      "Constants": [],
+      "Variables": []
+    },
+    "GR32.CPUID": {
+      "Classes": [],
+      "Interfaces": [],
+      "Types": [
+        {
+          "unit": "GR32.CPUID",
+          "parent": "",
+          "entity": "TCPU",
+          "name": "TCPU",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Record structure holding CPU model metadata, vendor, cache sizes, and hardware instruction support flags.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.CPUID/TCPU"
+        },
+        {
+          "unit": "GR32.CPUID",
+          "parent": "",
+          "entity": "TCPUInstructionSet",
+          "name": "TCPUInstructionSet",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Enumerates hardware CPU instruction sets, vector extensions, and synthetic binding features.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.CPUID/TCPUInstructionSet"
+        },
+        {
+          "unit": "GR32.CPUID",
+          "parent": "",
+          "entity": "TCPUVendor",
+          "name": "TCPUVendor",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Enumerates hardware CPU vendors and virtual machine hypervisors.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.CPUID/TCPUVendor"
+        }
+      ],
+      "Routines": [],
+      "Constants": [],
+      "Variables": []
+    },
     "GR32.ImageFormats": {
       "Classes": [
         {
@@ -108833,6 +109046,92 @@
           "isProtected": false,
           "isAbstract": false,
           "link": "/api/GR32_Resamplers/ResamplerList"
+        }
+      ]
+    },
+    "GR32_System": {
+      "Classes": [],
+      "Interfaces": [],
+      "Types": [
+        {
+          "unit": "GR32_System",
+          "parent": "",
+          "entity": "TStopwatch",
+          "name": "TStopwatch",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "High-precision timer structure for measuring elapsed time and benchmarking performance.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32_System/TStopwatch"
+        }
+      ],
+      "Routines": [
+        {
+          "unit": "GR32_System",
+          "parent": "",
+          "entity": "GetProcessorCount",
+          "name": "GetProcessorCount",
+          "kind": "Function",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Returns the number of logical processors or cores configured by the operating system.",
+          "declaration": "function GetProcessorCount: Cardinal;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32_System/GetProcessorCount"
+        },
+        {
+          "unit": "GR32_System",
+          "parent": "",
+          "entity": "GetTickCount",
+          "name": "GetTickCount",
+          "kind": "Function",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Returns the number of milliseconds elapsed since system boot or timer initialization.",
+          "declaration": "function GetTickCount: UInt64;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32_System/GetTickCount"
+        },
+        {
+          "unit": "GR32_System",
+          "parent": "",
+          "entity": "SetPerformanceAffinityMask",
+          "name": "SetPerformanceAffinityMask",
+          "kind": "Function",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Configures process affinity to restrict worker threads to high-performance CPU cores.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32_System/SetPerformanceAffinityMask"
+        }
+      ],
+      "Constants": [],
+      "Variables": [
+        {
+          "unit": "GR32_System",
+          "parent": "",
+          "entity": "CPU",
+          "name": "CPU",
+          "kind": "Variable",
+          "category": "Variables",
+          "scope": "Public",
+          "summary": "Global TCPU record instance containing hardware CPU detection and feature flags.",
+          "declaration": "var CPU: TCPU;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32_System/CPU"
         }
       ]
     },
