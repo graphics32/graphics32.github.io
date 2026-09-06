@@ -18113,6 +18113,70 @@
         ]
       },
       {
+        "text": "GR32.Math.Complex",
+        "collapsed": true,
+        "link": "/api/GR32.Math.Complex/",
+        "items": [
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Complex Constants",
+                "link": "/api/GR32.Math.Complex/Complex Constants"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TComplex",
+                "collapsed": true,
+                "link": "/api/GR32.Math.Complex/TComplex/",
+                "items": [
+                  {
+                    "text": "Fields",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "DefuzzAtZero",
+                        "link": "/api/GR32.Math.Complex/TComplex/DefuzzAtZero"
+                      },
+                      {
+                        "text": "Imaginary",
+                        "link": "/api/GR32.Math.Complex/TComplex/Imaginary"
+                      },
+                      {
+                        "text": "Real",
+                        "link": "/api/GR32.Math.Complex/TComplex/Real"
+                      },
+                      {
+                        "text": "Symbol",
+                        "link": "/api/GR32.Math.Complex/TComplex/Symbol"
+                      },
+                      {
+                        "text": "SymbolBeforeImaginary",
+                        "link": "/api/GR32.Math.Complex/TComplex/SymbolBeforeImaginary"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Mathematical Functions",
+                    "link": "/api/GR32.Math.Complex/TComplex/Mathematical Functions"
+                  },
+                  {
+                    "text": "Operators",
+                    "link": "/api/GR32.Math.Complex/TComplex/Operators"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32.Noise.Simplex",
         "collapsed": true,
         "link": "/api/GR32.Noise.Simplex/",

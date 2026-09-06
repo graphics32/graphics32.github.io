@@ -7830,6 +7830,110 @@
       "propertyType": "IImageFormatEnumerator",
       "link": "/api/GR32.ImageFormats/IImageFormats/GetEnumerator"
     },
+    "/api/GR32.Math.Complex/TComplex": {
+      "unit": "GR32.Math.Complex",
+      "parent": "",
+      "entity": "TComplex",
+      "name": "TComplex",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "64-bit double-precision complex number record type supporting polar coordinates, operator overloads, mathematical functions, zero-defuzzing, and string parsing.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.Math.Complex/TComplex"
+    },
+    "/api/GR32.Math.Complex/Complex Constants": {
+      "unit": "GR32.Math.Complex",
+      "parent": "",
+      "entity": "Complex Constants",
+      "name": "Complex Constants",
+      "kind": "Constant",
+      "category": "Constants",
+      "scope": "Public",
+      "summary": "Predefined standard complex constants for common numerical, mathematical, and sentinel values.",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32.Math.Complex/Complex Constants"
+    },
+    "/api/GR32.Math.Complex/TComplex/DefuzzAtZero": {
+      "unit": "GR32.Math.Complex",
+      "parent": "TComplex",
+      "entity": "TComplex.DefuzzAtZero",
+      "name": "DefuzzAtZero",
+      "kind": "Field",
+      "category": "Fields",
+      "scope": "Public",
+      "summary": "Class variable enabling automatic zero-snapping for near-zero real or imaginary parts during TComplex instance construction.",
+      "declaration": "class var DefuzzAtZero: Boolean;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Boolean",
+      "link": "/api/GR32.Math.Complex/TComplex/DefuzzAtZero"
+    },
+    "/api/GR32.Math.Complex/TComplex/Imaginary": {
+      "unit": "GR32.Math.Complex",
+      "parent": "TComplex",
+      "entity": "TComplex.Imaginary",
+      "name": "Imaginary",
+      "kind": "Field",
+      "category": "Fields",
+      "scope": "Public",
+      "summary": "The imaginary double-precision scalar component of the complex number.",
+      "declaration": "Imaginary: Double;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Double",
+      "link": "/api/GR32.Math.Complex/TComplex/Imaginary"
+    },
+    "/api/GR32.Math.Complex/TComplex/Real": {
+      "unit": "GR32.Math.Complex",
+      "parent": "TComplex",
+      "entity": "TComplex.Real",
+      "name": "Real",
+      "kind": "Field",
+      "category": "Fields",
+      "scope": "Public",
+      "summary": "The real double-precision scalar component of the complex number.",
+      "declaration": "Real: Double;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Double",
+      "link": "/api/GR32.Math.Complex/TComplex/Real"
+    },
+    "/api/GR32.Math.Complex/TComplex/Symbol": {
+      "unit": "GR32.Math.Complex",
+      "parent": "TComplex",
+      "entity": "TComplex.Symbol",
+      "name": "Symbol",
+      "kind": "Field",
+      "category": "Fields",
+      "scope": "Public",
+      "summary": "Class variable defining the string token used for the imaginary unit during string formatting and parsing.",
+      "declaration": "class var Symbol: string;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "string",
+      "link": "/api/GR32.Math.Complex/TComplex/Symbol"
+    },
+    "/api/GR32.Math.Complex/TComplex/SymbolBeforeImaginary": {
+      "unit": "GR32.Math.Complex",
+      "parent": "TComplex",
+      "entity": "TComplex.SymbolBeforeImaginary",
+      "name": "SymbolBeforeImaginary",
+      "kind": "Field",
+      "category": "Fields",
+      "scope": "Public",
+      "summary": "Class variable controlling the relative placement of the imaginary unit symbol during string output formatting.",
+      "declaration": "class var SymbolBeforeImaginary: Boolean;",
+      "isVirtual": false,
+      "isProtected": false,
+      "propertyType": "Boolean",
+      "link": "/api/GR32.Math.Complex/TComplex/SymbolBeforeImaginary"
+    },
     "/api/GR32.Noise.Simplex/TSimplexNoise": {
       "unit": "GR32.Noise.Simplex",
       "parent": "",
@@ -56233,7 +56337,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TBitmap32/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomBackend": {
       "Constructors": [
@@ -56648,7 +56753,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TCustomBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomBitmap32": {
       "Constructors": [
@@ -58706,7 +58812,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TCustomBitmap32/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomMap": {
       "Constructors": [
@@ -59166,7 +59273,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TCustomMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomResampler": {
       "Constructors": [
@@ -59570,7 +59678,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TCustomResampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomSampler": {
       "Constructors": [
@@ -59893,7 +60002,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TCustomSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TNotifiablePersistent": {
       "Constructors": [
@@ -60101,7 +60211,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TNotifiablePersistent/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPlainInterfacedPersistent": {
       "Constructors": [
@@ -60154,7 +60265,8 @@
           "link": "/api/GR32/TPlainInterfacedPersistent/RefCounted"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TThreadPersistent": {
       "Constructors": [
@@ -60432,13 +60544,15 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32/TThreadPersistent/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomImageFormat": {
       "Constructors": [],
       "Methods": [],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomImageFormatAdapter": {
       "Constructors": [],
@@ -60505,13 +60619,15 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormat": {
       "Constructors": [],
       "Methods": [],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatAdapter": {
       "Constructors": [],
@@ -60578,7 +60694,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatAux": {
       "Constructors": [],
@@ -60600,7 +60717,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatClipboardFormat": {
       "Constructors": [],
@@ -60652,7 +60770,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatClipboardFormats": {
       "Constructors": [],
@@ -60704,7 +60823,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatEnumerator": {
       "Constructors": [],
@@ -60757,7 +60877,8 @@
           "link": "/api/GR32.ImageFormats/IImageFormatEnumerator/Current"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatFileInfo": {
       "Constructors": [],
@@ -60794,7 +60915,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatFileReader": {
       "Constructors": [],
@@ -60816,7 +60938,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatManager": {
       "Constructors": [],
@@ -61002,7 +61125,8 @@
           "link": "/api/GR32.ImageFormats/IImageFormatManager/Writers"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatReader": {
       "Constructors": [],
@@ -61039,7 +61163,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatReaders": {
       "Constructors": [],
@@ -61119,7 +61244,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatResourceReader": {
       "Constructors": [],
@@ -61141,7 +61267,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatWriteNotification": {
       "Constructors": [],
@@ -61178,7 +61305,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatWriter": {
       "Constructors": [],
@@ -61200,7 +61328,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormatWriters": {
       "Constructors": [],
@@ -61222,7 +61351,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "IImageFormats": {
       "Constructors": [],
@@ -61244,7 +61374,91 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
+    },
+    "TComplex": {
+      "Constructors": [],
+      "Methods": [],
+      "Properties": [],
+      "Events": [],
+      "Fields": [
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "TComplex",
+          "entity": "TComplex.DefuzzAtZero",
+          "name": "DefuzzAtZero",
+          "kind": "Field",
+          "category": "Fields",
+          "scope": "Public",
+          "summary": "Class variable enabling automatic zero-snapping for near-zero real or imaginary parts during TComplex instance construction.",
+          "declaration": "class var DefuzzAtZero: Boolean;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Boolean",
+          "link": "/api/GR32.Math.Complex/TComplex/DefuzzAtZero"
+        },
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "TComplex",
+          "entity": "TComplex.Imaginary",
+          "name": "Imaginary",
+          "kind": "Field",
+          "category": "Fields",
+          "scope": "Public",
+          "summary": "The imaginary double-precision scalar component of the complex number.",
+          "declaration": "Imaginary: Double;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Double",
+          "link": "/api/GR32.Math.Complex/TComplex/Imaginary"
+        },
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "TComplex",
+          "entity": "TComplex.Real",
+          "name": "Real",
+          "kind": "Field",
+          "category": "Fields",
+          "scope": "Public",
+          "summary": "The real double-precision scalar component of the complex number.",
+          "declaration": "Real: Double;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Double",
+          "link": "/api/GR32.Math.Complex/TComplex/Real"
+        },
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "TComplex",
+          "entity": "TComplex.Symbol",
+          "name": "Symbol",
+          "kind": "Field",
+          "category": "Fields",
+          "scope": "Public",
+          "summary": "Class variable defining the string token used for the imaginary unit during string formatting and parsing.",
+          "declaration": "class var Symbol: string;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "string",
+          "link": "/api/GR32.Math.Complex/TComplex/Symbol"
+        },
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "TComplex",
+          "entity": "TComplex.SymbolBeforeImaginary",
+          "name": "SymbolBeforeImaginary",
+          "kind": "Field",
+          "category": "Fields",
+          "scope": "Public",
+          "summary": "Class variable controlling the relative placement of the imaginary unit symbol during string output formatting.",
+          "declaration": "class var SymbolBeforeImaginary: Boolean;",
+          "isVirtual": false,
+          "isProtected": false,
+          "propertyType": "Boolean",
+          "link": "/api/GR32.Math.Complex/TComplex/SymbolBeforeImaginary"
+        }
+      ]
     },
     "TSimplexNoise": {
       "Constructors": [
@@ -61311,7 +61525,8 @@
           "link": "/api/GR32.Noise.Simplex/TSimplexNoise/SeedMult"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TArrowHeadAbstract": {
       "Constructors": [
@@ -61365,7 +61580,8 @@
           "link": "/api/GR32_ArrowHeads/TArrowHeadAbstract/Size"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TArrowHeadCircle": {
       "Constructors": [
@@ -61422,7 +61638,8 @@
           "link": "/api/GR32_ArrowHeads/TArrowHeadCircle/Size"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TArrowHeadDiamond": {
       "Constructors": [
@@ -61479,7 +61696,8 @@
           "link": "/api/GR32_ArrowHeads/TArrowHeadDiamond/Size"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TArrowHeadFourPt": {
       "Constructors": [
@@ -61536,7 +61754,8 @@
           "link": "/api/GR32_ArrowHeads/TArrowHeadFourPt/Size"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TArrowHeadSimple": {
       "Constructors": [
@@ -61593,13 +61812,15 @@
           "link": "/api/GR32_ArrowHeads/TArrowHeadSimple/Size"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "EBackend": {
       "Constructors": [],
       "Methods": [],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TMMFBackend": {
       "Constructors": [
@@ -62069,7 +62290,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_Generic/TMMFBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TMemoryBackend": {
       "Constructors": [
@@ -62494,7 +62716,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_Generic/TMemoryBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TLCLBackend": {
       "Constructors": [
@@ -62919,7 +63142,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_LCL_Win/TLCLBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TLCLMMFBackend": {
       "Constructors": [
@@ -63344,7 +63568,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_LCL_Win/TLCLMMFBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TLCLMemoryBackend": {
       "Constructors": [
@@ -63769,7 +63994,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_LCL_Win/TLCLMemoryBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGDIBackend": {
       "Constructors": [
@@ -64194,7 +64420,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_VCL/TGDIBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGDIMMFBackend": {
       "Constructors": [
@@ -64619,7 +64846,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_VCL/TGDIMMFBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGDIMemoryBackend": {
       "Constructors": [
@@ -65044,7 +65272,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Backends_VCL/TGDIMemoryBackend/OnChanging"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBrushCollection": {
       "Constructors": [
@@ -65397,7 +65626,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TBrushCollection/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomBrush": {
       "Constructors": [
@@ -65719,7 +65949,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TCustomBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TDashedBrush": {
       "Constructors": [
@@ -66191,7 +66422,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TDashedBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGrowBrush": {
       "Constructors": [
@@ -66629,7 +66861,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TGrowBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TNestedBrush": {
       "Constructors": [
@@ -67018,7 +67251,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TNestedBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSolidBrush": {
       "Constructors": [
@@ -67392,7 +67626,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TSolidBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TStrokeBrush": {
       "Constructors": [
@@ -67829,7 +68064,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Brushes/TStrokeBrush/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBarycentricGradientPolygonFiller": {
       "Constructors": [],
@@ -67980,7 +68216,8 @@
           "link": "/api/GR32_ColorGradients/TBarycentricGradientPolygonFiller/Point"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TBarycentricGradientSampler": {
       "Constructors": [
@@ -68401,7 +68638,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TBarycentricGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBilinearGradientSampler": {
       "Constructors": [],
@@ -68777,7 +69015,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TBilinearGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TColor32Gradient": {
       "Constructors": [
@@ -68947,7 +69186,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TColor32Gradient/OnGradientColorsChanged"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TColor32LookupTable": {
       "Constructors": [
@@ -69061,7 +69301,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TColor32LookupTable/OnOrderChanged"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TConicGradientSampler": {
       "Constructors": [
@@ -69421,7 +69662,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TConicGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomArbitrarySparsePointGradientPolygonFiller": {
       "Constructors": [],
@@ -69601,7 +69843,8 @@
           "link": "/api/GR32_ColorGradients/TCustomArbitrarySparsePointGradientPolygonFiller/Point"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomArbitrarySparsePointGradientSampler": {
       "Constructors": [],
@@ -70006,7 +70249,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomArbitrarySparsePointGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomCenterLutGradientSampler": {
       "Constructors": [
@@ -70350,7 +70594,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomCenterLutGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomCenterRadiusAngleLutGradientSampler": {
       "Constructors": [
@@ -70726,7 +70971,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomCenterRadiusAngleLutGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomCenterRadiusLutGradientSampler": {
       "Constructors": [
@@ -71086,7 +71332,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomCenterRadiusLutGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomGradientLookUpTableSampler": {
       "Constructors": [
@@ -71415,7 +71662,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomGradientLookUpTableSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomGradientLookupTablePolygonFiller": {
       "Constructors": [
@@ -71548,7 +71796,8 @@
           "link": "/api/GR32_ColorGradients/TCustomGradientLookupTablePolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomGradientPolygonFiller": {
       "Constructors": [
@@ -71649,7 +71898,8 @@
           "link": "/api/GR32_ColorGradients/TCustomGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomGradientSampler": {
       "Constructors": [
@@ -71975,7 +72225,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomLinearGradientPolygonFiller": {
       "Constructors": [
@@ -72201,7 +72452,8 @@
           "link": "/api/GR32_ColorGradients/TCustomLinearGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomRadialGradientPolygonFiller": {
       "Constructors": [
@@ -72352,7 +72604,8 @@
           "link": "/api/GR32_ColorGradients/TCustomRadialGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomSparsePointGradientPolygonFiller": {
       "Constructors": [],
@@ -72497,7 +72750,8 @@
           "link": "/api/GR32_ColorGradients/TCustomSparsePointGradientPolygonFiller/Point"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomSparsePointGradientSampler": {
       "Constructors": [],
@@ -72867,7 +73121,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TCustomSparsePointGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TDiamondGradientSampler": {
       "Constructors": [
@@ -73244,7 +73499,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TDiamondGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGourandShadedDelaunayTrianglesPolygonFiller": {
       "Constructors": [],
@@ -73426,7 +73682,8 @@
           "link": "/api/GR32_ColorGradients/TGourandShadedDelaunayTrianglesPolygonFiller/Point"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TGourandShadedDelaunayTrianglesSampler": {
       "Constructors": [],
@@ -73833,7 +74090,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TGourandShadedDelaunayTrianglesSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TInvertedDistanceWeightingSampler": {
       "Constructors": [
@@ -74271,7 +74529,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TInvertedDistanceWeightingSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TLinearGradientPolygonFiller": {
       "Constructors": [
@@ -74502,7 +74761,8 @@
           "link": "/api/GR32_ColorGradients/TLinearGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TLinearGradientSampler": {
       "Constructors": [
@@ -74943,7 +75203,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TLinearGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRadialExGradientSampler": {
       "Constructors": [
@@ -75332,7 +75593,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TRadialExGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRadialGradientPolygonFiller": {
       "Constructors": [
@@ -75513,7 +75775,8 @@
           "link": "/api/GR32_ColorGradients/TRadialGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TRadialGradientSampler": {
       "Constructors": [
@@ -75874,7 +76137,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TRadialGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSVGRadialGradientPolygonFiller": {
       "Constructors": [
@@ -76054,7 +76318,8 @@
           "link": "/api/GR32_ColorGradients/TSVGRadialGradientPolygonFiller/WrapMode"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TSweepGradientSampler": {
       "Constructors": [
@@ -76429,7 +76694,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TSweepGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TVoronoiSampler": {
       "Constructors": [
@@ -76882,7 +77148,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TVoronoiSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TXGradientSampler": {
       "Constructors": [
@@ -77319,7 +77586,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TXGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TXYGradientSampler": {
       "Constructors": [
@@ -77696,7 +77964,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TXYGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TXYSqrtGradientSampler": {
       "Constructors": [
@@ -78073,7 +78342,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_ColorGradients/TXYSqrtGradientSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBooleanMap": {
       "Constructors": [
@@ -78546,7 +78816,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TBooleanMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TByteMap": {
       "Constructors": [
@@ -79019,7 +79290,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TByteMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCardinalMap": {
       "Constructors": [
@@ -79492,7 +79764,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TCardinalMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TFloatMap": {
       "Constructors": [
@@ -79965,7 +80238,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TFloatMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGenericMap(T)": {
       "Constructors": [
@@ -80438,7 +80712,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TGenericMap(T)/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TIntegerMap": {
       "Constructors": [
@@ -80911,7 +81186,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TIntegerMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TWordMap": {
       "Constructors": [
@@ -81384,7 +81660,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_OrdinalMaps/TWordMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCanvas32": {
       "Constructors": [
@@ -82208,7 +82485,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Paths/TCanvas32/OnEndPath"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomCanvas": {
       "Constructors": [
@@ -82944,7 +83222,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Paths/TCustomCanvas/OnEndPath"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCustomPath": {
       "Constructors": [
@@ -83575,7 +83854,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Paths/TCustomPath/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TFlattenedPath": {
       "Constructors": [
@@ -84289,7 +84569,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Paths/TFlattenedPath/OnEndPath"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBitmapPolygonFiller": {
       "Constructors": [],
@@ -84389,7 +84670,8 @@
           "link": "/api/GR32_Polygons/TBitmapPolygonFiller/Pattern"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCallbackPolygonFiller": {
       "Constructors": [],
@@ -84459,7 +84741,8 @@
           "link": "/api/GR32_Polygons/TCallbackPolygonFiller/FillLineEvent"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TClearPolygonFiller": {
       "Constructors": [
@@ -84546,7 +84829,8 @@
           "link": "/api/GR32_Polygons/TClearPolygonFiller/FillLine"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomPolygonFiller": {
       "Constructors": [],
@@ -84599,7 +84883,8 @@
           "link": "/api/GR32_Polygons/TCustomPolygonFiller/FillLine"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomPolygonRenderer": {
       "Constructors": [
@@ -84909,7 +85194,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Polygons/TCustomPolygonRenderer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TInvertPolygonFiller": {
       "Constructors": [],
@@ -84965,7 +85251,8 @@
           "link": "/api/GR32_Polygons/TInvertPolygonFiller/FillLine"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TPolygonRenderer32": {
       "Constructors": [
@@ -85336,7 +85623,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Polygons/TPolygonRenderer32/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPolygonRenderer32LCD": {
       "Constructors": [
@@ -85712,7 +86000,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Polygons/TPolygonRenderer32LCD/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPolygonRenderer32LCD2": {
       "Constructors": [
@@ -86088,7 +86377,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Polygons/TPolygonRenderer32LCD2/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPolygonRenderer32VPR": {
       "Constructors": [
@@ -86464,7 +86754,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Polygons/TPolygonRenderer32VPR/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSamplerFiller": {
       "Constructors": [
@@ -86578,7 +86869,8 @@
           "link": "/api/GR32_Polygons/TSamplerFiller/Sampler"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TContourRasterizer": {
       "Constructors": [
@@ -86907,7 +87199,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TContourRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TDraftRasterizer": {
       "Constructors": [
@@ -87250,7 +87543,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TDraftRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TMultithreadedRegularRasterizer": {
       "Constructors": [
@@ -87579,7 +87873,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TMultithreadedRegularRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TParallelRegularRasterizer": {
       "Constructors": [
@@ -87908,7 +88203,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TParallelRegularRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TProgressiveRasterizer": {
       "Constructors": [
@@ -88266,7 +88562,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TProgressiveRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRasterizer": {
       "Constructors": [
@@ -88591,7 +88888,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRegularRasterizer": {
       "Constructors": [
@@ -88934,7 +89232,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TRegularRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSwizzlingRasterizer": {
       "Constructors": [
@@ -89277,7 +89576,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TSwizzlingRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TTaskRegularRasterizer": {
       "Constructors": [
@@ -89606,7 +89906,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TTaskRegularRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TTesseralRasterizer": {
       "Constructors": [
@@ -89935,7 +90236,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TTesseralRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TThreadRegularRasterizer": {
       "Constructors": [
@@ -90264,7 +90566,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Rasterizers/TThreadRegularRasterizer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TAdaptiveSuperSampler": {
       "Constructors": [],
@@ -90591,7 +90894,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TAdaptiveSuperSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TAlbrechtKernel": {
       "Constructors": [
@@ -90727,7 +91031,8 @@
           "link": "/api/GR32_Resamplers/TAlbrechtKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TBlackmanKernel": {
       "Constructors": [
@@ -90848,7 +91153,8 @@
           "link": "/api/GR32_Resamplers/TBlackmanKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TBoxKernel": {
       "Constructors": [
@@ -90937,7 +91243,8 @@
           "link": "/api/GR32_Resamplers/TBoxKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TContracter": {
       "Constructors": [],
@@ -91250,7 +91557,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TContracter/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TConvolver": {
       "Constructors": [],
@@ -91563,7 +91871,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TConvolver/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TCosineKernel": {
       "Constructors": [
@@ -91652,7 +91961,8 @@
           "link": "/api/GR32_Resamplers/TCosineKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCubicKernel": {
       "Constructors": [
@@ -91756,7 +92066,8 @@
           "link": "/api/GR32_Resamplers/TCubicKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TCustomKernel": {
       "Constructors": [
@@ -91840,7 +92151,8 @@
           "link": "/api/GR32_Resamplers/TCustomKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TDilater": {
       "Constructors": [],
@@ -92153,7 +92465,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TDilater/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TDraftResampler": {
       "Constructors": [
@@ -92514,7 +92827,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TDraftResampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TEroder": {
       "Constructors": [],
@@ -92827,7 +93141,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TEroder/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TExpander": {
       "Constructors": [],
@@ -93140,7 +93455,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TExpander/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TGaussianKernel": {
       "Constructors": [
@@ -93276,7 +93592,8 @@
           "link": "/api/GR32_Resamplers/TGaussianKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "THammingKernel": {
       "Constructors": [
@@ -93397,7 +93714,8 @@
           "link": "/api/GR32_Resamplers/THammingKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "THannKernel": {
       "Constructors": [
@@ -93518,7 +93836,8 @@
           "link": "/api/GR32_Resamplers/THannKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "THermiteKernel": {
       "Constructors": [
@@ -93637,7 +93956,8 @@
           "link": "/api/GR32_Resamplers/THermiteKernel/Tension"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TKernelResampler": {
       "Constructors": [
@@ -94058,7 +94378,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TKernelResampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TKernelSampler": {
       "Constructors": [],
@@ -94370,7 +94691,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TKernelSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TLanczosKernel": {
       "Constructors": [
@@ -94491,7 +94813,8 @@
           "link": "/api/GR32_Resamplers/TLanczosKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TLinearKernel": {
       "Constructors": [
@@ -94580,7 +94903,8 @@
           "link": "/api/GR32_Resamplers/TLinearKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TLinearResampler": {
       "Constructors": [
@@ -94941,7 +95265,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TLinearResampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TMitchellKernel": {
       "Constructors": [
@@ -95030,7 +95355,8 @@
           "link": "/api/GR32_Resamplers/TMitchellKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TMorphologicalSampler": {
       "Constructors": [],
@@ -95343,7 +95669,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TMorphologicalSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TNearestResampler": {
       "Constructors": [
@@ -95702,7 +96029,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TNearestResampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TNestedSampler": {
       "Constructors": [],
@@ -95998,7 +96326,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TNestedSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPatternSampler": {
       "Constructors": [],
@@ -96310,7 +96639,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TPatternSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSelectiveConvolver": {
       "Constructors": [],
@@ -96638,7 +96968,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TSelectiveConvolver/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSinshKernel": {
       "Constructors": [
@@ -96757,7 +97088,8 @@
           "link": "/api/GR32_Resamplers/TSinshKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TSplineKernel": {
       "Constructors": [
@@ -96846,7 +97178,8 @@
           "link": "/api/GR32_Resamplers/TSplineKernel/Observer"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "TSuperSampler": {
       "Constructors": [],
@@ -97173,7 +97506,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TSuperSampler/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TTransformer": {
       "Constructors": [],
@@ -97500,7 +97834,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TTransformer/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TWindowedKernel": {
       "Constructors": [
@@ -97812,7 +98147,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Resamplers/TWindowedKernel/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TWindowedSincKernel": {
       "Constructors": [
@@ -97933,7 +98269,8 @@
           "link": "/api/GR32_Resamplers/TWindowedSincKernel/Width"
         }
       ],
-      "Events": []
+      "Events": [],
+      "Fields": []
     },
     "T3x3Transformation": {
       "Constructors": [
@@ -98259,7 +98596,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/T3x3Transformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TAffineTransformation": {
       "Constructors": [
@@ -98687,7 +99025,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TAffineTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TBloatTransformation": {
       "Constructors": [
@@ -99012,7 +99351,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TBloatTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TDisturbanceTransformation": {
       "Constructors": [
@@ -99338,7 +99678,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TDisturbanceTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TFishEyeTransformation": {
       "Constructors": [
@@ -99649,7 +99990,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TFishEyeTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TNestedTransformation": {
       "Constructors": [
@@ -100049,7 +100391,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TNestedTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPathTransformation": {
       "Constructors": [
@@ -100390,7 +100733,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TPathTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPolarTransformation": {
       "Constructors": [
@@ -100731,7 +101075,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TPolarTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TProjectiveTransformation": {
       "Constructors": [
@@ -101103,7 +101448,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TProjectiveTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TProjectiveTransformationEx": {
       "Constructors": [
@@ -101475,7 +101821,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TProjectiveTransformationEx/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRadialDistortionTransformation": {
       "Constructors": [
@@ -101845,7 +102192,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TRadialDistortionTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TRemapTransformation": {
       "Constructors": [
@@ -102215,7 +102563,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TRemapTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TSphereTransformation": {
       "Constructors": [
@@ -102630,7 +102979,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TSphereTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TTransformation": {
       "Constructors": [
@@ -102934,7 +103284,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TTwirlTransformation": {
       "Constructors": [
@@ -103259,7 +103610,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_Transforms/TTwirlTransformation/OnChange"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TVectorMap": {
       "Constructors": [
@@ -103880,7 +104232,8 @@
           "propertyType": "TNotifyEvent",
           "link": "/api/GR32_VectorMaps/TVectorMap/OnResize"
         }
-      ]
+      ],
+      "Fields": []
     },
     "TPolyLineBuilder": {
       "Constructors": [],
@@ -103959,7 +104312,8 @@
         }
       ],
       "Properties": [],
-      "Events": []
+      "Events": [],
+      "Fields": []
     }
   },
   "byUnit": {
@@ -104745,6 +105099,45 @@
         }
       ],
       "Constants": [],
+      "Variables": []
+    },
+    "GR32.Math.Complex": {
+      "Classes": [],
+      "Interfaces": [],
+      "Types": [
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "",
+          "entity": "TComplex",
+          "name": "TComplex",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "64-bit double-precision complex number record type supporting polar coordinates, operator overloads, mathematical functions, zero-defuzzing, and string parsing.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.Math.Complex/TComplex"
+        }
+      ],
+      "Routines": [],
+      "Constants": [
+        {
+          "unit": "GR32.Math.Complex",
+          "parent": "",
+          "entity": "Complex Constants",
+          "name": "Complex Constants",
+          "kind": "Constant",
+          "category": "Constants",
+          "scope": "Public",
+          "summary": "Predefined standard complex constants for common numerical, mathematical, and sentinel values.",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32.Math.Complex/Complex Constants"
+        }
+      ],
       "Variables": []
     },
     "GR32.Noise.Simplex": {
