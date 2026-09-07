@@ -8052,7 +8052,2462 @@
       {
         "text": "GR32_Layers",
         "collapsed": true,
-        "link": "/api/GR32_Layers/"
+        "link": "/api/GR32_Layers/",
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TBitmapLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TBitmapLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TBitmapLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TBitmapLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TBitmapLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TBitmapLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TBitmapLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TBitmapLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TBitmapLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TBitmapLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TBitmapLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TBitmapLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TBitmapLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TBitmapLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TBitmapLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TBitmapLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TBitmapLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "AlphaHit",
+                        "link": "/api/GR32_Layers/TBitmapLayer/AlphaHit"
+                      },
+                      {
+                        "text": "Bitmap",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Bitmap"
+                      },
+                      {
+                        "text": "Cropped",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Cropped"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TBitmapLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TBitmapLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TBitmapLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TBitmapLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCustomBitmapLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TCustomBitmapLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "AlphaHit",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/AlphaHit"
+                      },
+                      {
+                        "text": "Bitmap",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Bitmap"
+                      },
+                      {
+                        "text": "Cropped",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Cropped"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TCustomBitmapLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCustomIndirectBitmapLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "AlphaHit",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/AlphaHit"
+                      },
+                      {
+                        "text": "Bitmap",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Bitmap"
+                      },
+                      {
+                        "text": "Cropped",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Cropped"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TCustomIndirectBitmapLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCustomLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TCustomLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TCustomLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TCustomLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TCustomLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TCustomLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TCustomLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TCustomLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TCustomLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TCustomLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TCustomLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TCustomLayer/EndUpdate"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TCustomLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TCustomLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TCustomLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TCustomLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TCustomLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TCustomLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TCustomLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TCustomLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TCustomLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TCustomLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TCustomLayer/LayerStates"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TCustomLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TCustomLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TCustomLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TCustomLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TCustomLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TCustomLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCustomRubberBandLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TCustomRubberBandLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHandleClicked",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnHandleClicked"
+                      },
+                      {
+                        "text": "OnHandleMove",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnHandleMove"
+                      },
+                      {
+                        "text": "OnHandleMoved",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnHandleMoved"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnPaint"
+                      },
+                      {
+                        "text": "OnPaintHandle",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnPaintHandle"
+                      },
+                      {
+                        "text": "OnUpdateHandle",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnUpdateHandle"
+                      },
+                      {
+                        "text": "OnUserChange",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/OnUserChange"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LayerToControl"
+                      },
+                      {
+                        "text": "Quantize",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Quantize"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "ActiveHitTest",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/ActiveHitTest"
+                      },
+                      {
+                        "text": "ChildLayer",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/ChildLayer"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Cursor"
+                      },
+                      {
+                        "text": "FrameStipple",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/FrameStipple"
+                      },
+                      {
+                        "text": "FrameStippleCounter",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/FrameStippleCounter"
+                      },
+                      {
+                        "text": "FrameStippleSegmented",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/FrameStippleSegmented"
+                      },
+                      {
+                        "text": "FrameStippleStep",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/FrameStippleStep"
+                      },
+                      {
+                        "text": "HandleFill",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleFill"
+                      },
+                      {
+                        "text": "HandleFrame",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleFrame"
+                      },
+                      {
+                        "text": "HandleFrameSize",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleFrameSize"
+                      },
+                      {
+                        "text": "HandleHitZone",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleHitZone"
+                      },
+                      {
+                        "text": "HandleSize",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleSize"
+                      },
+                      {
+                        "text": "HandleStyle",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/HandleStyle"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/MouseEvents"
+                      },
+                      {
+                        "text": "PassMouseToChild",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/PassMouseToChild"
+                      },
+                      {
+                        "text": "Quantized",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Quantized"
+                      },
+                      {
+                        "text": "QuantizeShiftToggle",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/QuantizeShiftToggle"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Vertex",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Vertex"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TCustomRubberBandLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TIndirectBitmapLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TIndirectBitmapLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "AlphaHit",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/AlphaHit"
+                      },
+                      {
+                        "text": "Bitmap",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Bitmap"
+                      },
+                      {
+                        "text": "Cropped",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Cropped"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TIndirectBitmapLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TLayerCollection",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TLayerCollection/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TLayerCollection/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Add",
+                        "link": "/api/GR32_Layers/TLayerCollection/Add"
+                      },
+                      {
+                        "text": "Assign",
+                        "link": "/api/GR32_Layers/TLayerCollection/Assign"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_Layers/TLayerCollection/Clear"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_Layers/TLayerCollection/Delete"
+                      },
+                      {
+                        "text": "GetEnumerator",
+                        "link": "/api/GR32_Layers/TLayerCollection/GetEnumerator"
+                      },
+                      {
+                        "text": "GetViewportScale",
+                        "link": "/api/GR32_Layers/TLayerCollection/GetViewportScale"
+                      },
+                      {
+                        "text": "GetViewportShift",
+                        "link": "/api/GR32_Layers/TLayerCollection/GetViewportShift"
+                      },
+                      {
+                        "text": "IndexOf",
+                        "link": "/api/GR32_Layers/TLayerCollection/IndexOf"
+                      },
+                      {
+                        "text": "Insert",
+                        "link": "/api/GR32_Layers/TLayerCollection/Insert"
+                      },
+                      {
+                        "text": "LocalToViewport",
+                        "link": "/api/GR32_Layers/TLayerCollection/LocalToViewport"
+                      },
+                      {
+                        "text": "Subscribe",
+                        "link": "/api/GR32_Layers/TLayerCollection/Subscribe"
+                      },
+                      {
+                        "text": "Unsubscribe",
+                        "link": "/api/GR32_Layers/TLayerCollection/Unsubscribe"
+                      },
+                      {
+                        "text": "ViewportToLocal",
+                        "link": "/api/GR32_Layers/TLayerCollection/ViewportToLocal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Count",
+                        "link": "/api/GR32_Layers/TLayerCollection/Count"
+                      },
+                      {
+                        "text": "Items",
+                        "link": "/api/GR32_Layers/TLayerCollection/Items"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TLayerCollection/MouseEvents"
+                      },
+                      {
+                        "text": "MouseListener",
+                        "link": "/api/GR32_Layers/TLayerCollection/MouseListener"
+                      },
+                      {
+                        "text": "Owner",
+                        "link": "/api/GR32_Layers/TLayerCollection/Owner"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TPolygonRubberbandLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TPolygonRubberbandLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHandleClicked",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnHandleClicked"
+                      },
+                      {
+                        "text": "OnHandleMove",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnHandleMove"
+                      },
+                      {
+                        "text": "OnHandleMoved",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnHandleMoved"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnPaint"
+                      },
+                      {
+                        "text": "OnPaintHandle",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnPaintHandle"
+                      },
+                      {
+                        "text": "OnUpdateHandle",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnUpdateHandle"
+                      },
+                      {
+                        "text": "OnUserChange",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/OnUserChange"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LayerToControl"
+                      },
+                      {
+                        "text": "Quantize",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Quantize"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "ActiveHitTest",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/ActiveHitTest"
+                      },
+                      {
+                        "text": "ChildLayer",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/ChildLayer"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Cursor"
+                      },
+                      {
+                        "text": "FrameStipple",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/FrameStipple"
+                      },
+                      {
+                        "text": "FrameStippleCounter",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/FrameStippleCounter"
+                      },
+                      {
+                        "text": "FrameStippleSegmented",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/FrameStippleSegmented"
+                      },
+                      {
+                        "text": "FrameStippleStep",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/FrameStippleStep"
+                      },
+                      {
+                        "text": "HandleFill",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleFill"
+                      },
+                      {
+                        "text": "HandleFrame",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleFrame"
+                      },
+                      {
+                        "text": "HandleFrameSize",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleFrameSize"
+                      },
+                      {
+                        "text": "HandleHitZone",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleHitZone"
+                      },
+                      {
+                        "text": "HandleSize",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleSize"
+                      },
+                      {
+                        "text": "HandleStyle",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/HandleStyle"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/MouseEvents"
+                      },
+                      {
+                        "text": "PassMouseToChild",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/PassMouseToChild"
+                      },
+                      {
+                        "text": "Quantized",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Quantized"
+                      },
+                      {
+                        "text": "QuantizeShiftToggle",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/QuantizeShiftToggle"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Vertex",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Vertex"
+                      },
+                      {
+                        "text": "Vertices",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Vertices"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TPolygonRubberbandLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TPositionedLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TPositionedLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnClick"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TPositionedLayer/OnPaint"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TPositionedLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TPositionedLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TPositionedLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TPositionedLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TPositionedLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TPositionedLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TPositionedLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TPositionedLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TPositionedLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TPositionedLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TPositionedLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TPositionedLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LayerToControl"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TPositionedLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TPositionedLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Cursor"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TPositionedLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TPositionedLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TPositionedLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TPositionedLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TRubberbandLayer",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TRubberbandLayer/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnChange"
+                      },
+                      {
+                        "text": "OnClick",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnClick"
+                      },
+                      {
+                        "text": "OnConstrain",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnConstrain"
+                      },
+                      {
+                        "text": "OnDblClick",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnDblClick"
+                      },
+                      {
+                        "text": "OnDestroy",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnDestroy"
+                      },
+                      {
+                        "text": "OnGetUpdateRect",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnGetUpdateRect"
+                      },
+                      {
+                        "text": "OnHandleClicked",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnHandleClicked"
+                      },
+                      {
+                        "text": "OnHandleMove",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnHandleMove"
+                      },
+                      {
+                        "text": "OnHandleMoved",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnHandleMoved"
+                      },
+                      {
+                        "text": "OnHitTest",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnHitTest"
+                      },
+                      {
+                        "text": "OnKeyDown",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnKeyDown"
+                      },
+                      {
+                        "text": "OnKeyUp",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnKeyUp"
+                      },
+                      {
+                        "text": "OnMouseDown",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseMove",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaint",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnPaint"
+                      },
+                      {
+                        "text": "OnPaintHandle",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnPaintHandle"
+                      },
+                      {
+                        "text": "OnResizing",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnResizing"
+                      },
+                      {
+                        "text": "OnUpdateHandle",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnUpdateHandle"
+                      },
+                      {
+                        "text": "OnUserChange",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/OnUserChange"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeforeDestruction",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/BeforeDestruction"
+                      },
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/BeginUpdate"
+                      },
+                      {
+                        "text": "BringToFront",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/BringToFront"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Changed"
+                      },
+                      {
+                        "text": "ContentToLayer",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/ContentToLayer"
+                      },
+                      {
+                        "text": "ControlToLayer",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/ControlToLayer"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/EndUpdate"
+                      },
+                      {
+                        "text": "GetAdjustedLocation",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/GetAdjustedLocation"
+                      },
+                      {
+                        "text": "GetAdjustedRect",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/GetAdjustedRect"
+                      },
+                      {
+                        "text": "HitTest",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HitTest"
+                      },
+                      {
+                        "text": "LayerToContent",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LayerToContent"
+                      },
+                      {
+                        "text": "LayerToControl",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LayerToControl"
+                      },
+                      {
+                        "text": "Quantize",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Quantize"
+                      },
+                      {
+                        "text": "SendToBack",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/SendToBack"
+                      },
+                      {
+                        "text": "SetAsMouseListener",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/SetAsMouseListener"
+                      },
+                      {
+                        "text": "Update",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Update"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "ActiveHitTest",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/ActiveHitTest"
+                      },
+                      {
+                        "text": "ChildLayer",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/ChildLayer"
+                      },
+                      {
+                        "text": "Cursor",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Cursor"
+                      },
+                      {
+                        "text": "FrameStipple",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/FrameStipple"
+                      },
+                      {
+                        "text": "FrameStippleCounter",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/FrameStippleCounter"
+                      },
+                      {
+                        "text": "FrameStippleSegmented",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/FrameStippleSegmented"
+                      },
+                      {
+                        "text": "FrameStippleStep",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/FrameStippleStep"
+                      },
+                      {
+                        "text": "HandleFill",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleFill"
+                      },
+                      {
+                        "text": "HandleFrame",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleFrame"
+                      },
+                      {
+                        "text": "HandleFrameSize",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleFrameSize"
+                      },
+                      {
+                        "text": "HandleHitZone",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleHitZone"
+                      },
+                      {
+                        "text": "Handles",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Handles"
+                      },
+                      {
+                        "text": "HandleSize",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleSize"
+                      },
+                      {
+                        "text": "HandleStyle",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/HandleStyle"
+                      },
+                      {
+                        "text": "Index",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Properties-Index"
+                      },
+                      {
+                        "text": "LayerCollection",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LayerCollection"
+                      },
+                      {
+                        "text": "LayerOptions",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LayerOptions"
+                      },
+                      {
+                        "text": "LayerStates",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LayerStates"
+                      },
+                      {
+                        "text": "Location",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Location"
+                      },
+                      {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/LockUpdateCount"
+                      },
+                      {
+                        "text": "MaxHeight",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/MaxHeight"
+                      },
+                      {
+                        "text": "MaxWidth",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/MaxWidth"
+                      },
+                      {
+                        "text": "MinHeight",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/MinHeight"
+                      },
+                      {
+                        "text": "MinWidth",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/MinWidth"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Modified"
+                      },
+                      {
+                        "text": "MouseEvents",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/MouseEvents"
+                      },
+                      {
+                        "text": "Options",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Options"
+                      },
+                      {
+                        "text": "PassMouseToChild",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/PassMouseToChild"
+                      },
+                      {
+                        "text": "Quantized",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Quantized"
+                      },
+                      {
+                        "text": "QuantizeShiftToggle",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/QuantizeShiftToggle"
+                      },
+                      {
+                        "text": "Scaled",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Scaled"
+                      },
+                      {
+                        "text": "Tag",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Tag"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/UpdateCount"
+                      },
+                      {
+                        "text": "Vertex",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Vertex"
+                      },
+                      {
+                        "text": "Visible",
+                        "link": "/api/GR32_Layers/TRubberbandLayer/Visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TRubberbandPassMouse",
+                "collapsed": true,
+                "link": "/api/GR32_Layers/TRubberbandPassMouse/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Layers/TRubberbandPassMouse/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "CancelIfPassed",
+                        "link": "/api/GR32_Layers/TRubberbandPassMouse/CancelIfPassed"
+                      },
+                      {
+                        "text": "Enabled",
+                        "link": "/api/GR32_Layers/TRubberbandPassMouse/Enabled"
+                      },
+                      {
+                        "text": "ToChild",
+                        "link": "/api/GR32_Layers/TRubberbandPassMouse/ToChild"
+                      },
+                      {
+                        "text": "ToLayerUnderCursor",
+                        "link": "/api/GR32_Layers/TRubberbandPassMouse/ToLayerUnderCursor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Layer Option Bits",
+                "link": "/api/GR32_Layers/Layer Option Bits"
+              },
+              {
+                "text": "Rubberband Mapping Constants",
+                "link": "/api/GR32_Layers/Rubberband Mapping Constants"
+              }
+            ]
+          },
+          {
+            "text": "Interfaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ILayerHitTest",
+                "link": "/api/GR32_Layers/ILayerHitTest"
+              },
+              {
+                "text": "ILayerHitTestMove",
+                "link": "/api/GR32_Layers/ILayerHitTestMove"
+              },
+              {
+                "text": "ILayerHitTestVertex",
+                "link": "/api/GR32_Layers/ILayerHitTestVertex"
+              },
+              {
+                "text": "ILayerListNotification",
+                "link": "/api/GR32_Layers/ILayerListNotification"
+              },
+              {
+                "text": "ILayerNotification",
+                "link": "/api/GR32_Layers/ILayerNotification"
+              },
+              {
+                "text": "ILayerUpdateNotification",
+                "link": "/api/GR32_Layers/ILayerUpdateNotification"
+              },
+              {
+                "text": "IUpdateRectNotification",
+                "link": "/api/GR32_Layers/IUpdateRectNotification"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TLayerListNotification",
+                "link": "/api/GR32_Layers/TLayerListNotification"
+              },
+              {
+                "text": "TLayerShiftState",
+                "link": "/api/GR32_Layers/TLayerShiftState"
+              },
+              {
+                "text": "TLayerState",
+                "link": "/api/GR32_Layers/TLayerState"
+              },
+              {
+                "text": "TRBDragState",
+                "link": "/api/GR32_Layers/TRBDragState"
+              },
+              {
+                "text": "TRBHandles",
+                "link": "/api/GR32_Layers/TRBHandles"
+              },
+              {
+                "text": "TRBOptions",
+                "link": "/api/GR32_Layers/TRBOptions"
+              },
+              {
+                "text": "TResizeDirection",
+                "link": "/api/GR32_Layers/TResizeDirection"
+              },
+              {
+                "text": "TRubberBandHandleDrawParams",
+                "link": "/api/GR32_Layers/TRubberBandHandleDrawParams"
+              },
+              {
+                "text": "TRubberBandHandleStyle",
+                "link": "/api/GR32_Layers/TRubberBandHandleStyle"
+              },
+              {
+                "text": "TValidDragStates",
+                "link": "/api/GR32_Layers/TValidDragStates"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "DirectionCursors",
+                "link": "/api/GR32_Layers/DirectionCursors"
+              }
+            ]
+          }
+        ]
       },
       {
         "text": "GR32_OrdinalMaps",
