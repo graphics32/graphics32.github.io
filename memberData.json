@@ -225,6 +225,21 @@
       "isAbstract": false,
       "link": "/api/GR32/TFixedRect"
     },
+    "/api/GR32/TFloat": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "TFloat",
+      "name": "TFloat",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "32-bit single-precision floating point number.",
+      "declaration": "|",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "link": "/api/GR32/TFloat"
+    },
     "/api/GR32/TFloatPoint": {
       "unit": "GR32",
       "parent": "",
@@ -121131,6 +121146,21 @@
           "isProtected": false,
           "isAbstract": false,
           "link": "/api/GR32/TFixedRect"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
+          "entity": "TFloat",
+          "name": "TFloat",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "32-bit single-precision floating point number.",
+          "declaration": "|",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "link": "/api/GR32/TFloat"
         },
         {
           "unit": "GR32",

@@ -2021,6 +2021,10 @@
                 "link": "/api/GR32/TFixedRect"
               },
               {
+                "text": "TFloat",
+                "link": "/api/GR32/TFloat"
+              },
+              {
                 "text": "TFloatPoint",
                 "link": "/api/GR32/TFloatPoint"
               },
