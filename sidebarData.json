@@ -10514,6 +10514,127 @@
         ]
       },
       {
+        "text": "GR32_Math",
+        "collapsed": true,
+        "link": "/api/GR32_Math/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Average",
+                "link": "/api/GR32_Math/Average"
+              },
+              {
+                "text": "CumSum",
+                "link": "/api/GR32_Math/CumSum"
+              },
+              {
+                "text": "DivMod",
+                "link": "/api/GR32_Math/DivMod"
+              },
+              {
+                "text": "FastInvSqrt",
+                "link": "/api/GR32_Math/FastInvSqrt"
+              },
+              {
+                "text": "FastSqrt",
+                "link": "/api/GR32_Math/FastSqrt"
+              },
+              {
+                "text": "FastSqrtBab1",
+                "link": "/api/GR32_Math/FastSqrtBab1"
+              },
+              {
+                "text": "FastSqrtBab2",
+                "link": "/api/GR32_Math/FastSqrtBab2"
+              },
+              {
+                "text": "FixedCeil",
+                "link": "/api/GR32_Math/FixedCeil"
+              },
+              {
+                "text": "FixedCombine",
+                "link": "/api/GR32_Math/FixedCombine"
+              },
+              {
+                "text": "FixedDiv",
+                "link": "/api/GR32_Math/FixedDiv"
+              },
+              {
+                "text": "FixedFloor",
+                "link": "/api/GR32_Math/FixedFloor"
+              },
+              {
+                "text": "FixedMul",
+                "link": "/api/GR32_Math/FixedMul"
+              },
+              {
+                "text": "FixedRound",
+                "link": "/api/GR32_Math/FixedRound"
+              },
+              {
+                "text": "FixedSqr",
+                "link": "/api/GR32_Math/FixedSqr"
+              },
+              {
+                "text": "FixedSqrtHP",
+                "link": "/api/GR32_Math/FixedSqrtHP"
+              },
+              {
+                "text": "FixedSqrtLP",
+                "link": "/api/GR32_Math/FixedSqrtLP"
+              },
+              {
+                "text": "FloatMod",
+                "link": "/api/GR32_Math/FloatMod"
+              },
+              {
+                "text": "FloatRemainder",
+                "link": "/api/GR32_Math/FloatRemainder"
+              },
+              {
+                "text": "FMod",
+                "link": "/api/GR32_Math/FMod"
+              },
+              {
+                "text": "Hypot",
+                "link": "/api/GR32_Math/Hypot"
+              },
+              {
+                "text": "IsPowerOf2",
+                "link": "/api/GR32_Math/IsPowerOf2"
+              },
+              {
+                "text": "MulDiv",
+                "link": "/api/GR32_Math/MulDiv"
+              },
+              {
+                "text": "NextPowerOf2",
+                "link": "/api/GR32_Math/NextPowerOf2"
+              },
+              {
+                "text": "OneOver",
+                "link": "/api/GR32_Math/OneOver"
+              },
+              {
+                "text": "PrevPowerOf2",
+                "link": "/api/GR32_Math/PrevPowerOf2"
+              },
+              {
+                "text": "Sign",
+                "link": "/api/GR32_Math/Sign"
+              },
+              {
+                "text": "SinCos",
+                "link": "/api/GR32_Math/SinCos"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_OrdinalMaps",
         "collapsed": true,
         "link": "/api/GR32_OrdinalMaps/",
