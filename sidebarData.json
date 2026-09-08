@@ -10514,6 +10514,135 @@
         ]
       },
       {
+        "text": "GR32_LowLevel",
+        "collapsed": true,
+        "link": "/api/GR32_LowLevel/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Clamp",
+                "link": "/api/GR32_LowLevel/Clamp"
+              },
+              {
+                "text": "ColorSwap",
+                "link": "/api/GR32_LowLevel/ColorSwap"
+              },
+              {
+                "text": "Constrain",
+                "link": "/api/GR32_LowLevel/Constrain"
+              },
+              {
+                "text": "Div127",
+                "link": "/api/GR32_LowLevel/Div127"
+              },
+              {
+                "text": "Div255",
+                "link": "/api/GR32_LowLevel/Div255"
+              },
+              {
+                "text": "Fast Rounding Functions",
+                "link": "/api/GR32_LowLevel/Fast Rounding Functions"
+              },
+              {
+                "text": "FillLongword",
+                "link": "/api/GR32_LowLevel/FillLongword"
+              },
+              {
+                "text": "FillWord",
+                "link": "/api/GR32_LowLevel/FillWord"
+              },
+              {
+                "text": "GetOptimalReflect",
+                "link": "/api/GR32_LowLevel/GetOptimalReflect"
+              },
+              {
+                "text": "GetOptimalWrap",
+                "link": "/api/GR32_LowLevel/GetOptimalWrap"
+              },
+              {
+                "text": "GetWrapProc",
+                "link": "/api/GR32_LowLevel/GetWrapProc"
+              },
+              {
+                "text": "GetWrapProcEx",
+                "link": "/api/GR32_LowLevel/GetWrapProcEx"
+              },
+              {
+                "text": "Max",
+                "link": "/api/GR32_LowLevel/Max"
+              },
+              {
+                "text": "Min",
+                "link": "/api/GR32_LowLevel/Min"
+              },
+              {
+                "text": "Mirror",
+                "link": "/api/GR32_LowLevel/Mirror"
+              },
+              {
+                "text": "MoveLongword",
+                "link": "/api/GR32_LowLevel/MoveLongword"
+              },
+              {
+                "text": "MoveWord",
+                "link": "/api/GR32_LowLevel/MoveWord"
+              },
+              {
+                "text": "Reflect",
+                "link": "/api/GR32_LowLevel/Reflect"
+              },
+              {
+                "text": "ReflectPow2",
+                "link": "/api/GR32_LowLevel/ReflectPow2"
+              },
+              {
+                "text": "SAR",
+                "link": "/api/GR32_LowLevel/SAR"
+              },
+              {
+                "text": "StackAlloc",
+                "link": "/api/GR32_LowLevel/StackAlloc"
+              },
+              {
+                "text": "Swap",
+                "link": "/api/GR32_LowLevel/Swap"
+              },
+              {
+                "text": "Swap16",
+                "link": "/api/GR32_LowLevel/Swap16"
+              },
+              {
+                "text": "SwapConstrain",
+                "link": "/api/GR32_LowLevel/SwapConstrain"
+              },
+              {
+                "text": "TestClip",
+                "link": "/api/GR32_LowLevel/TestClip"
+              },
+              {
+                "text": "TestSwap",
+                "link": "/api/GR32_LowLevel/TestSwap"
+              },
+              {
+                "text": "Wrap",
+                "link": "/api/GR32_LowLevel/Wrap"
+              },
+              {
+                "text": "WrapMem",
+                "link": "/api/GR32_LowLevel/WrapMem"
+              },
+              {
+                "text": "WrapPow2",
+                "link": "/api/GR32_LowLevel/WrapPow2"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Math",
         "collapsed": true,
         "link": "/api/GR32_Math/",
