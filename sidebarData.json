@@ -141,18 +141,6 @@
                         "link": "/api/GR32/TBitmap32/FillRect"
                       },
                       {
-                        "text": "FillRectS",
-                        "link": "/api/GR32/TBitmap32/FillRectS"
-                      },
-                      {
-                        "text": "FillRectT",
-                        "link": "/api/GR32/TBitmap32/FillRectT"
-                      },
-                      {
-                        "text": "FillRectTS",
-                        "link": "/api/GR32/TBitmap32/FillRectTS"
-                      },
-                      {
                         "text": "FlipHorz",
                         "link": "/api/GR32/TBitmap32/FlipHorz"
                       },
@@ -161,16 +149,8 @@
                         "link": "/api/GR32/TBitmap32/FlipVert"
                       },
                       {
-                        "text": "FrameRectS",
-                        "link": "/api/GR32/TBitmap32/FrameRectS"
-                      },
-                      {
-                        "text": "FrameRectTS",
-                        "link": "/api/GR32/TBitmap32/FrameRectTS"
-                      },
-                      {
-                        "text": "FrameRectTSP",
-                        "link": "/api/GR32/TBitmap32/FrameRectTSP"
+                        "text": "FrameRect",
+                        "link": "/api/GR32/TBitmap32/FrameRect"
                       },
                       {
                         "text": "GetPlatformBackendClass",
@@ -183,30 +163,6 @@
                       {
                         "text": "HorzLine",
                         "link": "/api/GR32/TBitmap32/HorzLine"
-                      },
-                      {
-                        "text": "HorzLineS",
-                        "link": "/api/GR32/TBitmap32/HorzLineS"
-                      },
-                      {
-                        "text": "HorzLineT",
-                        "link": "/api/GR32/TBitmap32/HorzLineT"
-                      },
-                      {
-                        "text": "HorzLineTS",
-                        "link": "/api/GR32/TBitmap32/HorzLineTS"
-                      },
-                      {
-                        "text": "HorzLineTSP",
-                        "link": "/api/GR32/TBitmap32/HorzLineTSP"
-                      },
-                      {
-                        "text": "HorzLineX",
-                        "link": "/api/GR32/TBitmap32/HorzLineX"
-                      },
-                      {
-                        "text": "HorzLineXS",
-                        "link": "/api/GR32/TBitmap32/HorzLineXS"
                       },
                       {
                         "text": "Line",
@@ -327,30 +283,6 @@
                       {
                         "text": "VertLine",
                         "link": "/api/GR32/TBitmap32/VertLine"
-                      },
-                      {
-                        "text": "VertLineS",
-                        "link": "/api/GR32/TBitmap32/VertLineS"
-                      },
-                      {
-                        "text": "VertLineT",
-                        "link": "/api/GR32/TBitmap32/VertLineT"
-                      },
-                      {
-                        "text": "VertLineTS",
-                        "link": "/api/GR32/TBitmap32/VertLineTS"
-                      },
-                      {
-                        "text": "VertLineTSP",
-                        "link": "/api/GR32/TBitmap32/VertLineTSP"
-                      },
-                      {
-                        "text": "VertLineX",
-                        "link": "/api/GR32/TBitmap32/VertLineX"
-                      },
-                      {
-                        "text": "VertLineXS",
-                        "link": "/api/GR32/TBitmap32/VertLineXS"
                       }
                     ]
                   },
@@ -751,18 +683,6 @@
                         "link": "/api/GR32/TCustomBitmap32/FillRect"
                       },
                       {
-                        "text": "FillRectS",
-                        "link": "/api/GR32/TCustomBitmap32/FillRectS"
-                      },
-                      {
-                        "text": "FillRectT",
-                        "link": "/api/GR32/TCustomBitmap32/FillRectT"
-                      },
-                      {
-                        "text": "FillRectTS",
-                        "link": "/api/GR32/TCustomBitmap32/FillRectTS"
-                      },
-                      {
                         "text": "FlipHorz",
                         "link": "/api/GR32/TCustomBitmap32/FlipHorz"
                       },
@@ -771,16 +691,8 @@
                         "link": "/api/GR32/TCustomBitmap32/FlipVert"
                       },
                       {
-                        "text": "FrameRectS",
-                        "link": "/api/GR32/TCustomBitmap32/FrameRectS"
-                      },
-                      {
-                        "text": "FrameRectTS",
-                        "link": "/api/GR32/TCustomBitmap32/FrameRectTS"
-                      },
-                      {
-                        "text": "FrameRectTSP",
-                        "link": "/api/GR32/TCustomBitmap32/FrameRectTSP"
+                        "text": "FrameRect",
+                        "link": "/api/GR32/TCustomBitmap32/FrameRect"
                       },
                       {
                         "text": "GetPlatformBackendClass",
@@ -793,30 +705,6 @@
                       {
                         "text": "HorzLine",
                         "link": "/api/GR32/TCustomBitmap32/HorzLine"
-                      },
-                      {
-                        "text": "HorzLineS",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineS"
-                      },
-                      {
-                        "text": "HorzLineT",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineT"
-                      },
-                      {
-                        "text": "HorzLineTS",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineTS"
-                      },
-                      {
-                        "text": "HorzLineTSP",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineTSP"
-                      },
-                      {
-                        "text": "HorzLineX",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineX"
-                      },
-                      {
-                        "text": "HorzLineXS",
-                        "link": "/api/GR32/TCustomBitmap32/HorzLineXS"
                       },
                       {
                         "text": "Line",
@@ -933,30 +821,6 @@
                       {
                         "text": "VertLine",
                         "link": "/api/GR32/TCustomBitmap32/VertLine"
-                      },
-                      {
-                        "text": "VertLineS",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineS"
-                      },
-                      {
-                        "text": "VertLineT",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineT"
-                      },
-                      {
-                        "text": "VertLineTS",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineTS"
-                      },
-                      {
-                        "text": "VertLineTSP",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineTSP"
-                      },
-                      {
-                        "text": "VertLineX",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineX"
-                      },
-                      {
-                        "text": "VertLineXS",
-                        "link": "/api/GR32/TCustomBitmap32/VertLineXS"
                       }
                     ]
                   },
