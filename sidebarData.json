@@ -213,84 +213,8 @@
                         "link": "/api/GR32/TBitmap32/Line"
                       },
                       {
-                        "text": "LineA",
-                        "link": "/api/GR32/TBitmap32/LineA"
-                      },
-                      {
-                        "text": "LineAS",
-                        "link": "/api/GR32/TBitmap32/LineAS"
-                      },
-                      {
-                        "text": "LineF",
-                        "link": "/api/GR32/TBitmap32/LineF"
-                      },
-                      {
-                        "text": "LineFP",
-                        "link": "/api/GR32/TBitmap32/LineFP"
-                      },
-                      {
-                        "text": "LineFS",
-                        "link": "/api/GR32/TBitmap32/LineFS"
-                      },
-                      {
-                        "text": "LineFSP",
-                        "link": "/api/GR32/TBitmap32/LineFSP"
-                      },
-                      {
-                        "text": "LineS",
-                        "link": "/api/GR32/TBitmap32/LineS"
-                      },
-                      {
-                        "text": "LineT",
-                        "link": "/api/GR32/TBitmap32/LineT"
-                      },
-                      {
-                        "text": "LineToAS",
-                        "link": "/api/GR32/TBitmap32/LineToAS"
-                      },
-                      {
-                        "text": "LineToFS",
-                        "link": "/api/GR32/TBitmap32/LineToFS"
-                      },
-                      {
-                        "text": "LineToFSP",
-                        "link": "/api/GR32/TBitmap32/LineToFSP"
-                      },
-                      {
-                        "text": "LineToS",
-                        "link": "/api/GR32/TBitmap32/LineToS"
-                      },
-                      {
-                        "text": "LineToTS",
-                        "link": "/api/GR32/TBitmap32/LineToTS"
-                      },
-                      {
-                        "text": "LineToXS",
-                        "link": "/api/GR32/TBitmap32/LineToXS"
-                      },
-                      {
-                        "text": "LineToXSP",
-                        "link": "/api/GR32/TBitmap32/LineToXSP"
-                      },
-                      {
-                        "text": "LineTS",
-                        "link": "/api/GR32/TBitmap32/LineTS"
-                      },
-                      {
-                        "text": "LineX",
-                        "link": "/api/GR32/TBitmap32/LineX"
-                      },
-                      {
-                        "text": "LineXP",
-                        "link": "/api/GR32/TBitmap32/LineXP"
-                      },
-                      {
-                        "text": "LineXS",
-                        "link": "/api/GR32/TBitmap32/LineXS"
-                      },
-                      {
-                        "text": "LineXSP",
-                        "link": "/api/GR32/TBitmap32/LineXSP"
+                        "text": "LineTo",
+                        "link": "/api/GR32/TBitmap32/LineTo"
                       },
                       {
                         "text": "LoadFromFile",
@@ -315,14 +239,6 @@
                       {
                         "text": "MoveTo",
                         "link": "/api/GR32/TBitmap32/MoveTo"
-                      },
-                      {
-                        "text": "MoveToF",
-                        "link": "/api/GR32/TBitmap32/MoveToF"
-                      },
-                      {
-                        "text": "MoveToX",
-                        "link": "/api/GR32/TBitmap32/MoveToX"
                       },
                       {
                         "text": "PropertyChanged",
@@ -907,84 +823,8 @@
                         "link": "/api/GR32/TCustomBitmap32/Line"
                       },
                       {
-                        "text": "LineA",
-                        "link": "/api/GR32/TCustomBitmap32/LineA"
-                      },
-                      {
-                        "text": "LineAS",
-                        "link": "/api/GR32/TCustomBitmap32/LineAS"
-                      },
-                      {
-                        "text": "LineF",
-                        "link": "/api/GR32/TCustomBitmap32/LineF"
-                      },
-                      {
-                        "text": "LineFP",
-                        "link": "/api/GR32/TCustomBitmap32/LineFP"
-                      },
-                      {
-                        "text": "LineFS",
-                        "link": "/api/GR32/TCustomBitmap32/LineFS"
-                      },
-                      {
-                        "text": "LineFSP",
-                        "link": "/api/GR32/TCustomBitmap32/LineFSP"
-                      },
-                      {
-                        "text": "LineS",
-                        "link": "/api/GR32/TCustomBitmap32/LineS"
-                      },
-                      {
-                        "text": "LineT",
-                        "link": "/api/GR32/TCustomBitmap32/LineT"
-                      },
-                      {
-                        "text": "LineToAS",
-                        "link": "/api/GR32/TCustomBitmap32/LineToAS"
-                      },
-                      {
-                        "text": "LineToFS",
-                        "link": "/api/GR32/TCustomBitmap32/LineToFS"
-                      },
-                      {
-                        "text": "LineToFSP",
-                        "link": "/api/GR32/TCustomBitmap32/LineToFSP"
-                      },
-                      {
-                        "text": "LineToS",
-                        "link": "/api/GR32/TCustomBitmap32/LineToS"
-                      },
-                      {
-                        "text": "LineToTS",
-                        "link": "/api/GR32/TCustomBitmap32/LineToTS"
-                      },
-                      {
-                        "text": "LineToXS",
-                        "link": "/api/GR32/TCustomBitmap32/LineToXS"
-                      },
-                      {
-                        "text": "LineToXSP",
-                        "link": "/api/GR32/TCustomBitmap32/LineToXSP"
-                      },
-                      {
-                        "text": "LineTS",
-                        "link": "/api/GR32/TCustomBitmap32/LineTS"
-                      },
-                      {
-                        "text": "LineX",
-                        "link": "/api/GR32/TCustomBitmap32/LineX"
-                      },
-                      {
-                        "text": "LineXP",
-                        "link": "/api/GR32/TCustomBitmap32/LineXP"
-                      },
-                      {
-                        "text": "LineXS",
-                        "link": "/api/GR32/TCustomBitmap32/LineXS"
-                      },
-                      {
-                        "text": "LineXSP",
-                        "link": "/api/GR32/TCustomBitmap32/LineXSP"
+                        "text": "LineTo",
+                        "link": "/api/GR32/TCustomBitmap32/LineTo"
                       },
                       {
                         "text": "LoadFromFile",
@@ -1009,14 +849,6 @@
                       {
                         "text": "MoveTo",
                         "link": "/api/GR32/TCustomBitmap32/MoveTo"
-                      },
-                      {
-                        "text": "MoveToF",
-                        "link": "/api/GR32/TCustomBitmap32/MoveToF"
-                      },
-                      {
-                        "text": "MoveToX",
-                        "link": "/api/GR32/TCustomBitmap32/MoveToX"
                       },
                       {
                         "text": "PropertyChanged",
