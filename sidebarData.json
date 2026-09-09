@@ -531,48 +531,8 @@
                         "link": "/api/GR32/TBitmap32/Pixel"
                       },
                       {
-                        "text": "PixelF",
-                        "link": "/api/GR32/TBitmap32/PixelF"
-                      },
-                      {
-                        "text": "PixelFR",
-                        "link": "/api/GR32/TBitmap32/PixelFR"
-                      },
-                      {
-                        "text": "PixelFS",
-                        "link": "/api/GR32/TBitmap32/PixelFS"
-                      },
-                      {
-                        "text": "PixelFW",
-                        "link": "/api/GR32/TBitmap32/PixelFW"
-                      },
-                      {
                         "text": "PixelPtr",
                         "link": "/api/GR32/TBitmap32/PixelPtr"
-                      },
-                      {
-                        "text": "PixelS",
-                        "link": "/api/GR32/TBitmap32/PixelS"
-                      },
-                      {
-                        "text": "PixelW",
-                        "link": "/api/GR32/TBitmap32/PixelW"
-                      },
-                      {
-                        "text": "PixelX",
-                        "link": "/api/GR32/TBitmap32/PixelX"
-                      },
-                      {
-                        "text": "PixelXR",
-                        "link": "/api/GR32/TBitmap32/PixelXR"
-                      },
-                      {
-                        "text": "PixelXS",
-                        "link": "/api/GR32/TBitmap32/PixelXS"
-                      },
-                      {
-                        "text": "PixelXW",
-                        "link": "/api/GR32/TBitmap32/PixelXW"
                       },
                       {
                         "text": "RefCount",
@@ -1241,48 +1201,8 @@
                         "link": "/api/GR32/TCustomBitmap32/Pixel"
                       },
                       {
-                        "text": "PixelF",
-                        "link": "/api/GR32/TCustomBitmap32/PixelF"
-                      },
-                      {
-                        "text": "PixelFR",
-                        "link": "/api/GR32/TCustomBitmap32/PixelFR"
-                      },
-                      {
-                        "text": "PixelFS",
-                        "link": "/api/GR32/TCustomBitmap32/PixelFS"
-                      },
-                      {
-                        "text": "PixelFW",
-                        "link": "/api/GR32/TCustomBitmap32/PixelFW"
-                      },
-                      {
                         "text": "PixelPtr",
                         "link": "/api/GR32/TCustomBitmap32/PixelPtr"
-                      },
-                      {
-                        "text": "PixelS",
-                        "link": "/api/GR32/TCustomBitmap32/PixelS"
-                      },
-                      {
-                        "text": "PixelW",
-                        "link": "/api/GR32/TCustomBitmap32/PixelW"
-                      },
-                      {
-                        "text": "PixelX",
-                        "link": "/api/GR32/TCustomBitmap32/PixelX"
-                      },
-                      {
-                        "text": "PixelXR",
-                        "link": "/api/GR32/TCustomBitmap32/PixelXR"
-                      },
-                      {
-                        "text": "PixelXS",
-                        "link": "/api/GR32/TCustomBitmap32/PixelXS"
-                      },
-                      {
-                        "text": "PixelXW",
-                        "link": "/api/GR32/TCustomBitmap32/PixelXW"
                       },
                       {
                         "text": "RefCount",
