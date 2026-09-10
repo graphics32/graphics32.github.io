@@ -8988,18 +8988,6 @@
             "collapsed": true,
             "items": [
               {
-                "text": "TBackgroundCheckerStyle",
-                "link": "/api/GR32_Image/TBackgroundCheckerStyle"
-              },
-              {
-                "text": "TBackgroundFillStyle",
-                "link": "/api/GR32_Image/TBackgroundFillStyle"
-              },
-              {
-                "text": "TBitmapAlign",
-                "link": "/api/GR32_Image/TBitmapAlign"
-              },
-              {
                 "text": "TImgMouseEvent",
                 "link": "/api/GR32_Image/TImgMouseEvent"
               },
@@ -9020,28 +9008,26 @@
                 "link": "/api/GR32_Image/TPaintStage"
               },
               {
-                "text": "TPaintStageEvent",
-                "link": "/api/GR32_Image/TPaintStageEvent"
-              },
-              {
                 "text": "TPaintStageMask",
                 "link": "/api/GR32_Image/TPaintStageMask"
               },
               {
                 "text": "TRepaintMode",
                 "link": "/api/GR32_Image/TRepaintMode"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "DefaultCheckersColors",
+                "link": "/api/GR32_Image/DefaultCheckersColors"
               },
               {
-                "text": "TScaleMode",
-                "link": "/api/GR32_Image/TScaleMode"
-              },
-              {
-                "text": "TScrollBarVisibility",
-                "link": "/api/GR32_Image/TScrollBarVisibility"
-              },
-              {
-                "text": "TSizeGripStyle",
-                "link": "/api/GR32_Image/TSizeGripStyle"
+                "text": "Zoom Animation Control",
+                "link": "/api/GR32_Image/Zoom Animation Control"
               }
             ]
           }
