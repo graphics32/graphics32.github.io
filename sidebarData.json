@@ -109,6 +109,10 @@
                         "link": "/api/GR32/TBitmap32/Delete"
                       },
                       {
+                        "text": "DeleteCanvas",
+                        "link": "/api/GR32/TBitmap32/DeleteCanvas"
+                      },
+                      {
                         "text": "DoChanged",
                         "link": "/api/GR32/TBitmap32/DoChanged"
                       },
@@ -209,6 +213,10 @@
                         "link": "/api/GR32/TBitmap32/ReleaseBackend"
                       },
                       {
+                        "text": "RenderText",
+                        "link": "/api/GR32/TBitmap32/RenderText"
+                      },
+                      {
                         "text": "ResetAlpha",
                         "link": "/api/GR32/TBitmap32/ResetAlpha"
                       },
@@ -273,12 +281,32 @@
                         "link": "/api/GR32/TBitmap32/SetWidth"
                       },
                       {
+                        "text": "TextExtent",
+                        "link": "/api/GR32/TBitmap32/TextExtent"
+                      },
+                      {
+                        "text": "TextHeight",
+                        "link": "/api/GR32/TBitmap32/TextHeight"
+                      },
+                      {
+                        "text": "Textout",
+                        "link": "/api/GR32/TBitmap32/Textout"
+                      },
+                      {
+                        "text": "TextWidth",
+                        "link": "/api/GR32/TBitmap32/TextWidth"
+                      },
+                      {
                         "text": "TileTo",
                         "link": "/api/GR32/TBitmap32/TileTo"
                       },
                       {
                         "text": "Unlock",
                         "link": "/api/GR32/TBitmap32/Unlock"
+                      },
+                      {
+                        "text": "UpdateFont",
+                        "link": "/api/GR32/TBitmap32/UpdateFont"
                       },
                       {
                         "text": "VertLine",
@@ -305,6 +333,10 @@
                       {
                         "text": "Canvas",
                         "link": "/api/GR32/TBitmap32/Canvas"
+                      },
+                      {
+                        "text": "CanvasAllocated",
+                        "link": "/api/GR32/TBitmap32/CanvasAllocated"
                       },
                       {
                         "text": "Clipping",
