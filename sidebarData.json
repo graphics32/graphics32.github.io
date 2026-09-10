@@ -7708,6 +7708,7 @@
               {
                 "text": "TBackgroundOptions",
                 "collapsed": true,
+                "link": "/api/GR32_Image/TBackgroundOptions/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -7716,6 +7717,46 @@
                       {
                         "text": "Create",
                         "link": "/api/GR32_Image/TBackgroundOptions/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TBackgroundOptions/OnChange"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TBackgroundOptions/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TBackgroundOptions/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TBackgroundOptions/Changed"
+                      },
+                      {
+                        "text": "DoChanged",
+                        "link": "/api/GR32_Image/TBackgroundOptions/DoChanged"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TBackgroundOptions/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TBackgroundOptions/EndUpdate"
                       }
                     ]
                   },
@@ -7772,12 +7813,24 @@
                         "link": "/api/GR32_Image/TBackgroundOptions/InnerBorderWidth"
                       },
                       {
+                        "text": "LockUpdateCount",
+                        "link": "/api/GR32_Image/TBackgroundOptions/LockUpdateCount"
+                      },
+                      {
+                        "text": "Modified",
+                        "link": "/api/GR32_Image/TBackgroundOptions/Modified"
+                      },
+                      {
                         "text": "OuterBorderColor",
                         "link": "/api/GR32_Image/TBackgroundOptions/OuterBorderColor"
                       },
                       {
                         "text": "PatternBitmap",
                         "link": "/api/GR32_Image/TBackgroundOptions/PatternBitmap"
+                      },
+                      {
+                        "text": "UpdateCount",
+                        "link": "/api/GR32_Image/TBackgroundOptions/UpdateCount"
                       }
                     ]
                   }
@@ -7916,6 +7969,18 @@
                       {
                         "text": "OnMouseMove",
                         "link": "/api/GR32_Image/TCustomImage32/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Image/TCustomImage32/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaintStage",
+                        "link": "/api/GR32_Image/TCustomImage32/OnPaintStage"
+                      },
+                      {
+                        "text": "OnScaleChange",
+                        "link": "/api/GR32_Image/TCustomImage32/OnScaleChange"
                       }
                     ]
                   },
@@ -7932,34 +7997,6 @@
                         "link": "/api/GR32_Image/TCustomImage32/ControlToBitmap"
                       },
                       {
-                        "text": "ExecBitmapFrame",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecBitmapFrame"
-                      },
-                      {
-                        "text": "ExecClearBackgnd",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecClearBackgnd"
-                      },
-                      {
-                        "text": "ExecClearBuffer",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecClearBuffer"
-                      },
-                      {
-                        "text": "ExecControlFrame",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecControlFrame"
-                      },
-                      {
-                        "text": "ExecCustom",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecCustom"
-                      },
-                      {
-                        "text": "ExecDrawBitmap",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecDrawBitmap"
-                      },
-                      {
-                        "text": "ExecDrawLayers",
-                        "link": "/api/GR32_Image/TCustomImage32/ExecDrawLayers"
-                      },
-                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TCustomImage32/FitToViewport"
                       },
@@ -7974,6 +8011,10 @@
                       {
                         "text": "Invalidate",
                         "link": "/api/GR32_Image/TCustomImage32/Invalidate"
+                      },
+                      {
+                        "text": "Paint Stage Handlers",
+                        "link": "/api/GR32_Image/TCustomImage32/Paint Stage Handlers"
                       },
                       {
                         "text": "PaintTo",
@@ -7994,10 +8035,6 @@
                       {
                         "text": "SetupBitmap",
                         "link": "/api/GR32_Image/TCustomImage32/SetupBitmap"
-                      },
-                      {
-                        "text": "Update",
-                        "link": "/api/GR32_Image/TCustomImage32/Update"
                       },
                       {
                         "text": "Zoom",
@@ -8113,6 +8150,18 @@
                         "link": "/api/GR32_Image/TCustomImgView32/OnMouseMove"
                       },
                       {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaintStage",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnPaintStage"
+                      },
+                      {
+                        "text": "OnScaleChange",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnScaleChange"
+                      },
+                      {
                         "text": "OnScroll",
                         "link": "/api/GR32_Image/TCustomImgView32/OnScroll"
                       }
@@ -8129,34 +8178,6 @@
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TCustomImgView32/ControlToBitmap"
-                      },
-                      {
-                        "text": "ExecBitmapFrame",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecBitmapFrame"
-                      },
-                      {
-                        "text": "ExecClearBackgnd",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecClearBackgnd"
-                      },
-                      {
-                        "text": "ExecClearBuffer",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecClearBuffer"
-                      },
-                      {
-                        "text": "ExecControlFrame",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecControlFrame"
-                      },
-                      {
-                        "text": "ExecCustom",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecCustom"
-                      },
-                      {
-                        "text": "ExecDrawBitmap",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecDrawBitmap"
-                      },
-                      {
-                        "text": "ExecDrawLayers",
-                        "link": "/api/GR32_Image/TCustomImgView32/ExecDrawLayers"
                       },
                       {
                         "text": "FitToViewport",
@@ -8177,6 +8198,10 @@
                       {
                         "text": "Invalidate",
                         "link": "/api/GR32_Image/TCustomImgView32/Invalidate"
+                      },
+                      {
+                        "text": "Paint Stage Handlers",
+                        "link": "/api/GR32_Image/TCustomImgView32/Paint Stage Handlers"
                       },
                       {
                         "text": "PaintTo",
@@ -8201,10 +8226,6 @@
                       {
                         "text": "SetupBitmap",
                         "link": "/api/GR32_Image/TCustomImgView32/SetupBitmap"
-                      },
-                      {
-                        "text": "Update",
-                        "link": "/api/GR32_Image/TCustomImgView32/Update"
                       },
                       {
                         "text": "Zoom",
@@ -8334,6 +8355,18 @@
                       {
                         "text": "OnMouseMove",
                         "link": "/api/GR32_Image/TImage32/OnMouseMove"
+                      },
+                      {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Image/TImage32/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaintStage",
+                        "link": "/api/GR32_Image/TImage32/OnPaintStage"
+                      },
+                      {
+                        "text": "OnScaleChange",
+                        "link": "/api/GR32_Image/TImage32/OnScaleChange"
                       }
                     ]
                   },
@@ -8350,34 +8383,6 @@
                         "link": "/api/GR32_Image/TImage32/ControlToBitmap"
                       },
                       {
-                        "text": "ExecBitmapFrame",
-                        "link": "/api/GR32_Image/TImage32/ExecBitmapFrame"
-                      },
-                      {
-                        "text": "ExecClearBackgnd",
-                        "link": "/api/GR32_Image/TImage32/ExecClearBackgnd"
-                      },
-                      {
-                        "text": "ExecClearBuffer",
-                        "link": "/api/GR32_Image/TImage32/ExecClearBuffer"
-                      },
-                      {
-                        "text": "ExecControlFrame",
-                        "link": "/api/GR32_Image/TImage32/ExecControlFrame"
-                      },
-                      {
-                        "text": "ExecCustom",
-                        "link": "/api/GR32_Image/TImage32/ExecCustom"
-                      },
-                      {
-                        "text": "ExecDrawBitmap",
-                        "link": "/api/GR32_Image/TImage32/ExecDrawBitmap"
-                      },
-                      {
-                        "text": "ExecDrawLayers",
-                        "link": "/api/GR32_Image/TImage32/ExecDrawLayers"
-                      },
-                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TImage32/FitToViewport"
                       },
@@ -8392,6 +8397,10 @@
                       {
                         "text": "Invalidate",
                         "link": "/api/GR32_Image/TImage32/Invalidate"
+                      },
+                      {
+                        "text": "Paint Stage Handlers",
+                        "link": "/api/GR32_Image/TImage32/Paint Stage Handlers"
                       },
                       {
                         "text": "PaintTo",
@@ -8412,10 +8421,6 @@
                       {
                         "text": "SetupBitmap",
                         "link": "/api/GR32_Image/TImage32/SetupBitmap"
-                      },
-                      {
-                        "text": "Update",
-                        "link": "/api/GR32_Image/TImage32/Update"
                       },
                       {
                         "text": "Zoom",
@@ -8566,6 +8571,18 @@
                         "link": "/api/GR32_Image/TImgView32/OnMouseMove"
                       },
                       {
+                        "text": "OnMouseUp",
+                        "link": "/api/GR32_Image/TImgView32/OnMouseUp"
+                      },
+                      {
+                        "text": "OnPaintStage",
+                        "link": "/api/GR32_Image/TImgView32/OnPaintStage"
+                      },
+                      {
+                        "text": "OnScaleChange",
+                        "link": "/api/GR32_Image/TImgView32/OnScaleChange"
+                      },
+                      {
                         "text": "OnScroll",
                         "link": "/api/GR32_Image/TImgView32/OnScroll"
                       }
@@ -8582,34 +8599,6 @@
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TImgView32/ControlToBitmap"
-                      },
-                      {
-                        "text": "ExecBitmapFrame",
-                        "link": "/api/GR32_Image/TImgView32/ExecBitmapFrame"
-                      },
-                      {
-                        "text": "ExecClearBackgnd",
-                        "link": "/api/GR32_Image/TImgView32/ExecClearBackgnd"
-                      },
-                      {
-                        "text": "ExecClearBuffer",
-                        "link": "/api/GR32_Image/TImgView32/ExecClearBuffer"
-                      },
-                      {
-                        "text": "ExecControlFrame",
-                        "link": "/api/GR32_Image/TImgView32/ExecControlFrame"
-                      },
-                      {
-                        "text": "ExecCustom",
-                        "link": "/api/GR32_Image/TImgView32/ExecCustom"
-                      },
-                      {
-                        "text": "ExecDrawBitmap",
-                        "link": "/api/GR32_Image/TImgView32/ExecDrawBitmap"
-                      },
-                      {
-                        "text": "ExecDrawLayers",
-                        "link": "/api/GR32_Image/TImgView32/ExecDrawLayers"
                       },
                       {
                         "text": "FitToViewport",
@@ -8630,6 +8619,10 @@
                       {
                         "text": "Invalidate",
                         "link": "/api/GR32_Image/TImgView32/Invalidate"
+                      },
+                      {
+                        "text": "Paint Stage Handlers",
+                        "link": "/api/GR32_Image/TImgView32/Paint Stage Handlers"
                       },
                       {
                         "text": "PaintTo",
@@ -8654,10 +8647,6 @@
                       {
                         "text": "SetupBitmap",
                         "link": "/api/GR32_Image/TImgView32/SetupBitmap"
-                      },
-                      {
-                        "text": "Update",
-                        "link": "/api/GR32_Image/TImgView32/Update"
                       },
                       {
                         "text": "Zoom",
@@ -8966,6 +8955,20 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TPaintStage",
+                "link": "/api/GR32_Image/TPaintStage"
+              },
+              {
+                "text": "TPaintStageMask",
+                "link": "/api/GR32_Image/TPaintStageMask"
               }
             ]
           }
