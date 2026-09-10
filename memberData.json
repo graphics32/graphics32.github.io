@@ -24641,7 +24641,7 @@
       "declaration": "TCustomImage32 = class(TCustomPaintBox32, IUpdateRectNotification, ILayerListNotification);",
       "isVirtual": false,
       "isProtected": false,
-      "isAbstract": false,
+      "isAbstract": true,
       "link": "/api/GR32_Image/TCustomImage32"
     },
     "/api/GR32_Image/TCustomImgView32": {
@@ -24656,7 +24656,7 @@
       "declaration": "TCustomImgView32 = class(TCustomImage32);",
       "isVirtual": false,
       "isProtected": false,
-      "isAbstract": false,
+      "isAbstract": true,
       "link": "/api/GR32_Image/TCustomImgView32"
     },
     "/api/GR32_Image/TImage32": {
@@ -129426,7 +129426,7 @@
           "declaration": "TCustomImage32 = class(TCustomPaintBox32, IUpdateRectNotification, ILayerListNotification);",
           "isVirtual": false,
           "isProtected": false,
-          "isAbstract": false,
+          "isAbstract": true,
           "link": "/api/GR32_Image/TCustomImage32"
         },
         {
@@ -129441,7 +129441,7 @@
           "declaration": "TCustomImgView32 = class(TCustomImage32);",
           "isVirtual": false,
           "isProtected": false,
-          "isAbstract": false,
+          "isAbstract": true,
           "link": "/api/GR32_Image/TCustomImgView32"
         },
         {
