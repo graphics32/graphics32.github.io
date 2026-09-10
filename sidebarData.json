@@ -7839,7 +7839,6 @@
               {
                 "text": "TBitmap32Collection",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TBitmap32Collection/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -7876,7 +7875,6 @@
               {
                 "text": "TBitmap32Item",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TBitmap32Item/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -8318,6 +8316,11 @@
                 ]
               },
               {
+                "text": "TCustomPaintBox32",
+                "collapsed": true,
+                "link": "/api/GR32_Image/TCustomPaintBox32/"
+              },
+              {
                 "text": "TImage32",
                 "collapsed": true,
                 "link": "/api/GR32_Image/TImage32/",
@@ -8499,7 +8502,6 @@
               {
                 "text": "TImageViewScrollProperties",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TImageViewScrollProperties/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -8955,6 +8957,21 @@
                     ]
                   }
                 ]
+              },
+              {
+                "text": "TPaintBox32",
+                "collapsed": true,
+                "link": "/api/GR32_Image/TPaintBox32/"
+              }
+            ]
+          },
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Paint Stage Constants",
+                "link": "/api/GR32_Image/Paint Stage Constants"
               }
             ]
           },
@@ -8963,12 +8980,60 @@
             "collapsed": true,
             "items": [
               {
+                "text": "TBackgroundCheckerStyle",
+                "link": "/api/GR32_Image/TBackgroundCheckerStyle"
+              },
+              {
+                "text": "TBackgroundFillStyle",
+                "link": "/api/GR32_Image/TBackgroundFillStyle"
+              },
+              {
+                "text": "TBitmapAlign",
+                "link": "/api/GR32_Image/TBitmapAlign"
+              },
+              {
+                "text": "TImgMouseEvent",
+                "link": "/api/GR32_Image/TImgMouseEvent"
+              },
+              {
+                "text": "TImgMouseMoveEvent",
+                "link": "/api/GR32_Image/TImgMouseMoveEvent"
+              },
+              {
+                "text": "TMouseShiftState",
+                "link": "/api/GR32_Image/TMouseShiftState"
+              },
+              {
+                "text": "TPaintBoxOptions",
+                "link": "/api/GR32_Image/TPaintBoxOptions"
+              },
+              {
                 "text": "TPaintStage",
                 "link": "/api/GR32_Image/TPaintStage"
               },
               {
+                "text": "TPaintStageEvent",
+                "link": "/api/GR32_Image/TPaintStageEvent"
+              },
+              {
                 "text": "TPaintStageMask",
                 "link": "/api/GR32_Image/TPaintStageMask"
+              },
+              {
+                "text": "TRepaintMode",
+                "link": "/api/GR32_Image/TRepaintMode"
+              },
+              {
+                "text": "TScaleMode",
+                "link": "/api/GR32_Image/TScaleMode"
+              },
+              {
+                "text": "TScrollBarVisibility",
+                "link": "/api/GR32_Image/TScrollBarVisibility"
+              },
+              {
+                "text": "TSizeGripStyle",
+                "link": "/api/GR32_Image/TSizeGripStyle"
               }
             ]
           }
