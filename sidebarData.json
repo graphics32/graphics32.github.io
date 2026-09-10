@@ -7839,6 +7839,7 @@
               {
                 "text": "TBitmap32Collection",
                 "collapsed": true,
+                "link": "/api/GR32_Image/TBitmap32Collection/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -7875,6 +7876,7 @@
               {
                 "text": "TBitmap32Item",
                 "collapsed": true,
+                "link": "/api/GR32_Image/TBitmap32Item/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -8502,6 +8504,7 @@
               {
                 "text": "TImageViewScrollProperties",
                 "collapsed": true,
+                "link": "/api/GR32_Image/TImageViewScrollProperties/",
                 "items": [
                   {
                     "text": "Constructors",
@@ -8962,6 +8965,11 @@
                 "text": "TPaintBox32",
                 "collapsed": true,
                 "link": "/api/GR32_Image/TPaintBox32/"
+              },
+              {
+                "text": "TPaintStages",
+                "collapsed": true,
+                "link": "/api/GR32_Image/TPaintStages/"
               }
             ]
           },
