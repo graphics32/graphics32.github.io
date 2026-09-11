@@ -7959,12 +7959,28 @@
                         "link": "/api/GR32_Image/TCustomImage32/OnBitmapResize"
                       },
                       {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TCustomImage32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TCustomImage32/OnGDIOverlay"
+                      },
+                      {
                         "text": "OnInitStages",
                         "link": "/api/GR32_Image/TCustomImage32/OnInitStages"
                       },
                       {
                         "text": "OnMouseDown",
                         "link": "/api/GR32_Image/TCustomImage32/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TCustomImage32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TCustomImage32/OnMouseLeave"
                       },
                       {
                         "text": "OnMouseMove",
@@ -7989,16 +8005,44 @@
                     "collapsed": true,
                     "items": [
                       {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TCustomImage32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TCustomImage32/BeginUpdate"
+                      },
+                      {
                         "text": "BitmapToControl",
                         "link": "/api/GR32_Image/TCustomImage32/BitmapToControl"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TCustomImage32/Changed"
                       },
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TCustomImage32/ControlToBitmap"
                       },
                       {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TCustomImage32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TCustomImage32/EndUpdate"
+                      },
+                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TCustomImage32/FitToViewport"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TCustomImage32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TCustomImage32/ForceFullInvalidate"
                       },
                       {
                         "text": "GetBitmapRect",
@@ -8007,6 +8051,10 @@
                       {
                         "text": "GetBitmapSize",
                         "link": "/api/GR32_Image/TCustomImage32/GetBitmapSize"
+                      },
+                      {
+                        "text": "GetViewportRect",
+                        "link": "/api/GR32_Image/TCustomImage32/GetViewportRect"
                       },
                       {
                         "text": "Invalidate",
@@ -8059,6 +8107,14 @@
                         "link": "/api/GR32_Image/TCustomImage32/BitmapAlign"
                       },
                       {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TCustomImage32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TCustomImage32/BufferOversize"
+                      },
+                      {
                         "text": "Canvas",
                         "link": "/api/GR32_Image/TCustomImage32/Canvas"
                       },
@@ -8069,6 +8125,10 @@
                       {
                         "text": "Layers",
                         "link": "/api/GR32_Image/TCustomImage32/Layers"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TCustomImage32/MouseInControl"
                       },
                       {
                         "text": "MousePan",
@@ -8087,8 +8147,16 @@
                         "link": "/api/GR32_Image/TCustomImage32/OffsetVert"
                       },
                       {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TCustomImage32/Options"
+                      },
+                      {
                         "text": "PaintStages",
                         "link": "/api/GR32_Image/TCustomImage32/PaintStages"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TCustomImage32/RepaintMode"
                       },
                       {
                         "text": "Scale",
@@ -8138,12 +8206,28 @@
                         "link": "/api/GR32_Image/TCustomImgView32/OnBitmapResize"
                       },
                       {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnGDIOverlay"
+                      },
+                      {
                         "text": "OnInitStages",
                         "link": "/api/GR32_Image/TCustomImgView32/OnInitStages"
                       },
                       {
                         "text": "OnMouseDown",
                         "link": "/api/GR32_Image/TCustomImgView32/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TCustomImgView32/OnMouseLeave"
                       },
                       {
                         "text": "OnMouseMove",
@@ -8172,16 +8256,44 @@
                     "collapsed": true,
                     "items": [
                       {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TCustomImgView32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TCustomImgView32/BeginUpdate"
+                      },
+                      {
                         "text": "BitmapToControl",
                         "link": "/api/GR32_Image/TCustomImgView32/BitmapToControl"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TCustomImgView32/Changed"
                       },
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TCustomImgView32/ControlToBitmap"
                       },
                       {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TCustomImgView32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TCustomImgView32/EndUpdate"
+                      },
+                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TCustomImgView32/FitToViewport"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TCustomImgView32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TCustomImgView32/ForceFullInvalidate"
                       },
                       {
                         "text": "GetBitmapRect",
@@ -8250,6 +8362,14 @@
                         "link": "/api/GR32_Image/TCustomImgView32/BitmapAlign"
                       },
                       {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TCustomImgView32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TCustomImgView32/BufferOversize"
+                      },
+                      {
                         "text": "Canvas",
                         "link": "/api/GR32_Image/TCustomImgView32/Canvas"
                       },
@@ -8264,6 +8384,10 @@
                       {
                         "text": "Layers",
                         "link": "/api/GR32_Image/TCustomImgView32/Layers"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TCustomImgView32/MouseInControl"
                       },
                       {
                         "text": "MousePan",
@@ -8282,12 +8406,20 @@
                         "link": "/api/GR32_Image/TCustomImgView32/OffsetVert"
                       },
                       {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TCustomImgView32/Options"
+                      },
+                      {
                         "text": "OverSize",
                         "link": "/api/GR32_Image/TCustomImgView32/OverSize"
                       },
                       {
                         "text": "PaintStages",
                         "link": "/api/GR32_Image/TCustomImgView32/PaintStages"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TCustomImgView32/RepaintMode"
                       },
                       {
                         "text": "Scale",
@@ -8320,7 +8452,113 @@
               {
                 "text": "TCustomPaintBox32",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TCustomPaintBox32/"
+                "link": "/api/GR32_Image/TCustomPaintBox32/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/OnGDIOverlay"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/OnMouseLeave"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Changed"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/EndUpdate"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/ForceFullInvalidate"
+                      },
+                      {
+                        "text": "GetViewportRect",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/GetViewportRect"
+                      },
+                      {
+                        "text": "Invalidate",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Invalidate"
+                      },
+                      {
+                        "text": "SetBounds",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/SetBounds"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/BufferOversize"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/MouseInControl"
+                      },
+                      {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/Options"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TCustomPaintBox32/RepaintMode"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "text": "TImage32",
@@ -8350,12 +8588,28 @@
                         "link": "/api/GR32_Image/TImage32/OnBitmapResize"
                       },
                       {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TImage32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TImage32/OnGDIOverlay"
+                      },
+                      {
                         "text": "OnInitStages",
                         "link": "/api/GR32_Image/TImage32/OnInitStages"
                       },
                       {
                         "text": "OnMouseDown",
                         "link": "/api/GR32_Image/TImage32/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TImage32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TImage32/OnMouseLeave"
                       },
                       {
                         "text": "OnMouseMove",
@@ -8380,16 +8634,44 @@
                     "collapsed": true,
                     "items": [
                       {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TImage32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TImage32/BeginUpdate"
+                      },
+                      {
                         "text": "BitmapToControl",
                         "link": "/api/GR32_Image/TImage32/BitmapToControl"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TImage32/Changed"
                       },
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TImage32/ControlToBitmap"
                       },
                       {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TImage32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TImage32/EndUpdate"
+                      },
+                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TImage32/FitToViewport"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TImage32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TImage32/ForceFullInvalidate"
                       },
                       {
                         "text": "GetBitmapRect",
@@ -8398,6 +8680,10 @@
                       {
                         "text": "GetBitmapSize",
                         "link": "/api/GR32_Image/TImage32/GetBitmapSize"
+                      },
+                      {
+                        "text": "GetViewportRect",
+                        "link": "/api/GR32_Image/TImage32/GetViewportRect"
                       },
                       {
                         "text": "Invalidate",
@@ -8450,6 +8736,14 @@
                         "link": "/api/GR32_Image/TImage32/BitmapAlign"
                       },
                       {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TImage32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TImage32/BufferOversize"
+                      },
+                      {
                         "text": "Canvas",
                         "link": "/api/GR32_Image/TImage32/Canvas"
                       },
@@ -8460,6 +8754,10 @@
                       {
                         "text": "Layers",
                         "link": "/api/GR32_Image/TImage32/Layers"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TImage32/MouseInControl"
                       },
                       {
                         "text": "MousePan",
@@ -8478,8 +8776,16 @@
                         "link": "/api/GR32_Image/TImage32/OffsetVert"
                       },
                       {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TImage32/Options"
+                      },
+                      {
                         "text": "PaintStages",
                         "link": "/api/GR32_Image/TImage32/PaintStages"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TImage32/RepaintMode"
                       },
                       {
                         "text": "Scale",
@@ -8564,12 +8870,28 @@
                         "link": "/api/GR32_Image/TImgView32/OnBitmapResize"
                       },
                       {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TImgView32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TImgView32/OnGDIOverlay"
+                      },
+                      {
                         "text": "OnInitStages",
                         "link": "/api/GR32_Image/TImgView32/OnInitStages"
                       },
                       {
                         "text": "OnMouseDown",
                         "link": "/api/GR32_Image/TImgView32/OnMouseDown"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TImgView32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TImgView32/OnMouseLeave"
                       },
                       {
                         "text": "OnMouseMove",
@@ -8598,16 +8920,44 @@
                     "collapsed": true,
                     "items": [
                       {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TImgView32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TImgView32/BeginUpdate"
+                      },
+                      {
                         "text": "BitmapToControl",
                         "link": "/api/GR32_Image/TImgView32/BitmapToControl"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TImgView32/Changed"
                       },
                       {
                         "text": "ControlToBitmap",
                         "link": "/api/GR32_Image/TImgView32/ControlToBitmap"
                       },
                       {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TImgView32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TImgView32/EndUpdate"
+                      },
+                      {
                         "text": "FitToViewport",
                         "link": "/api/GR32_Image/TImgView32/FitToViewport"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TImgView32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TImgView32/ForceFullInvalidate"
                       },
                       {
                         "text": "GetBitmapRect",
@@ -8676,6 +9026,14 @@
                         "link": "/api/GR32_Image/TImgView32/BitmapAlign"
                       },
                       {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TImgView32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TImgView32/BufferOversize"
+                      },
+                      {
                         "text": "Canvas",
                         "link": "/api/GR32_Image/TImgView32/Canvas"
                       },
@@ -8690,6 +9048,10 @@
                       {
                         "text": "Layers",
                         "link": "/api/GR32_Image/TImgView32/Layers"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TImgView32/MouseInControl"
                       },
                       {
                         "text": "MousePan",
@@ -8708,12 +9070,20 @@
                         "link": "/api/GR32_Image/TImgView32/OffsetVert"
                       },
                       {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TImgView32/Options"
+                      },
+                      {
                         "text": "OverSize",
                         "link": "/api/GR32_Image/TImgView32/OverSize"
                       },
                       {
                         "text": "PaintStages",
                         "link": "/api/GR32_Image/TImgView32/PaintStages"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TImgView32/RepaintMode"
                       },
                       {
                         "text": "Scale",
@@ -8964,12 +9334,178 @@
               {
                 "text": "TPaintBox32",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TPaintBox32/"
+                "link": "/api/GR32_Image/TPaintBox32/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Image/TPaintBox32/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Events",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "OnChange",
+                        "link": "/api/GR32_Image/TPaintBox32/OnChange"
+                      },
+                      {
+                        "text": "OnGDIOverlay",
+                        "link": "/api/GR32_Image/TPaintBox32/OnGDIOverlay"
+                      },
+                      {
+                        "text": "OnMouseEnter",
+                        "link": "/api/GR32_Image/TPaintBox32/OnMouseEnter"
+                      },
+                      {
+                        "text": "OnMouseLeave",
+                        "link": "/api/GR32_Image/TPaintBox32/OnMouseLeave"
+                      },
+                      {
+                        "text": "OnPaintBuffer",
+                        "link": "/api/GR32_Image/TPaintBox32/OnPaintBuffer"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "BeginLockUpdate",
+                        "link": "/api/GR32_Image/TPaintBox32/BeginLockUpdate"
+                      },
+                      {
+                        "text": "BeginUpdate",
+                        "link": "/api/GR32_Image/TPaintBox32/BeginUpdate"
+                      },
+                      {
+                        "text": "Changed",
+                        "link": "/api/GR32_Image/TPaintBox32/Changed"
+                      },
+                      {
+                        "text": "EndLockUpdate",
+                        "link": "/api/GR32_Image/TPaintBox32/EndLockUpdate"
+                      },
+                      {
+                        "text": "EndUpdate",
+                        "link": "/api/GR32_Image/TPaintBox32/EndUpdate"
+                      },
+                      {
+                        "text": "Flush",
+                        "link": "/api/GR32_Image/TPaintBox32/Flush"
+                      },
+                      {
+                        "text": "ForceFullInvalidate",
+                        "link": "/api/GR32_Image/TPaintBox32/ForceFullInvalidate"
+                      },
+                      {
+                        "text": "GetViewportRect",
+                        "link": "/api/GR32_Image/TPaintBox32/GetViewportRect"
+                      },
+                      {
+                        "text": "Invalidate",
+                        "link": "/api/GR32_Image/TPaintBox32/Invalidate"
+                      },
+                      {
+                        "text": "SetBounds",
+                        "link": "/api/GR32_Image/TPaintBox32/SetBounds"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Buffer",
+                        "link": "/api/GR32_Image/TPaintBox32/Buffer"
+                      },
+                      {
+                        "text": "BufferOversize",
+                        "link": "/api/GR32_Image/TPaintBox32/BufferOversize"
+                      },
+                      {
+                        "text": "Canvas",
+                        "link": "/api/GR32_Image/TPaintBox32/Canvas"
+                      },
+                      {
+                        "text": "MouseInControl",
+                        "link": "/api/GR32_Image/TPaintBox32/MouseInControl"
+                      },
+                      {
+                        "text": "Options",
+                        "link": "/api/GR32_Image/TPaintBox32/Options"
+                      },
+                      {
+                        "text": "RepaintMode",
+                        "link": "/api/GR32_Image/TPaintBox32/RepaintMode"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "text": "TPaintStages",
                 "collapsed": true,
-                "link": "/api/GR32_Image/TPaintStages/"
+                "link": "/api/GR32_Image/TPaintStages/",
+                "items": [
+                  {
+                    "text": "Constructors",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Create",
+                        "link": "/api/GR32_Image/TPaintStages/Create"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Add",
+                        "link": "/api/GR32_Image/TPaintStages/Add"
+                      },
+                      {
+                        "text": "Clear",
+                        "link": "/api/GR32_Image/TPaintStages/Clear"
+                      },
+                      {
+                        "text": "Count",
+                        "link": "/api/GR32_Image/TPaintStages/Count"
+                      },
+                      {
+                        "text": "Delete",
+                        "link": "/api/GR32_Image/TPaintStages/Delete"
+                      },
+                      {
+                        "text": "Insert",
+                        "link": "/api/GR32_Image/TPaintStages/Insert"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Dirty",
+                        "link": "/api/GR32_Image/TPaintStages/Dirty"
+                      },
+                      {
+                        "text": "Items",
+                        "link": "/api/GR32_Image/TPaintStages/Items"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -9000,20 +9536,12 @@
                 "link": "/api/GR32_Image/TMouseShiftState"
               },
               {
-                "text": "TPaintBoxOptions",
-                "link": "/api/GR32_Image/TPaintBoxOptions"
-              },
-              {
                 "text": "TPaintStage",
                 "link": "/api/GR32_Image/TPaintStage"
               },
               {
                 "text": "TPaintStageMask",
                 "link": "/api/GR32_Image/TPaintStageMask"
-              },
-              {
-                "text": "TRepaintMode",
-                "link": "/api/GR32_Image/TRepaintMode"
               }
             ]
           },
