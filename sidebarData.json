@@ -7600,6 +7600,93 @@
         ]
       },
       {
+        "text": "GR32_Gamma",
+        "collapsed": true,
+        "link": "/api/GR32_Gamma/",
+        "items": [
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "DEFAULT_GAMMA",
+                "link": "/api/GR32_Gamma/DEFAULT_GAMMA"
+              }
+            ]
+          },
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ApplyCustomGamma",
+                "link": "/api/GR32_Gamma/ApplyCustomGamma"
+              },
+              {
+                "text": "ApplyGamma",
+                "link": "/api/GR32_Gamma/ApplyGamma"
+              },
+              {
+                "text": "ApplyInvGamma",
+                "link": "/api/GR32_Gamma/ApplyInvGamma"
+              },
+              {
+                "text": "RegisterGammaChangeNotification",
+                "link": "/api/GR32_Gamma/RegisterGammaChangeNotification"
+              },
+              {
+                "text": "Set_sRGB",
+                "link": "/api/GR32_Gamma/Set_sRGB"
+              },
+              {
+                "text": "SetGamma",
+                "link": "/api/GR32_Gamma/SetGamma"
+              },
+              {
+                "text": "SetInv_sRGB",
+                "link": "/api/GR32_Gamma/SetInv_sRGB"
+              },
+              {
+                "text": "UnregisterGammaChangeNotification",
+                "link": "/api/GR32_Gamma/UnregisterGammaChangeNotification"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TGammaTable8Bit",
+                "link": "/api/GR32_Gamma/TGammaTable8Bit"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "GAMMA_DECODING_TABLE",
+                "link": "/api/GR32_Gamma/GAMMA_DECODING_TABLE"
+              },
+              {
+                "text": "GAMMA_ENCODING_TABLE",
+                "link": "/api/GR32_Gamma/GAMMA_ENCODING_TABLE"
+              },
+              {
+                "text": "GAMMA_IS_SRGB",
+                "link": "/api/GR32_Gamma/GAMMA_IS_SRGB"
+              },
+              {
+                "text": "GAMMA_VALUE",
+                "link": "/api/GR32_Gamma/GAMMA_VALUE"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Geometry",
         "collapsed": true,
         "link": "/api/GR32_Geometry/",
