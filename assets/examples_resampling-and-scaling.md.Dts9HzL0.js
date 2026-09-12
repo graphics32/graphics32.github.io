@@ -1,0 +1,74 @@
+import{_ as a,b as i,e as n,a8 as e}from"./chunks/framework.BXWQBDlf.js";const d=JSON.parse('{"title":"4. Image Resampling & High-Quality Scaling","description":"","frontmatter":{"title":"4. Image Resampling & High-Quality Scaling","date":1789219214000,"authors":[],"tags":[],"head":[]},"headers":[],"relativePath":"examples/resampling-and-scaling.md","filePath":"examples/resampling-and-scaling.md","lastUpdated":1789219214000,"timestamp":1789219214000,"datetime":"2026-09-12T13:20:14.000Z"}'),l={name:"examples/resampling-and-scaling.md"};function p(t,s,r,h,k,c){return i(),n("div",null,[...s[0]||(s[0]=[e(`<h1 id="image-resampling-high-quality-scaling" tabindex="-1">Image Resampling &amp; High-Quality Scaling <a class="header-anchor" href="#image-resampling-high-quality-scaling" aria-label="Permalink to &quot;Image Resampling &amp; High-Quality Scaling&quot;">​</a></h1><p>Scaling images up or down is a fundamental requirement in image editors, games, and UI frameworks. While standard GDI scaling often produces pixelated (&quot;blocky&quot;) upscaling or aliased (&quot;jagged&quot;) downscaling, Graphics32 includes a flexible, high-performance resampling architecture supporting advanced mathematical convolution kernels.</p><p>In this tutorial, you will learn how to choose resamplers and filter kernels to scale images with smooth anti-aliased quality.</p><hr><h2 id="_1-quick-stretching-vs-high-quality-resampling" tabindex="-1">1. Quick Stretching vs High-Quality Resampling <a class="header-anchor" href="#_1-quick-stretching-vs-high-quality-resampling" aria-label="Permalink to &quot;1. Quick Stretching vs High-Quality Resampling&quot;">​</a></h2><p>Graphics32 supports two scaling methods:</p><ol><li><strong><code>Draw</code> / <code>BlockTransfer</code> (Nearest-Neighbor or Bilinear Interpolation Stretching)</strong>: Extremely fast, ideal for retro pixel-art games or quick preview rendering.</li><li><strong><code>Resample</code> / <code>TKernelResampler</code> (High-Quality Kernel Scaling)</strong>: Evaluates mathematical windowed sinc/cubic functions across surrounding pixels for smooth, continuous scaling.</li></ol><div class="language-pascal vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">pascal</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">uses</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  GR32, GR32_Resamplers;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">var</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Src, Dst: TBitmap32;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">begin</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Src := TBitmap32.Create;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Dst := TBitmap32.Create;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  try</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Src.LoadFromFile(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;photo_input.png&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // Prepare destination bitmap (e.g. 50% scale down)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.SetSize(Src.Width </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">div</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, Src.Height </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">div</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">False</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // --- Approach 1: Fast Nearest-Neighbor Stretch ---</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // Fast, but can show aliasing stair-steps</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.Draw(Dst.BoundsRect, Src.BoundsRect, Src);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.SaveToFile(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;output_nearest.png&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  finally</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.Free;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Src.Free;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre></div><hr><h2 id="_2-setting-up-resamplers-and-kernels" tabindex="-1">2. Setting Up Resamplers and Kernels <a class="header-anchor" href="#_2-setting-up-resamplers-and-kernels" aria-label="Permalink to &quot;2. Setting Up Resamplers and Kernels&quot;">​</a></h2><p>To enable high-quality resampling, attach a resampler class to your source bitmap using <code>TBitmap32.ResamplerClassName</code> helper functions or by creating resampler objects directly.</p><h3 id="common-resamplers" tabindex="-1">Common Resamplers <a class="header-anchor" href="#common-resamplers" aria-label="Permalink to &quot;Common Resamplers&quot;">​</a></h3><ul><li><strong><code>TNearestResampler</code></strong>: Nearest pixel selection (fastest, no interpolation).</li><li><strong><code>TLinearResampler</code></strong>: Bilinear interpolation (fast, smooth, slightly blurry when downsampling).</li><li><strong><code>TKernelResampler</code></strong>: Convolution filtering using customizable kernel window functions (highest quality).</li></ul><div class="language-pascal vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">pascal</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">var</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Src, Dst: TBitmap32;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  KernelResampler: TKernelResampler;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">begin</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Src := TBitmap32.Create;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Dst := TBitmap32.Create;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  try</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Src.LoadFromFile(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;photo.jpg&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // 200% upsampling</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.SetSize(Src.Width * </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, Src.Height * </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">False</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // Attach a Kernel Resampler to Src</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    KernelResampler := TKernelResampler.Create(Src);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // Choose a high-quality filter kernel (Lanczos)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    KernelResampler.Kernel := TLanczosKernel.Create;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    // Perform high-quality resample blit into Dst</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.Draw(Dst.BoundsRect, Src.BoundsRect, Src);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.SaveToFile(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;scaled_lanczos.png&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  finally</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Dst.Free;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Src.Free;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">  end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre></div><hr><h2 id="_3-comparing-popular-filter-kernels" tabindex="-1">3. Comparing Popular Filter Kernels <a class="header-anchor" href="#_3-comparing-popular-filter-kernels" aria-label="Permalink to &quot;3. Comparing Popular Filter Kernels&quot;">​</a></h2><p>Graphics32 provides built-in filter kernels in <code>GR32_Resamplers.pas</code>. Each kernel balances sharpness, smoothness, and computation speed:</p><div class="language-pascal vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">pascal</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">var</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler: TKernelResampler;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">begin</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler := TKernelResampler.Create(SrcBitmap);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // 1. Lanczos Kernel (TLanczosKernel)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // Sharpest details; best for general photo downsampling and upsampling</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler.Kernel := TLanczosKernel.Create;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // 2. Mitchell Kernel (TMitchellKernel)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // Excellent balance between sharpness and ring-free smoothing</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler.Kernel := TMitchellKernel.Create;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // 3. Bicubic Kernel (TCubicKernel)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // Smooth cubic interpolation; standard for graphic design tools</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler.Kernel := TCubicKernel.Create;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // 4. Gaussian Kernel (TGaussianKernel)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // Smooth, blur-style kernel; great for soft shadows and glow effects</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler.Kernel := TGaussianKernel.Create;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // 5. Box Kernel (TBoxKernel)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">  // Simple box averaging; fast for downsampling</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  Resampler.Kernel := TBoxKernel.Create;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">end</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre></div><hr><h2 id="summary" tabindex="-1">Summary <a class="header-anchor" href="#summary" aria-label="Permalink to &quot;Summary&quot;">​</a></h2><div class="box-green custom-block"><p>In this tutorial, you learned:</p><ol><li>The distinction between fast nearest-neighbor stretching and high-quality kernel resampling.</li><li>How to attach a <code>TKernelResampler</code> to a source <code>TBitmap32</code>.</li><li>The strengths of popular kernels (<code>TLanczosKernel</code>, <code>TMitchellKernel</code>, <code>TCubicKernel</code>).</li></ol></div><p>Next, continue to <a href="./affine-transformations">Affine Transformations</a> to learn how to rotate, scale, skew, and translate bitmaps!</p>`,22)])])}const g=a(l,[["render",p]]);export{d as __pageData,g as default};
