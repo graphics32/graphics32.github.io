@@ -15174,80 +15174,28 @@
             "collapsed": true,
             "items": [
               {
-                "text": "DashLineFS",
-                "link": "/api/GR32_Polygons/DashLineFS"
-              },
-              {
-                "text": "DashLineXS",
-                "link": "/api/GR32_Polygons/DashLineXS"
+                "text": "DashLine",
+                "link": "/api/GR32_Polygons/DashLine"
               },
               {
                 "text": "FillBitmap",
                 "link": "/api/GR32_Polygons/FillBitmap"
               },
               {
-                "text": "PolygonFS_LCD",
-                "link": "/api/GR32_Polygons/PolygonFS_LCD"
+                "text": "Polygon",
+                "link": "/api/GR32_Polygons/Polygon"
               },
               {
-                "text": "PolygonFS_LCD2",
-                "link": "/api/GR32_Polygons/PolygonFS_LCD2"
+                "text": "Polyline",
+                "link": "/api/GR32_Polygons/Polyline"
               },
               {
-                "text": "PolygonFS",
-                "link": "/api/GR32_Polygons/PolygonFS"
+                "text": "PolyPolygon",
+                "link": "/api/GR32_Polygons/PolyPolygon"
               },
               {
-                "text": "PolygonXS_LCD",
-                "link": "/api/GR32_Polygons/PolygonXS_LCD"
-              },
-              {
-                "text": "PolygonXS_LCD2",
-                "link": "/api/GR32_Polygons/PolygonXS_LCD2"
-              },
-              {
-                "text": "PolygonXS",
-                "link": "/api/GR32_Polygons/PolygonXS"
-              },
-              {
-                "text": "PolylineFS",
-                "link": "/api/GR32_Polygons/PolylineFS"
-              },
-              {
-                "text": "PolylineXS",
-                "link": "/api/GR32_Polygons/PolylineXS"
-              },
-              {
-                "text": "PolyPolygonFS_LCD",
-                "link": "/api/GR32_Polygons/PolyPolygonFS_LCD"
-              },
-              {
-                "text": "PolyPolygonFS_LCD2",
-                "link": "/api/GR32_Polygons/PolyPolygonFS_LCD2"
-              },
-              {
-                "text": "PolyPolygonFS",
-                "link": "/api/GR32_Polygons/PolyPolygonFS"
-              },
-              {
-                "text": "PolyPolygonXS_LCD",
-                "link": "/api/GR32_Polygons/PolyPolygonXS_LCD"
-              },
-              {
-                "text": "PolyPolygonXS_LCD2",
-                "link": "/api/GR32_Polygons/PolyPolygonXS_LCD2"
-              },
-              {
-                "text": "PolyPolygonXS",
-                "link": "/api/GR32_Polygons/PolyPolygonXS"
-              },
-              {
-                "text": "PolyPolylineFS",
-                "link": "/api/GR32_Polygons/PolyPolylineFS"
-              },
-              {
-                "text": "PolyPolylineXS",
-                "link": "/api/GR32_Polygons/PolyPolylineXS"
+                "text": "PolyPolyline",
+                "link": "/api/GR32_Polygons/PolyPolyline"
               },
               {
                 "text": "RegisterPolygonRenderer",
