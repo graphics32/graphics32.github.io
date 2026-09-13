@@ -15272,10 +15272,6 @@
                 "link": "/api/GR32_Polygons/TEndStyle"
               },
               {
-                "text": "TEndStyles",
-                "link": "/api/GR32_Polygons/TEndStyles"
-              },
-              {
                 "text": "TFillLineEvent",
                 "link": "/api/GR32_Polygons/TFillLineEvent"
               },
@@ -15286,10 +15282,6 @@
               {
                 "text": "TJoinStyle",
                 "link": "/api/GR32_Polygons/TJoinStyle"
-              },
-              {
-                "text": "TJoinStyles",
-                "link": "/api/GR32_Polygons/TJoinStyles"
               },
               {
                 "text": "TPolyFillMode",
