@@ -15198,10 +15198,6 @@
                 "link": "/api/GR32_Polygons/PolygonFS"
               },
               {
-                "text": "PolygonsRegistry",
-                "link": "/api/GR32_Polygons/PolygonsRegistry"
-              },
-              {
                 "text": "PolygonXS_LCD",
                 "link": "/api/GR32_Polygons/PolygonXS_LCD"
               },
