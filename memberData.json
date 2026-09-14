@@ -495,6 +495,22 @@
       "isHidden": false,
       "link": "/api/GR32/FloatRect"
     },
+    "/api/GR32/Gray32": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "Gray32",
+      "name": "Gray32",
+      "kind": "Function",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Constructs a 32-bit ARGB grayscale color with equal Red, Green, and Blue intensity and specified alpha transparency.",
+      "declaration": "function Gray32(Intensity: Byte; Alpha: Byte = $FF): TColor32;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/Gray32"
+    },
     "/api/GR32/GreenComponent": {
       "unit": "GR32",
       "parent": "",
@@ -543,6 +559,22 @@
       "isHidden": false,
       "link": "/api/GR32/Intensity"
     },
+    "/api/GR32/InvertColor": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "InvertColor",
+      "name": "InvertColor",
+      "kind": "Function",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Inverts the Red, Green, and Blue color channels of a 32-bit ARGB color while preserving the original alpha value.",
+      "declaration": "function InvertColor(Color32: TColor32): TColor32;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/InvertColor"
+    },
     "/api/GR32/MakeRect": {
       "unit": "GR32",
       "parent": "",
@@ -558,6 +590,22 @@
       "isAbstract": false,
       "isHidden": false,
       "link": "/api/GR32/MakeRect"
+    },
+    "/api/GR32/ModifyAlpha": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "ModifyAlpha",
+      "name": "ModifyAlpha",
+      "kind": "Procedure",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Modifies the alpha transparency component of a TColor32 variable directly in-place.",
+      "declaration": "procedure ModifyAlpha(var Color32: TColor32; NewAlpha: Byte);",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/ModifyAlpha"
     },
     "/api/GR32/RGBtoHSV": {
       "unit": "GR32",
@@ -590,6 +638,22 @@
       "isAbstract": false,
       "isHidden": false,
       "link": "/api/GR32/RedComponent"
+    },
+    "/api/GR32/ScaleAlpha": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "ScaleAlpha",
+      "name": "ScaleAlpha",
+      "kind": "Procedure",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Scales the alpha transparency component of a TColor32 variable in-place by a floating-point factor.",
+      "declaration": "procedure ScaleAlpha(var Color32: TColor32; Scale: Single);",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/ScaleAlpha"
     },
     "/api/GR32/SetAlpha": {
       "unit": "GR32",
@@ -139814,6 +139878,22 @@
         {
           "unit": "GR32",
           "parent": "",
+          "entity": "Gray32",
+          "name": "Gray32",
+          "kind": "Function",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Constructs a 32-bit ARGB grayscale color with equal Red, Green, and Blue intensity and specified alpha transparency.",
+          "declaration": "function Gray32(Intensity: Byte; Alpha: Byte = $FF): TColor32;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/Gray32"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
           "entity": "GreenComponent",
           "name": "GreenComponent",
           "kind": "Function",
@@ -139862,6 +139942,22 @@
         {
           "unit": "GR32",
           "parent": "",
+          "entity": "InvertColor",
+          "name": "InvertColor",
+          "kind": "Function",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Inverts the Red, Green, and Blue color channels of a 32-bit ARGB color while preserving the original alpha value.",
+          "declaration": "function InvertColor(Color32: TColor32): TColor32;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/InvertColor"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
           "entity": "MakeRect",
           "name": "MakeRect",
           "kind": "Function",
@@ -139874,6 +139970,22 @@
           "isAbstract": false,
           "isHidden": false,
           "link": "/api/GR32/MakeRect"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
+          "entity": "ModifyAlpha",
+          "name": "ModifyAlpha",
+          "kind": "Procedure",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Modifies the alpha transparency component of a TColor32 variable directly in-place.",
+          "declaration": "procedure ModifyAlpha(var Color32: TColor32; NewAlpha: Byte);",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/ModifyAlpha"
         },
         {
           "unit": "GR32",
@@ -139906,6 +140018,22 @@
           "isAbstract": false,
           "isHidden": false,
           "link": "/api/GR32/RedComponent"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
+          "entity": "ScaleAlpha",
+          "name": "ScaleAlpha",
+          "kind": "Procedure",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Scales the alpha transparency component of a TColor32 variable in-place by a floating-point factor.",
+          "declaration": "procedure ScaleAlpha(var Color32: TColor32; Scale: Single);",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/ScaleAlpha"
         },
         {
           "unit": "GR32",

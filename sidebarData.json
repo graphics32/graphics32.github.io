@@ -1623,6 +1623,10 @@
                 "link": "/api/GR32/FloatRect"
               },
               {
+                "text": "Gray32",
+                "link": "/api/GR32/Gray32"
+              },
+              {
                 "text": "GreenComponent",
                 "link": "/api/GR32/GreenComponent"
               },
@@ -1635,8 +1639,16 @@
                 "link": "/api/GR32/Intensity"
               },
               {
+                "text": "InvertColor",
+                "link": "/api/GR32/InvertColor"
+              },
+              {
                 "text": "MakeRect",
                 "link": "/api/GR32/MakeRect"
+              },
+              {
+                "text": "ModifyAlpha",
+                "link": "/api/GR32/ModifyAlpha"
               },
               {
                 "text": "RedComponent",
@@ -1645,6 +1657,10 @@
               {
                 "text": "RGBtoHSV",
                 "link": "/api/GR32/RGBtoHSV"
+              },
+              {
+                "text": "ScaleAlpha",
+                "link": "/api/GR32/ScaleAlpha"
               },
               {
                 "text": "SetAlpha",
