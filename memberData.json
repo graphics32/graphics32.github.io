@@ -144,6 +144,22 @@
       "isHidden": false,
       "link": "/api/GR32/TThreadPersistent"
     },
+    "/api/GR32/TAreaChangedEvent": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "TAreaChangedEvent",
+      "name": "TAreaChangedEvent",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Event type for bitmap area update and change notifications.",
+      "declaration": "type TAreaChangedEvent = procedure(Sender: TObject; const Area: TRect; const Info: Cardinal) of object;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/TAreaChangedEvent"
+    },
     "/api/GR32/TColor32": {
       "unit": "GR32",
       "parent": "",
@@ -351,6 +367,22 @@
       "isAbstract": false,
       "isHidden": false,
       "link": "/api/GR32/TPixelAccessMode"
+    },
+    "/api/GR32/TPixelCombineEvent": {
+      "unit": "GR32",
+      "parent": "",
+      "entity": "TPixelCombineEvent",
+      "name": "TPixelCombineEvent",
+      "kind": "Type",
+      "category": "Types",
+      "scope": "Public",
+      "summary": "Event type for custom pixel combining callbacks.",
+      "declaration": "type TPixelCombineEvent = procedure(F: TColor32; var B: TColor32; M: Cardinal) of object;",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32/TPixelCombineEvent"
     },
     "/api/GR32/TRectRounding": {
       "unit": "GR32",
@@ -139429,6 +139461,22 @@
         {
           "unit": "GR32",
           "parent": "",
+          "entity": "TAreaChangedEvent",
+          "name": "TAreaChangedEvent",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Event type for bitmap area update and change notifications.",
+          "declaration": "type TAreaChangedEvent = procedure(Sender: TObject; const Area: TRect; const Info: Cardinal) of object;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/TAreaChangedEvent"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
           "entity": "TColor32",
           "name": "TColor32",
           "kind": "Type",
@@ -139633,6 +139681,22 @@
           "isAbstract": false,
           "isHidden": false,
           "link": "/api/GR32/TPixelAccessMode"
+        },
+        {
+          "unit": "GR32",
+          "parent": "",
+          "entity": "TPixelCombineEvent",
+          "name": "TPixelCombineEvent",
+          "kind": "Type",
+          "category": "Types",
+          "scope": "Public",
+          "summary": "Event type for custom pixel combining callbacks.",
+          "declaration": "type TPixelCombineEvent = procedure(F: TColor32; var B: TColor32; M: Cardinal) of object;",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32/TPixelCombineEvent"
         },
         {
           "unit": "GR32",

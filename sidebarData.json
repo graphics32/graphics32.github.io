@@ -1657,6 +1657,10 @@
             "collapsed": true,
             "items": [
               {
+                "text": "TAreaChangedEvent",
+                "link": "/api/GR32/TAreaChangedEvent"
+              },
+              {
                 "text": "TColor32",
                 "link": "/api/GR32/TColor32"
               },
@@ -1707,6 +1711,10 @@
               {
                 "text": "TPixelAccessMode",
                 "link": "/api/GR32/TPixelAccessMode"
+              },
+              {
+                "text": "TPixelCombineEvent",
+                "link": "/api/GR32/TPixelCombineEvent"
               },
               {
                 "text": "TRectRounding",
