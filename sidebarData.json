@@ -1653,6 +1653,14 @@
                 "link": "/api/GR32/TColor32Entry"
               },
               {
+                "text": "TCombineMode",
+                "link": "/api/GR32/TCombineMode"
+              },
+              {
+                "text": "TDrawMode",
+                "link": "/api/GR32/TDrawMode"
+              },
+              {
                 "text": "TFixed",
                 "link": "/api/GR32/TFixed"
               },
@@ -1679,6 +1687,22 @@
               {
                 "text": "TFloatRect",
                 "link": "/api/GR32/TFloatRect"
+              },
+              {
+                "text": "TPalette32",
+                "link": "/api/GR32/TPalette32"
+              },
+              {
+                "text": "TPixelAccessMode",
+                "link": "/api/GR32/TPixelAccessMode"
+              },
+              {
+                "text": "TRectRounding",
+                "link": "/api/GR32/TRectRounding"
+              },
+              {
+                "text": "TWrapMode",
+                "link": "/api/GR32/TWrapMode"
               }
             ]
           }
