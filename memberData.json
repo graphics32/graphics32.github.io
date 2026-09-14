@@ -11833,22 +11833,6 @@
       "isHidden": false,
       "link": "/api/GR32_Blend/Lighten"
     },
-    "/api/GR32_Blend/LightenReg": {
-      "unit": "GR32_Blend",
-      "parent": "",
-      "entity": "LightenReg",
-      "name": "LightenReg",
-      "kind": "Function",
-      "category": "Routines",
-      "scope": "Public",
-      "summary": "Pixel brightness adjustment.",
-      "declaration": "|",
-      "isVirtual": false,
-      "isProtected": false,
-      "isAbstract": false,
-      "isHidden": false,
-      "link": "/api/GR32_Blend/LightenReg"
-    },
     "/api/GR32_Blend/Merge": {
       "unit": "GR32_Blend",
       "parent": "",
@@ -141057,22 +141041,6 @@
           "isAbstract": false,
           "isHidden": false,
           "link": "/api/GR32_Blend/Lighten"
-        },
-        {
-          "unit": "GR32_Blend",
-          "parent": "",
-          "entity": "LightenReg",
-          "name": "LightenReg",
-          "kind": "Function",
-          "category": "Routines",
-          "scope": "Public",
-          "summary": "Pixel brightness adjustment.",
-          "declaration": "|",
-          "isVirtual": false,
-          "isProtected": false,
-          "isAbstract": false,
-          "isHidden": false,
-          "link": "/api/GR32_Blend/LightenReg"
         },
         {
           "unit": "GR32_Blend",

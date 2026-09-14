@@ -3145,10 +3145,6 @@
                 "link": "/api/GR32_Blend/Lighten"
               },
               {
-                "text": "LightenReg",
-                "link": "/api/GR32_Blend/LightenReg"
-              },
-              {
                 "text": "Merge",
                 "link": "/api/GR32_Blend/Merge"
               },
