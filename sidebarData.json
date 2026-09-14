@@ -3110,6 +3110,153 @@
         ]
       },
       {
+        "text": "GR32_Blend",
+        "collapsed": true,
+        "link": "/api/GR32_Blend/",
+        "items": [
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "BLEND_REG",
+                "link": "/api/GR32_Blend/BLEND_REG"
+              }
+            ]
+          },
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Blend",
+                "link": "/api/GR32_Blend/Blend"
+              },
+              {
+                "text": "Color Algebra",
+                "link": "/api/GR32_Blend/Color Algebra"
+              },
+              {
+                "text": "Combine",
+                "link": "/api/GR32_Blend/Combine"
+              },
+              {
+                "text": "Lighten",
+                "link": "/api/GR32_Blend/Lighten"
+              },
+              {
+                "text": "LightenReg",
+                "link": "/api/GR32_Blend/LightenReg"
+              },
+              {
+                "text": "Merge",
+                "link": "/api/GR32_Blend/Merge"
+              },
+              {
+                "text": "Premultiply",
+                "link": "/api/GR32_Blend/Premultiply"
+              },
+              {
+                "text": "ScaleMems",
+                "link": "/api/GR32_Blend/ScaleMems"
+              }
+            ]
+          },
+          {
+            "text": "Types",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Blend Mode Pointer Arrays",
+                "link": "/api/GR32_Blend/Blend Mode Pointer Arrays"
+              },
+              {
+                "text": "TBlendLine",
+                "link": "/api/GR32_Blend/TBlendLine"
+              },
+              {
+                "text": "TBlendLineEx",
+                "link": "/api/GR32_Blend/TBlendLineEx"
+              },
+              {
+                "text": "TBlendMem",
+                "link": "/api/GR32_Blend/TBlendMem"
+              },
+              {
+                "text": "TBlendMemEx",
+                "link": "/api/GR32_Blend/TBlendMemEx"
+              },
+              {
+                "text": "TBlendMemRGB",
+                "link": "/api/GR32_Blend/TBlendMemRGB"
+              },
+              {
+                "text": "TBlendMems",
+                "link": "/api/GR32_Blend/TBlendMems"
+              },
+              {
+                "text": "TBlendReg",
+                "link": "/api/GR32_Blend/TBlendReg"
+              },
+              {
+                "text": "TBlendRegEx",
+                "link": "/api/GR32_Blend/TBlendRegEx"
+              },
+              {
+                "text": "TBlendRegRGB",
+                "link": "/api/GR32_Blend/TBlendRegRGB"
+              },
+              {
+                "text": "TCombineLine",
+                "link": "/api/GR32_Blend/TCombineLine"
+              },
+              {
+                "text": "TCombineMem",
+                "link": "/api/GR32_Blend/TCombineMem"
+              },
+              {
+                "text": "TCombineReg",
+                "link": "/api/GR32_Blend/TCombineReg"
+              },
+              {
+                "text": "TLightenReg",
+                "link": "/api/GR32_Blend/TLightenReg"
+              },
+              {
+                "text": "TLUT8",
+                "link": "/api/GR32_Blend/TLUT8"
+              },
+              {
+                "text": "TMultTable",
+                "link": "/api/GR32_Blend/TMultTable"
+              },
+              {
+                "text": "TPremultiplyMem",
+                "link": "/api/GR32_Blend/TPremultiplyMem"
+              },
+              {
+                "text": "TScaleMems",
+                "link": "/api/GR32_Blend/TScaleMems"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "alpha_ptr",
+                "link": "/api/GR32_Blend/alpha_ptr"
+              },
+              {
+                "text": "MulDiv255Table",
+                "link": "/api/GR32_Blend/MulDiv255Table"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32_Brushes",
         "collapsed": true,
         "link": "/api/GR32_Brushes/",
