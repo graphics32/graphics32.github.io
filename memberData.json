@@ -6116,7 +6116,7 @@
       "kind": "Variable",
       "category": "Routines",
       "scope": "Public",
-      "summary": "Directional 1D horizontal Gaussian blur procedural bindings.",
+      "summary": "Directional 1D horizontal Gaussian blur.",
       "declaration": "|",
       "isVirtual": false,
       "isProtected": false,
@@ -6155,6 +6155,38 @@
       "isAbstract": false,
       "isHidden": false,
       "link": "/api/GR32.Blur/Blur32MinRadius"
+    },
+    "/api/GR32.Blur.SelectiveGaussian/GammaSelectiveGaussianBlur32": {
+      "unit": "GR32.Blur.SelectiveGaussian",
+      "parent": "",
+      "entity": "GammaSelectiveGaussianBlur32",
+      "name": "GammaSelectiveGaussianBlur32",
+      "kind": "Procedure",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Performs gamma-aware, edge-preserving selective Gaussian blurring in linear light space.",
+      "declaration": "procedure GammaSelectiveGaussianBlur32(ASource, ADest: TBitmap32; Radius: TFloat; Delta: Integer);",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32.Blur.SelectiveGaussian/GammaSelectiveGaussianBlur32"
+    },
+    "/api/GR32.Blur.SelectiveGaussian/SelectiveGaussianBlur32": {
+      "unit": "GR32.Blur.SelectiveGaussian",
+      "parent": "",
+      "entity": "SelectiveGaussianBlur32",
+      "name": "SelectiveGaussianBlur32",
+      "kind": "Procedure",
+      "category": "Routines",
+      "scope": "Public",
+      "summary": "Performs edge-preserving selective Gaussian blurring on a 32-bit bitmap.",
+      "declaration": "procedure SelectiveGaussianBlur32(ASource, ADest: TBitmap32; Radius: TFloat; Delta: Integer);",
+      "isVirtual": false,
+      "isProtected": false,
+      "isAbstract": false,
+      "isHidden": false,
+      "link": "/api/GR32.Blur.SelectiveGaussian/SelectiveGaussianBlur32"
     },
     "/api/GR32.CPUID/TCPU": {
       "unit": "GR32.CPUID",
@@ -140247,7 +140279,7 @@
           "kind": "Variable",
           "category": "Routines",
           "scope": "Public",
-          "summary": "Directional 1D horizontal Gaussian blur procedural bindings.",
+          "summary": "Directional 1D horizontal Gaussian blur.",
           "declaration": "|",
           "isVirtual": false,
           "isProtected": false,
@@ -140292,6 +140324,47 @@
           "link": "/api/GR32.Blur/Blur32MinRadius"
         }
       ]
+    },
+    "GR32.Blur.SelectiveGaussian": {
+      "Classes": [],
+      "Interfaces": [],
+      "Types": [],
+      "Routines": [
+        {
+          "unit": "GR32.Blur.SelectiveGaussian",
+          "parent": "",
+          "entity": "GammaSelectiveGaussianBlur32",
+          "name": "GammaSelectiveGaussianBlur32",
+          "kind": "Procedure",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Performs gamma-aware, edge-preserving selective Gaussian blurring in linear light space.",
+          "declaration": "procedure GammaSelectiveGaussianBlur32(ASource, ADest: TBitmap32; Radius: TFloat; Delta: Integer);",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32.Blur.SelectiveGaussian/GammaSelectiveGaussianBlur32"
+        },
+        {
+          "unit": "GR32.Blur.SelectiveGaussian",
+          "parent": "",
+          "entity": "SelectiveGaussianBlur32",
+          "name": "SelectiveGaussianBlur32",
+          "kind": "Procedure",
+          "category": "Routines",
+          "scope": "Public",
+          "summary": "Performs edge-preserving selective Gaussian blurring on a 32-bit bitmap.",
+          "declaration": "procedure SelectiveGaussianBlur32(ASource, ADest: TBitmap32; Radius: TFloat; Delta: Integer);",
+          "isVirtual": false,
+          "isProtected": false,
+          "isAbstract": false,
+          "isHidden": false,
+          "link": "/api/GR32.Blur.SelectiveGaussian/SelectiveGaussianBlur32"
+        }
+      ],
+      "Constants": [],
+      "Variables": []
     },
     "GR32.CPUID": {
       "Classes": [],

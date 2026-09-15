@@ -22093,6 +22093,27 @@
         ]
       },
       {
+        "text": "GR32.Blur.SelectiveGaussian",
+        "collapsed": true,
+        "link": "/api/GR32.Blur.SelectiveGaussian/",
+        "items": [
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "GammaSelectiveGaussianBlur32",
+                "link": "/api/GR32.Blur.SelectiveGaussian/GammaSelectiveGaussianBlur32"
+              },
+              {
+                "text": "SelectiveGaussianBlur32",
+                "link": "/api/GR32.Blur.SelectiveGaussian/SelectiveGaussianBlur32"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32.CPUID",
         "collapsed": true,
         "link": "/api/GR32.CPUID/",
