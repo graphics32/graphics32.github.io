@@ -22048,6 +22048,51 @@
         ]
       },
       {
+        "text": "GR32.Blur",
+        "collapsed": true,
+        "link": "/api/GR32.Blur/",
+        "items": [
+          {
+            "text": "Constants",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Gaussian Constants",
+                "link": "/api/GR32.Blur/Gaussian Constants"
+              }
+            ]
+          },
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Blur32",
+                "link": "/api/GR32.Blur/Blur32"
+              },
+              {
+                "text": "GammaBlur32",
+                "link": "/api/GR32.Blur/GammaBlur32"
+              },
+              {
+                "text": "HorizontalBlur32",
+                "link": "/api/GR32.Blur/HorizontalBlur32"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Blur32MinRadius",
+                "link": "/api/GR32.Blur/Blur32MinRadius"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32.CPUID",
         "collapsed": true,
         "link": "/api/GR32.CPUID/",
