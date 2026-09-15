@@ -22048,6 +22048,302 @@
         ]
       },
       {
+        "text": "GR32.Blend.Modes",
+        "collapsed": true,
+        "link": "/api/GR32.Blend.Modes/",
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "TCustomGraphics32Blender",
+                "collapsed": true,
+                "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/",
+                "items": [
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Blend",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/Blend"
+                      },
+                      {
+                        "text": "BlendEx",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/BlendEx"
+                      },
+                      {
+                        "text": "GetPixelCombiner",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/GetPixelCombiner"
+                      },
+                      {
+                        "text": "ID",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/ID"
+                      },
+                      {
+                        "text": "Name",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/Name"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Data",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32Blender/Data"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TCustomGraphics32ComponentBlender",
+                "collapsed": true,
+                "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/",
+                "items": [
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Blend",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/Blend"
+                      },
+                      {
+                        "text": "BlendComponents",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/BlendComponents"
+                      },
+                      {
+                        "text": "BlendEx",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/BlendEx"
+                      },
+                      {
+                        "text": "GetPixelCombiner",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/GetPixelCombiner"
+                      },
+                      {
+                        "text": "ID",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/ID"
+                      },
+                      {
+                        "text": "Name",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/Name"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Data",
+                        "link": "/api/GR32.Blend.Modes/TCustomGraphics32ComponentBlender/Data"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TGraphics32BlenderNormal",
+                "collapsed": true,
+                "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/",
+                "items": [
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Blend",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/Blend"
+                      },
+                      {
+                        "text": "BlendEx",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/BlendEx"
+                      },
+                      {
+                        "text": "GetPixelCombiner",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/GetPixelCombiner"
+                      },
+                      {
+                        "text": "ID",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/ID"
+                      },
+                      {
+                        "text": "Name",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/Name"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Data",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32BlenderNormal/Data"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TGraphics32ComponentBlender",
+                "collapsed": true,
+                "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/",
+                "items": [
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Blend",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/Blend"
+                      },
+                      {
+                        "text": "BlendComponents",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/BlendComponents"
+                      },
+                      {
+                        "text": "BlendEx",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/BlendEx"
+                      },
+                      {
+                        "text": "DoBlendComponent",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/DoBlendComponent"
+                      },
+                      {
+                        "text": "DoBlendComponents",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/DoBlendComponents"
+                      },
+                      {
+                        "text": "GetPixelCombiner",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/GetPixelCombiner"
+                      },
+                      {
+                        "text": "ID",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/ID"
+                      },
+                      {
+                        "text": "Name",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/Name"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Data",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32ComponentBlender/Data"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TGraphics32SeparableBlender",
+                "collapsed": true,
+                "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/",
+                "items": [
+                  {
+                    "text": "Methods",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Blend",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/Blend"
+                      },
+                      {
+                        "text": "BlendComponent",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/BlendComponent"
+                      },
+                      {
+                        "text": "BlendComponents",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/BlendComponents"
+                      },
+                      {
+                        "text": "BlendEx",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/BlendEx"
+                      },
+                      {
+                        "text": "DoBlendComponent",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/DoBlendComponent"
+                      },
+                      {
+                        "text": "DoBlendComponents",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/DoBlendComponents"
+                      },
+                      {
+                        "text": "GetPixelCombiner",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/GetPixelCombiner"
+                      },
+                      {
+                        "text": "ID",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/ID"
+                      },
+                      {
+                        "text": "Name",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/Name"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Properties",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Data",
+                        "link": "/api/GR32.Blend.Modes/TGraphics32SeparableBlender/Data"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Interfaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "IGraphics32BlendEnumerator",
+                "link": "/api/GR32.Blend.Modes/IGraphics32BlendEnumerator"
+              },
+              {
+                "text": "IGraphics32BlendGroup",
+                "link": "/api/GR32.Blend.Modes/IGraphics32BlendGroup"
+              },
+              {
+                "text": "IGraphics32BlendGroups",
+                "link": "/api/GR32.Blend.Modes/IGraphics32BlendGroups"
+              },
+              {
+                "text": "IGraphics32BlendGroupsEnumerator",
+                "link": "/api/GR32.Blend.Modes/IGraphics32BlendGroupsEnumerator"
+              },
+              {
+                "text": "IGraphics32BlendService",
+                "link": "/api/GR32.Blend.Modes/IGraphics32BlendService"
+              }
+            ]
+          },
+          {
+            "text": "Routines",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Graphics32BlendService",
+                "link": "/api/GR32.Blend.Modes/Graphics32BlendService"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "text": "GR32.Blur",
         "collapsed": true,
         "link": "/api/GR32.Blur/",
