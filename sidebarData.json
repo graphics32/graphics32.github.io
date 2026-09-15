@@ -22344,6 +22344,11 @@
         ]
       },
       {
+        "text": "GR32.Blend.Modes.PorterDuff",
+        "collapsed": true,
+        "link": "/api/GR32.Blend.Modes.PorterDuff/"
+      },
+      {
         "text": "GR32.Blur",
         "collapsed": true,
         "link": "/api/GR32.Blur/",
