@@ -1,0 +1,64 @@
+# Graphics32
+
+> High-performance 32-bit graphics library for Delphi and Lazarus/FPC
+
+Graphics32 is a fast 32-bit graphics library optimized for Delphi and Lazarus/FPC. It provides high-speed 32-bit ARGB bitmap handling, pixel blending modes, resampling kernels, vector polygon rasterization, layer management, and hardware/CPU acceleration (SSE2/AVX2).
+
+## Documentation
+
+- [Getting Started](/guide/): Overview of Graphics32 features, system requirements, and installation.
+- [Tutorials](/guide/tutorial/): Step-by-step programming guides and code examples.
+- [Alpha Composition](/guide/alpha-composition): Core concepts of 32-bit ARGB alpha blending and color math.
+- [Resampling and Transforms](/guide/resampling-and-transforms): Affine transformations, resampling filters, and spatial samplers.
+- [Drawing and Blending](/guide/drawing-and-blending): Canvas primitives, custom blend modes, and pixel operations.
+- [Vectorial Polygon Rasterizer](/guide/vpr): High-performance vector rasterization and anti-aliasing.
+- [Color Gradients](/guide/color-gradients): Linear, radial, and arbitrary multi-point color gradient fills.
+- [Using TImage32](/guide/using-timage32/overview): Visual components, image display, paint stages, and layer management.
+- [CPU Feature Detection](/guide/cpu-feature-detection): Runtime CPU capabilities detection and SIMD optimization.
+- [Examples](/examples/): Interactive example application projects.
+
+## API Reference
+
+- [GR32](/api/GR32): Core foundation of the Graphics32 library containing 32-bit ARGB color definitions, base bitmap classes, and pixel utility routines.
+- [GR32.BigEndian](/api/GR32.BigEndian): Provides static methods for reading and writing multi-byte integers to and from streams in Big Endian byte order.
+- [GR32.Blend.Modes](/api/GR32.Blend.Modes): Provides an extensible blend mode registry service and object-oriented blender class hierarchy for Graphics32.
+- [GR32.Blend.Modes.Extra](/api/GR32.Blend.Modes.Extra): Provides utility alpha channel masking and erasing blend modes for Graphics32.
+- [GR32.Blend.Modes.PhotoShop](/api/GR32.Blend.Modes.PhotoShop): Provides Adobe Photoshop and W3C compliant separable, non-separable, and component blend modes for Graphics32.
+- [GR32.Blend.Modes.PorterDuff](/api/GR32.Blend.Modes.PorterDuff): Provides the 12 classic Porter-Duff compositing operators for Graphics32.
+- [GR32.Blur](/api/GR32.Blur): Provides high-performance 2D and 1D Gaussian blurring, gamma-aware blur variants, and rectangular/polygonal region masking.
+- [GR32.Blur.SelectiveGaussian](/api/GR32.Blur.SelectiveGaussian): Provides edge-preserving selective Gaussian blurring for 32-bit bitmaps.
+- [GR32.CPUID](/api/GR32.CPUID): Provides hardware CPU feature detection, vendor identification, cache queries, and instruction set introspection.
+- [GR32.ImageFormats](/api/GR32.ImageFormats): Provides core image format interfaces, abstract base classes, manager singleton, and signature validation utilities.
+- [GR32.Math.Complex](/api/GR32.Math.Complex): High-performance complex number arithmetic, polar coordinate conversions, transcendental mathematical functions, and parsing routines.
+- [GR32.Noise.Simplex](/api/GR32.Noise.Simplex): Provides smooth multi-dimensional Simplex Noise evaluation (2D, 3D, and 4D) for procedural textures, animations, and vector fields.
+- [GR32.Transpose](/api/GR32.Transpose): Provides high-performance image matrix transposition algorithms for 32-bit pixel buffers.
+- [GR32_ArrowHeads](/api/GR32_ArrowHeads): Provides vector arrowhead generation classes for decorating polyline start and end points.
+- [GR32_Backends](/api/GR32_Backends): Provides interface contracts, abstraction layers, helper routines, and exception types for TBitmap32 surface backends.
+- [GR32_Backends_Generic](/api/GR32_Backends_Generic): Provides platform-independent heap memory and memory-mapped file surface backends.
+- [GR32_Backends_LCL_Win](/api/GR32_Backends_LCL_Win): Provides Lazarus LCL Win32/Win64 surface backend implementations utilizing LCLIntf and Windows GDI.
+- [GR32_Backends_VCL](/api/GR32_Backends_VCL): Provides Windows GDI device context, memory-mapped file GDI, and lightweight GDI memory backends for Delphi VCL.
+- [GR32_Blend](/api/GR32_Blend): Provides core alpha blending, compositing, linear combination, color algebra, premultiplication, and optimized lookup tables for 32-bit ARGB pixel operations.
+- [GR32_Brushes](/api/GR32_Brushes): Provides vector polygon brush effects including solid filling, stroking, growing, dashing, and nested brush pipelines.
+- [GR32_ColorGradients](/api/GR32_ColorGradients): Provides smooth color gradient generation, lookup tables, spatial gradient samplers, and polygon gradient fillers for Graphics32.
+- [GR32_Filters](/api/GR32_Filters): Provides high-performance pixel filtering, color channel manipulation, bitmask operations, grayscale conversion, and Look-Up Table (LUT) transformations.
+- [GR32_Gamma](/api/GR32_Gamma): Provides color gamma encoding, gamma decoding, precomputed 256-byte lookup tables, sRGB transfer function support, and gamma change notifications.
+- [GR32_Geometry](/api/GR32_Geometry): Provides 2D geometric utilities.
+- [GR32_Image](/api/GR32_Image): Provides visual controls for displaying, scrolling, zooming, and interacting with 32-bit bitmaps.
+- [GR32_Layers](/api/GR32_Layers): Provides classes, interfaces, and types for managing interactive 2D image and vector layers, mouse handling, and rubberband selection controls.
+- [GR32_LowLevel](/api/GR32_LowLevel): Provides low-level memory operations, fast mathematical routines, bit manipulations, coordinate wrapping, and optimized rounding operations.
+- [GR32_Math](/api/GR32_Math): Provides fixed-point mathematics, fast approximation algorithms, floating-point modulo routines, trigonometry helpers, and prefix-sum operations.
+- [GR32_OrdinalMaps](/api/GR32_OrdinalMaps): Provides 2D ordinal map structures for managing boolean, byte, word, integer, cardinal, float, and generic data buffers.
+- [GR32_Paths](/api/GR32_Paths): Provides vector path construction, curve flattening algorithms, and vector canvas drawing engine for Graphics32.
+- [GR32_Polygons](/api/GR32_Polygons): Provides high-performance vector polygon rasterization, sub-pixel antialiased rendering, stroke generation, custom span fillers, and LCD sub-pixel rendering.
+- [GR32_Rasterizers](/api/GR32_Rasterizers): Provides rasterization algorithms for rendering continuous samplers and coordinate mappings into bitmap pixel buffers.
+- [GR32_Resamplers](/api/GR32_Resamplers): Provides bitmap resampling, spatial interpolation kernels, super-sampling, discrete convolution, morphological filters, and block transfers.
+- [GR32_System](/api/GR32_System): Provides high-resolution stopwatch timing, processor affinity control, tick counts, and CPU detection instance.
+- [GR32_Transforms](/api/GR32_Transforms): Provides affine matrix transformations, inverse mapping, non-linear deformations, and geometric projection for bitmaps and vector paths.
+- [GR32_VPR](/api/GR32_VPR): Vectorial Polygon Rasterizer engine providing low-level analytical anti-aliased coverage rendering.
+- [GR32_VectorMaps](/api/GR32_VectorMaps): Provides 2D vector displacement maps for spatial image transformation and warping operations.
+- [GR32_VectorUtils](/api/GR32_VectorUtils): Provides vector mathematics, shape generators, polygon transformation, clipping, stroking, and outline offset algorithms.
+
+## Machine-Readable Resources
+
+- [Full API Documentation](/llms-full.txt): Complete concatenated Markdown documentation containing all unit/class summaries and method signatures for AI context windows.
+- [API JSON Schema](/api.json): Complete public API schema exported from frontmatter YAML data.
